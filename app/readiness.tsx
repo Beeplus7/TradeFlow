@@ -81,13 +81,13 @@ const PHASES: Phase[] = [
   },
   {
     title: 'E · Infra · Deploy · Domain',
-    pct: 55,
+    pct: 72,
     items: [
       { id: 'sb', label: 'Supabase project + migrations', pct: 100, status: 'DONE', note: 'dvjawpbnjyjnjzktyrwp' },
-      { id: 'gh', label: 'GitHub Beeplus7/TradeFlow', pct: 100, status: 'DONE' },
+      { id: 'gh', label: 'GitHub Beeplus7/TradeFlow main', pct: 100, status: 'DONE', note: 'Pushed 9 Nov 2026' },
       { id: 'vps-slot', label: 'VPS isolation slot 3030/4100', pct: 100, status: 'DONE', note: '87.106.103.43 · /var/www/tradeflow' },
-      { id: 'export', label: 'Expo web export + PM2 servers', pct: 95, status: 'DONE', note: 'tradeflow-web/api/worker' },
-      { id: 'nginx', label: 'Nginx vhost f.reelstorm.uk', pct: 80, status: 'WIP', left: 'Needs DNS A + certbot' },
+      { id: 'export', label: 'Expo web export + PM2 online', pct: 100, status: 'DONE', note: 'tradeflow-web/api/worker · healthz green' },
+      { id: 'nginx', label: 'Nginx vhost f.reelstorm.uk', pct: 95, status: 'DONE', note: 'HTTP proxy live · Host header 200' },
       { id: 'dns', label: 'DNS A f.reelstorm.uk → VPS', pct: 0, status: 'BLOCKED', left: 'Add in Cloudflare reelstorm.uk zone' },
       { id: 'tls', label: 'TLS certbot', pct: 0, status: 'BLOCKED', left: 'After DNS propagates' },
       { id: 'online', label: 'tradflow.online cutover', pct: 0, status: 'TODO', left: 'Point domain + update OAuth redirects' },
