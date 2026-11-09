@@ -28,7 +28,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   web: {
     favicon: './assets/favicon.png',
-    output: 'static',
+    // SPA export — static SSG HTML was omitting client <script> tags,
+    // leaving production stuck on the font-loading spinner.
+    output: 'single',
   },
   plugins: ['expo-router', 'expo-secure-store', 'expo-web-browser'],
   experiments: {
