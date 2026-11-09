@@ -1,0 +1,523 @@
+
+mkdir -p tradeflow-os-public
+cd tradeflow-os-public
+
+# === APPS / MARKETING - 8 PAGES ===
+mkdir -p apps/marketing/components/hero
+mkdir -p apps/marketing/how-it-works apps/marketing/pricing apps/marketing/commonwealth apps/marketing/about apps/marketing/manifesto apps/marketing/legal apps/marketing/assessment-demo apps/marketing/blog/[slug]
+
+echo 
+---
+ > apps/marketing/page.tsx
+for comp in InfographicsDish FlowChainVisual GuardianShield LegacyVault GOMeter UPRMTimeline EyesBoatVisual LiveConsole PricingToggle; do
+  echo 
+---
+ > apps/marketing/components/hero/$comp.tsx
+done
+
+for p in how-it-works pricing commonwealth about manifesto legal assessment-demo; do
+  echo 
+---
+ > apps/marketing/$p/page.tsx
+done
+
+echo 
+---
+ > apps/marketing/blog/page.tsx
+echo 
+---
+ > apps/marketing/blog/[slug]/page.tsx
+
+# === APPS / APP - 36 OS PAGES ===
+mkdir -p apps/app/journey/[day] apps/app/admin/tribe apps/app/admin/elites apps/app/admin/nudges apps/app/admin/billing apps/app/admin/support apps/app/admin/analytics
+
+for page in onboarding assessment finance connect journey simulator commonwealth intelligence execute discipline guardian legacy uprm portfolio recoup history settings profile; do
+  mkdir -p apps/app/$page
+  echo 
+---
+ > apps/app/journey/page.tsx
+
+for admin in tribe elites nudges billing support analytics; do
+  mkdir -p apps/app/admin/$admin
+  echo 
+---
+ > apps/app/admin/$admin/page.tsx
+done
+echo 
+---
+buildCommand
+---
+npm run build
+---
+framework
+---
+/api/crons/eyes-boat
+---
+schedule
+---
+/api/crons/guardian
+---
+✅ TradeFlow OS Public SaaS Full scaffolded - 8 Marketing + 36 OS + 65 Backend + 10 OS + 3 Bots
+---
+£50 In Smile Out - Flow as One - Navy #0A1931 Gold #D4AF37
+---
+COOLDOWN 10min - Breathe - £50 In Smile Out
+---
+PROMPT 1
+---
+ONBOARDING WIZARD
+---
+apps/app/onboarding/page.tsx
+---
+Act as senior Next.js 14 engineer. Build apps/app/onboarding/page.tsx for TradeFlow OS Trader setup wizard collect risk profile Conservative 8% Balanced 15% Aggressive 25% collect Binance Bybit API keys secure storage Electron secure collect elite wallet preference 10 personal Save to Supabase users table Navy Gold no italics bold sans-serif £50 In Smile Out Reference lib/constants.ts Steps UI: risk profile -> API keys -> elite preference -> confirm Framer Motion progress Save users.sql
+---
+PROMPT 2
+---
+ASSESSMENT 68% GO
+---
+apps/app/assessment/page.tsx
+---
+Build apps/app/assessment/page.tsx AssessmentOS market regime volatility GO-NO-GO 68% meter Real gauge 68% threshold fetch Alchemy Moralis CoinGecko DexScreener Calculate volatility regime If >=68% GO green unlock Mon journey If <68% NO-GO red wait Display 5 factors: BTC volatility, ETH gas, stablecoin flow, whale 100 wallets, DEX volume Save to journeys table Use constants.ts ASSESSMENT_GO_THRESHOLD Interactive gauge Framer Motion spring Navy Gold bold FlowChain next Mon locked if NO-GO
+---
+PROMPT 3
+---
+FINANCE £50 DISH
+---
+apps/app/finance/page.tsx
+---
+Build apps/app/finance/page.tsx FinanceOS £50 dishing £5 fake + £35 live £7/day Mon-Fri + £10 safety Guardian 8/15/25 Visual £50 coin splits animation InfographicsDish £5 simulator £35 execution £7/day £10 safety vault Current balance dish history FinanceEngine Supabase trades Coin: £50 -> splits into 3 animated £5 fake top left £35 live center £7/day x5 £10 safety bottom right guardian shield Framer Motion coin split PRICING reference
+---
+PROMPT 4
+---
+JOURNEY [DAY] THE HEART
+---
+apps/app/journey/[day]/page.tsx
+---
+Build apps/app/journey/[day]/page.tsx JourneyOS Mon→Tue→Wed→Thu→Fri must-complete THE HEART FlowChain guard If Mon incomplete Tue locked RED Check Supabase journeys must-complete Each day tasks Mon Assessment 68% GO Tue EliteFlow 10 elites Eyes Boat Wed Simulator £5 fake Thu Execution £7/day live Fri Legacy 40/30/20/10 split flowChain.ts canAccessDay() must-complete progress bar Mon→Tue→Wed→Thu→Fri Guardian shield Day header Mon 00 etc Locked state RED bold Unlock logic
+---
+PROMPT 5
+---
+COMMONWEALTH ELITEFLOW
+---
+apps/app/commonwealth/page.tsx
+---
+Build apps/app/commonwealth/page.tsx EliteFlow personal 10 elites Whale Tribe Display personal 10 elites Fetch elites.sql Eyes Boat Bot 100-wallet whale watcher 30sec cron Show elite trades real-time Scoring 0-100 Add/remove elite Global pool 100 wallets personal 10 Alchemy Moralis Ankr QuickNode EliteList UI left personal 10 elites score cards right global 100 searchable Add if <10 allow Real-time trades feed Supabase elites table Scoring visual gold meter
+---
+PROMPT 6
+---
+EXECUTE £7/DAY CAP
+---
+apps/app/execute/page.tsx
+---
+Build apps/app/execute/page.tsx ExecutionOS live console £7/day hard cap Live console £7/day cap counter Binance Bybit BinanceExecutor BybitExecutor slippage guard Gate 5 greens Show trades today vs cap BullMQ If £7 cap reached lock Guardian 8/15/25 tap-out check Supabase trades Console black terminal gold text live logs Counter £0/£7 -> £7/£7 LOCKED Gate 5 greens checklist If guardian triggered show RED shield
+---
+PROMPT 7
+---
+GUARDIAN 8/15/25 TAP-OUT
+---
+apps/app/guardian/page.tsx
+---
+Build apps/app/guardian/page.tsx GuardianOS Tap-Out 8% Conservative 15% Balanced 25% Aggressive Show risk profile 8/15/25 threshold visual shield Crash detection auto stop-loss using £10 safety vault If drawdown exceeds threshold auto-sell Display guardian status protected/triggered Cooldown timers GuardianService Visual shield SVG with 8/15/25 markings Status PROTECTED green or TRIGGERED red Vault £10 safety bar Auto-sell if portfolio drawdown > threshold => sell all -> move to £10 vault
+---
+PROMPT 8
+---
+LEGACY 40/30/20/10 SPLIT
+---
+apps/app/legacy/page.tsx
+---
+Build apps/app/legacy/page.tsx LegacyOS Vault HMRC Boost 40/30/20/10 split Visual vault 40% reinvest 30% smile out 20% HMRC ready 10% vault 90 days locked animation Fri 11pm legacySplit cron Current vault balances HMRC CSV export Boost reinvest 90 days lock countdown Visual vault splits 40% reinvest navy 30% smile gold 20% HMRC grey 10% vault locked Countdown 90 days Export HMRC CSV button Fri 11pm cron note
+---
+PROMPT 9
+---
+UPRM JOURNEY MEMORY
+---
+apps/app/uprm/page.tsx
+---
+PROMPT 10
+---
+DISCIPLINE TILT FOMO REVENGE
+---
+apps/app/discipline/page.tsx
+---
+Build apps/app/discipline/page.tsx DisciplineOS Coach Lock tilt FOMO revenge Tilt detection 5 triggers FOMO revenge overtrading Cooldowns 10min tilt 30min FOMO 24h revenge Lock screen if tilt DisciplineEngine Show discipline score History tilt events Coach nudges Triggers 1.Revenge after loss 2.Overtrading >3 3.FOMO chasing pump 4.Tilt sizing >£7 5.Guardian ignore Lock screen full navy overlay GOLD text COOLDOWN 10min - Breathe - £50 In Smile Out Score 0-100 gauge History timeline
+---
+text/plain;charset=utf-8
+---
+);c.href=u,c.download=i,document.body.appendChild(c),c.click(),document.body.removeChild(c),URL.revokeObjectURL(u)};return S(
+---
+,{className:
+---
+,style:{backgroundColor:Q,paddingTop:
+---
+,boxSizing:
+---
+},children:[f(
+---
+,style:{top:
+---
+,backgroundColor:Q,borderColor:`${m}33`},children:[S(
+---
+,children:[S(
+---
+,children:[f(
+---
+,style:{backgroundColor:m},children:f(
+---
+,style:{color:Q},children:
+---
+,style:{color:ee},children:
+---
+,children:
+---
+,style:{borderColor:m,color:m,backgroundColor:`${m}14`},children:
+---
+,style:{backgroundColor:m,color:Q},children:
+---
+,style:{borderColor:`${m}1A`,backgroundColor:`${m}0A`},children:S(
+---
+,style:{color:ee},children:[f(
+---
+,{children:
+---
+,{children:[S(
+---
+,children:[
+---
+,{style:{color:m},children:
+---
+8 MARKETING + 36 OS + 65 BACKEND
+---
+,{onClick:()=>l(Pr,
+---
+),className:
+---
+,style:{backgroundColor:m,color:Q},children:[f(Et,{size:16}),
+---
+,{onClick:()=>l(jl,
+---
+,style:{borderColor:m,color:m},children:[f(Nn,{size:16}),
+---
+,children:[{k:
+---
+hero infographics Dish FlowChain Guardian Legacy GO UPRM Eyes Boat Live Console PricingToggle Framer Motion SVG Canvas
+---
+OS PAGES
+---
+onboarding assessment finance connect journey [day] simulator commonwealth intelligence execute discipline guardian legacy uprm portfolio recoup history settings profile admin 6
+---
+api 15 routes services 14 Alchemy $49 Moralis $49 db schema 10 tables crons 8 middleware lib constants
+---
+eyes-boat 30sec 100 wallets discipline-coach tilt guardian-execution gate 5 greens £7/day 8/15/25
+---
+,style:{borderColor:`${m}2A`,backgroundColor:`${m}0A`},children:[f(
+---
+,style:{color:m},children:o.k}),f(
+---
+,children:o.v}),f(
+---
+,style:{color:ee},children:o.d})]},o.k))})]}),S(
+---
+,style:{borderColor:`${m}33`,backgroundColor:
+---
+},children:[S(
+---
+,style:{borderColor:`${m}1F`},children:[S(
+---
+,style:{backgroundColor:m,color:Q},children:f(Ht,{size:16})}),S(
+---
+,{children:[f(
+---
+,style:{color:m},children:
+---
+,{onClick:()=>r(Pr,
+---
+,style:{borderColor:m,color:e===
+---
+?Q:m,backgroundColor:e===
+---
+transparent
+---
+scaffold
+---
+COPY SCRIPT
+---
+,style:{backgroundColor:m,color:Q},children:[f(Et,{size:14}),
+---
+,style:{borderColor:`${m}1F`,color:ee},children:[f(
+---
+,style:{color:m},children:[f(Tn,{size:12}),
+---
+,style:{borderColor:`${m}1F`,backgroundColor:
+---
+,color:m},children:[f(
+---
+ READY TO RUN
+---
+,{ref:n,className:
+---
+,style:{color:
+---
+},children:Pr})]})]})]}),S(
+---
+,{onClick:()=>r(jl,
+---
+prompts-md
+---
+COPIED FULL MD
+---
+COPY FULL MD
+---
+,children:Km.map((o)=>{let i=o.icon;return S(
+---
+,style:{borderColor:`${m}2A`,backgroundColor:
+---
+,style:{backgroundColor:`${m}18`,color:m,border:`1px solid ${m}33`},children:f(i,{size:18})}),S(
+---
+,style:{color:m},children:[o.id,
+---
+,children:o.title})]})]}),S(
+---
+,{onClick:()=>r(o.content,o.id),className:
+---
+,style:{borderColor:m,color:e===o.id?Q:m,backgroundColor:e===o.id?m:
+---
+},children:[e===o.id?f(Ut,{size:12}):f(Gt,{size:12}),
+---
+,style:{backgroundColor:
+---
+,border:`1px solid ${m}14`},children:o.content}),S(
+---
+,style:{borderColor:`${m}33`,color:ee},children:
+---
+,style:{backgroundColor:`${m}14`,color:m},children:
+---
+},children:
+---
+,children:[{t:
+---
+Assessment 68% GO market regime volatility Fetch CoinGecko DexScreener Alchemy Moralis Calculate 5 factors Return GO score 0-100 If >=68% GO green unlock Mon If <68% NO-GO red Use constants.ts ASSESSMENT_GO_THRESHOLD Supabase save.
+---
+BillingEngine.ts
+---
+Billing £49/£99/£299 hybrid 10% gains above 2x capped £299 max £348/mo whales Performance fee opt-in consent software license not fund manager FCA safe Smart contract Stripe invoice after Fri Legacy split trader approves Take 10% from 30% smile out slice
+---
+FinanceEngine + Guardian + UPRM
+---
+FinanceEngine Dishing £50 RecoupEngine Recovery GuardianService Tap-out 8/15/25 auto-sell £10 vault UPRMEngine Journey memory not session timeline.sql nudges.sql welcome back journey progress Mon-Fri
+---
+,style:{borderColor:`${m}22`,backgroundColor:`${m}07`},children:[f(
+---
+,style:{color:m},children:o.t}),f(
+---
+,style:{color:ee},children:o.d})]},o.t))})]}),S(
+---
+,style:{backgroundColor:m,color:Q},children:f(wn,{size:18})}),S(
+---
+,children:[{step:
+---
+ONE-CLICK SCAFFOLD (5 SECONDS)
+---
+bash setup-tradeflow-public-full.sh creates file tree placeholders: apps/marketing 8 pages + components/hero 8 files + apps/app 36 pages + packages/backend 65 files + bots 3 + lib + infra. Re-runnable idempotent restore missing folders anytime.
+---
+TERMINAL AGENT BUILD REAL LOGIC
+---
+Build apps/app/assessment/page.tsx AssessmentOS 68% GO meter real logic per Production Architecture
+---
+REPEAT FOR 36 OS FILES
+---
+Loop prompts 1-10 for onboarding assessment finance journey commonwealth execute guardian legacy uprm discipline + backend AssessmentEngine BillingEngine FinanceEngine GuardianService UPRMEngine. Each file becomes production logic Framer Motion SVG Canvas.
+---
+NOT ONE-TIME - RE-RUNNABLE IDEMPOTENT
+---
+Each trader clones repo + fills own .env with own API keys = clean separation Alchemy $49 Moralis $49 etc. Can re-prompt agent to add features fix bugs upgrade logic. Restore missing folders anytime. Project Acth = Production Architecture Reference forever.
+---
+,style:{borderColor:`${m}1E`,backgroundColor:
+---
+,style:{color:m},children:o.step}),S(
+---
+,style:{backgroundColor:`${m}18`,color:m},children:f(i,{size:14})}),S(
+---
+,style:{borderColor:m,color:m},children:[
+---
+,o.step]})]}),f(
+---
+,children:o.title}),f(
+---
+,style:{color:ee},children:o.desc})]},o.step)})}),S(
+---
+,style:{borderColor:`${m}22`,backgroundColor:`${m}0A`},children:[S(
+---
+,style:{backgroundColor:m,color:Q},children:f(Ht,{size:14})}),S(
+---
+,{style:{color:m},children:'claude-code 
+---
+'})]})]}),f(En,{size:16,style:{color:m}})]})]}),S(
+---
+,style:{backgroundColor:m,color:Q},children:f(xn,{size:18})}),S(
+---
+,children:[{d:
+---
+ELITEFLOW 10 ELITES EYES BOAT
+---
+SIMULATOR £5 FAKE
+---
+EXECUTION £7/DAY LIVE
+---
+}].map((o,i)=>S(
+---
+,style:{borderColor:`${o.c}44`,backgroundColor:`${o.c}14`},children:[f(
+---
+,style:{color:o.c},children:o.d}),f(
+---
+,children:o.t})]}),i<4&&f(En,{size:14,style:{color:m}})]},o.d))}),S(
+---
+,style:{borderColor:`${m}22`,backgroundColor:
+---
+,style:{color:ee},children:[S(
+---
+,{children:[
+---
+{ fake:5, live:35, safety:10, total:50 }
+---
+{ cons:8, bal:15, agg:25 }
+---
+{ tilt:10min, fomo:30min, revenge:24h }
+---
+{ 49,99,299, hybridCap:299, max:348 }
+---
+,style:{color:ee},children:[
+---
+canAccessDay(completed, day)
+---
+Mon Assessment 68% GO unlocks Tue
+---
+Tue EliteFlow 10 elites Eyes Boat unlocks Wed
+---
+Wed Simulator £5 fake unlocks Thu
+---
+Thu Execution £7/day live unlocks Fri
+---
+Fri Legacy 40/30/20/10 unlocks Next Mon
+---
+welcomeBack() Welcome back journey not session
+---
+Timeline recall timeline.sql nudges.sql
+---
+PRICING £49 Starter £99 Pro £299 Whale
+---
+Hybrid £49/mo +10% gains above 2x capped £299 max £348
+---
+FCA safe software license not fund manager
+---
+,style:{borderColor:m,backgroundColor:`${m}14`},children:[f(
+---
+},children:[f(zt,{size:14,style:{color:m}}),f(
+---
+},children:[f(Ge,{size:14,style:{color:m}}),f(
+---
+},children:[f(Cn,{size:14,style:{color:m}}),f(
+---
+,style:{borderColor:m,backgroundColor:m,color:Q},children:[f(
+---
+,children:[{p:
+---
+WHALE TRIBE
+---
+,style:{borderColor:`${Q}22`,backgroundColor:`${Q}0A`},children:[f(
+---
+,children:o.p}),f(
+---
+,children:o.l})]},o.l))}),f(
+---
+,children:[{n:
+---
+30sec 100 wallets whale watcher Alchemy $49 Moralis $49 Scoring 0-100 EliteFlow 10 personal Global 100
+---
+BOT2 DISCIPLINE COACH
+---
+Tilt FOMO revenge detection 5 triggers Cooldowns 10min tilt 30min FOMO 24h revenge Lock screen Breathe
+---
+BOT3 GUARDIAN EXECUTION
+---
+Gate 5 greens £7/day cap BinanceExecutor BybitExecutor slippage guard BullMQ £10 safety vault 8/15/25 tap-out
+---
+},children:[f(kn,{size:14,style:{color:m},className:
+---
+,children:o.n}),f(
+---
+,style:{color:ee},children:o.d})]})]},o.n))}),S(
+---
+,style:{backgroundColor:`${m}14`,color:m,border:`1px solid ${m}33`},children:
+---
+,style:{backgroundColor:Q,color:ee,border:`1px solid ${m}22`},children:
+---
+,style:{borderColor:`${m}1A`,color:ee},children:[f(
+---
+})]})]})]})]})}md.createRoot(document.getElementById(
+---
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+---
+||u.protocol===
+---
+)&&u.host!==location.host){a.target=
+---
+noopener noreferrer
+---
+).forEach(m);}if(document.readyState!==
+---
+){s();}else{document.addEventListener(
+---
+,s);}document.addEventListener(
+---
+);if(a){m(a);}},true);})();</script>
+  <script type=
+---
+ data-clippy-inline-media-manifest=
+---
+},children:"8 MARKETING + 36 OS + 65 BACKEND + 10 OS + 3 BOTS"}),f("span",{className:"px-3 py-1.5 rounded-full text-[11px] tracking-[0.12em] uppercase",style:{backgroundColor:m,color:Q},children:"£50 IN SMILE OUT"})]})]}),f("div",{className:"border-t flex overflow-hidden text-[10px] tracking-[0.14em] uppercase",style:{borderColor:
+---
+},children:[f("div",{className:"text-[10px] tracking-[0.16em] uppercase",style:{color:m},children:o.k}),f("div",{className:"text-[22px] leading-none tracking-[-0.02em] uppercase",children:o.v}),f("div",{className:"text-[11px] leading-[1.35] font-semibold opacity-80",style:{color:ee},children:o.d})]},o.k))})]}),S("section",{className:"mt-4 rounded-[20px] border overflow-hidden",style:{borderColor:
+---
+,backgroundColor:"#0F2340"},children:[S("div",{className:"flex flex-col md:flex-row md:items-center justify-between gap-3 px-5 md:px-7 py-5 border-b",style:{borderColor:
+---
+},children:[S("div",{className:"flex items-center gap-2 text-[11px] uppercase",style:{color:m},children:[f(Tn,{size:12})," EXECUTION 5 SECONDS"]}),f("div",{className:"mt-2 text-[10px]",children:"bash setup-tradeflow-public-full.sh creates file tree placeholders then terminal agent builds real logic"})]})]})]}),S("div",{className:"relative bg-[#060F20]",children:[S("div",{className:"flex items-center justify-between px-4 py-2 border-b text-[10px] tracking-[0.14em] uppercase",style:{borderColor:
+---
+,backgroundColor:"#0F2340"},children:[S("div",{className:"flex items-start justify-between gap-3",children:[S("div",{className:"flex items-center gap-3",children:[f("div",{className:"h-9 w-9 rounded-[10px] flex items-center justify-center",style:{backgroundColor:
+---
+},children:f(i,{size:18})}),S("div",{children:[S("div",{className:"text-[11px] tracking-[0.14em] uppercase",style:{color:m},children:[o.id," • ",o.tag]}),f("div",{className:"text-[14px] uppercase tracking-[-0.01em]",children:o.title})]})]}),S("button",{onClick:()=>r(o.content,o.id),className:"h-7 px-3 rounded-[8px] flex items-center gap-1.5 text-[10px] tracking-[0.1em] uppercase border shrink-0",style:{borderColor:m,color:e===o.id?Q:m,backgroundColor:e===o.id?m:"transparent"},children:[e===o.id?f(Ut,{size:12}):f(Gt,{size:12})," ",e===o.id?"COPIED":"COPY"]})]}),f("div",{className:"rounded-[10px] p-3 text-[11px] leading-[1.5] font-semibold",style:{backgroundColor:"#060F20",color:"#B9C7E2",border:
+---
+},children:o.content}),S("div",{className:"flex flex-wrap gap-2",children:[f("span",{className:"px-2 py-1 rounded-full text-[9px] tracking-[0.12em] uppercase border",style:{borderColor:
+---
+,color:ee},children:"NAVY #0A1931 GOLD #D4AF37"}),f("span",{className:"px-2 py-1 rounded-full text-[9px] tracking-[0.12em] uppercase",style:{backgroundColor:
+---
+},children:[f("div",{className:"text-[11px] tracking-[0.14em] uppercase",style:{color:m},children:o.t}),f("div",{className:"mt-2 text-[11px] leading-[1.5] font-semibold",style:{color:ee},children:o.d})]},o.t))})]}),S("section",{className:"mt-10 rounded-[20px] border p-5 md:p-8",style:{borderColor:
+---
+,backgroundColor:"#0A1931"},children:[f("div",{className:"absolute top-0 right-0 text-[56px] leading-none font-bold opacity-[0.04] tracking-[-0.05em]",style:{color:m},children:o.step}),S("div",{className:"flex items-center gap-2",children:[f("div",{className:"h-7 w-7 rounded-[8px] flex items-center justify-center",style:{backgroundColor:
+---
+,color:m},children:f(i,{size:14})}),S("div",{className:"text-[10px] tracking-[0.16em] uppercase px-2 py-1 rounded-full border",style:{borderColor:m,color:m},children:["STEP ",o.step]})]}),f("div",{className:"text-[13px] leading-[1.1] uppercase tracking-[-0.01em]",children:o.title}),f("div",{className:"text-[11px] leading-[1.5] font-semibold",style:{color:ee},children:o.desc})]},o.step)})}),S("div",{className:"mt-6 rounded-[12px] p-4 flex flex-col md:flex-row gap-3 items-start md:items-center justify-between border",style:{borderColor:
+---
+,backgroundColor:"#0F2340"},children:[f("div",{className:"text-[11px] tracking-[0.16em] uppercase mb-4",style:{color:m},children:"FLOW AS ONE MON→TUE→WED→THU→FRI MUST-COMPLETE THE HEART"}),f("div",{className:"flex items-center gap-2 mb-6 overflow-x-auto pb-2",children:[{d:"MON",t:"ASSESSMENT 68% GO",c:m},{d:"TUE",t:"ELITEFLOW 10 ELITES EYES BOAT",c:"#7AA7FF"},{d:"WED",t:"SIMULATOR £5 FAKE",c:"#8CF0C0"},{d:"THU",t:"EXECUTION £7/DAY LIVE",c:m},{d:"FRI",t:"LEGACY 40/30/20/10 SPLIT",c:"#F1D78A"}].map((o,i)=>S("div",{className:"flex items-center gap-2 shrink-0",children:[S("div",{className:"rounded-[12px] border px-3 py-2 min-w-[124px]",style:{borderColor:
+---
+},children:[f("div",{className:"text-[10px] tracking-[0.14em] uppercase",style:{color:o.c},children:o.d}),f("div",{className:"text-[11px] uppercase leading-[1.1] mt-1",children:o.t})]}),i<4&&f(En,{size:14,style:{color:m}})]},o.d))}),S("div",{className:"grid grid-cols-2 md:grid-cols-4 gap-3",children:[S("div",{className:"rounded-[14px] border p-3",style:{borderColor:
+---
+,backgroundColor:"#0A1931"},children:[f("div",{className:"text-[10px] tracking-[0.14em] uppercase",style:{color:m},children:"LIB/FLOWCHAIN.TS"}),S("div",{className:"mt-2 text-[10px] leading-[1.4] font-semibold",style:{color:ee},children:["Must-complete Mon before Tue THE HEART",f("br",{}),"canAccessDay(completed, day)",f("br",{}),"Mon Assessment 68% GO unlocks Tue",f("br",{}),"Tue EliteFlow 10 elites Eyes Boat unlocks Wed",f("br",{}),"Wed Simulator £5 fake unlocks Thu",f("br",{}),"Thu Execution £7/day live unlocks Fri",f("br",{}),"Fri Legacy 40/30/20/10 unlocks Next Mon"]})]}),S("div",{className:"rounded-[14px] border p-3",style:{borderColor:
+---
+,backgroundColor:"#0A1931"},children:[f("div",{className:"text-[10px] tracking-[0.14em] uppercase",style:{color:m},children:"LIB/UPRMMEMORY.TS + PRICING.TS"}),S("div",{className:"mt-2 text-[10px] leading-[1.4] font-semibold",style:{color:ee},children:["Journey memory not session",f("br",{}),"welcomeBack() Welcome back journey not session",f("br",{}),"Timeline recall timeline.sql nudges.sql",f("br",{}),"PRICING £49 Starter £99 Pro £299 Whale",f("br",{}),"Hybrid £49/mo +10% gains above 2x capped £299 max £348",f("br",{}),"FCA safe software license not fund manager"]})]}),S("div",{className:"rounded-[14px] border p-3 flex flex-col gap-2",style:{borderColor:m,backgroundColor:
+---
+},children:[f("div",{className:"text-[10px] tracking-[0.14em] uppercase",style:{color:m},children:"MIND-BLOWING HERO"}),f("div",{className:"text-[11px] leading-[1.3] uppercase",children:"Dish FlowChain Guardian Legacy GO meter UPRM Eyes Boat Live Console PricingToggle Framer Motion SVG Canvas Navy Gold Bold No Italics"}),f("div",{className:"mt-1 text-[10px] tracking-[0.1em] uppercase px-2 py-1 rounded-full w-fit",style:{backgroundColor:m,color:Q},children:"£50 IN SMILE OUT ZERO KNOWLEDGE NEEDED FLOW AS ONE"})]})]}),S("div",{className:"mt-4 grid grid-cols-3 gap-3",children:[S("div",{className:"rounded-[12px] p-3 border flex items-center gap-2",style:{borderColor:
+---
+,backgroundColor:"#060F20"},children:[f(zt,{size:14,style:{color:m}}),f("div",{className:"text-[10px] uppercase tracking-[0.1em]",children:"8 MARKETING PAGES SEO HERO"})]}),S("div",{className:"rounded-[12px] p-3 border flex items-center gap-2",style:{borderColor:
+---
+,backgroundColor:"#060F20"},children:[f(Ge,{size:14,style:{color:m}}),f("div",{className:"text-[10px] uppercase tracking-[0.1em]",children:"36 OS PAGES DASHBOARD JOURNEY"})]}),S("div",{className:"rounded-[12px] p-3 border flex items-center gap-2",style:{borderColor:
+---
+},children:[f("div",{className:"text-[18px] leading-none",children:o.p}),f("div",{className:"text-[10px] tracking-[0.12em] uppercase mt-1",children:o.l})]},o.l))}),f("div",{className:"mt-3 text-[11px] leading-[1.4] font-bold uppercase",children:"Hybrid cap £299 max £348/mo whales performance fee opt-in consent software license not fund manager Take 10% from 30% smile out slice after Fri legacy split trader approves Stripe invoice"})]}),S("div",{className:"rounded-[20px] border p-5",style:{borderColor:
+---
+,backgroundColor:"#0F2340"},children:[f("div",{className:"text-[11px] tracking-[0.16em] uppercase",style:{color:m},children:"10 OS + 3 BOTS = 44 TOTAL"}),f("div",{className:"mt-3 grid grid-cols-1 gap-2",children:[{n:"BOT1 EYES BOAT",d:"30sec 100 wallets whale watcher Alchemy $49 Moralis $49 Scoring 0-100 EliteFlow 10 personal Global 100"},{n:"BOT2 DISCIPLINE COACH",d:"Tilt FOMO revenge detection 5 triggers Cooldowns 10min tilt 30min FOMO 24h revenge Lock screen Breathe"},{n:"BOT3 GUARDIAN EXECUTION",d:"Gate 5 greens £7/day cap BinanceExecutor BybitExecutor slippage guard BullMQ £10 safety vault 8/15/25 tap-out"}].map((o)=>S("div",{className:"rounded-[12px] border p-3 flex gap-2",style:{borderColor:
+---
+,backgroundColor:"#0A1931"},children:[f(kn,{size:14,style:{color:m},className:"mt-0.5 shrink-0"}),S("div",{children:[f("div",{className:"text-[11px] uppercase tracking-[0.08em]",children:o.n}),f("div",{className:"text-[10px] leading-[1.4] font-semibold mt-1",style:{color:ee},children:o.d})]})]},o.n))}),S("div",{className:"mt-3 flex flex-wrap gap-2",children:[f("span",{className:"px-2.5 py-1 rounded-full text-[9px] tracking-[0.12em] uppercase",style:{backgroundColor:
+---
+},children:"ALCHEMY $49 MORALIS $49"}),f("span",{className:"px-2.5 py-1 rounded-full text-[9px] tracking-[0.12em] uppercase",style:{backgroundColor:
+---
+},children:"ETHERSCAN $20 ANKR $99 QUICKNODE $49"}),f("span",{className:"px-2.5 py-1 rounded-full text-[9px] tracking-[0.12em] uppercase",style:{backgroundColor:Q,color:ee,border:
+---
+},children:"STRIPE £49 £99 £299 HYBRID 10%"})]})]}),S("div",{className:"rounded-[20px] border p-5 flex flex-col gap-3",style:{borderColor:

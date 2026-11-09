@@ -1,0 +1,165 @@
+,{className:
+---
+,children:[A(
+---
+,{href:
+---
+,className:
+---
+,children:
+---
+,style:{backgroundImage:
+---
+,backgroundSize:
+---
+,children:d(
+---
+,children:[d(
+---
+,{src:dt,alt:
+---
+,children:[
+---
+anatomy
+---
+,{children:[A(
+---
+,children:A(
+---
+,children:[{k:
+---
+TradeFlow lockup. Compact, institutional. Reads at 16px app icon to billboard. Serif? No. Sans confidence.
+---
+UPWARD ARROW
+---
+Three bars forming momentum. Not growth for growth — disciplined ascent. Every trade earns the next.
+---
+BAR CHART
+---
+Market truth. No prediction, only process. Bars are unequal — realistic equity curve, not fantasy.
+---
+CIRCLE = FLOW CHAIN
+---
+Enclosure = OS. Containment, system, loop. You enter assessment, you exit legacy. Closed circle, open future.
+---
+,{className:`w-1.5 h-1.5 rounded-full ${n.accent?
+---
+,children:n.k})]}),A(
+---
+,children:n.v})]},r))})]})]})}),d(
+---
+palette
+---
+,{children:[d(
+---
+Gold is the key.
+---
+,children:Rd.map((n)=>d(
+---
+,style:{background:n.hex,boxShadow:n.hex===
+---
+0 0 30px rgba(212,175,55,0.35)
+---
+,children:n.name}),A(
+---
+,children:n.hex}),A(
+---
+,children:n.usage})]})]},n.hex))})]})]}),A(
+---
+,children:[{label:
+---
+TRADE. TRACK. ANALYZE. GROW.
+---
+The OS loop. Used on hero, loading, onboarding. 4 beats, 1 promise.
+---
+Disciplined / Institutional
+---
+SECONDARY — COMMUNITY
+---
+£50 In. Smile Out.
+---
+Oldham Commonwealth energy. The entry is small, the exit is joy. T-shirts, social, merch.
+---
+Friendly / Gritty / Memorable
+---
+TERTIARY — JOURNEY
+---
+Assessment to Legacy. On Flow.
+---
+Full arc narrative. Funding → freedom. Use for long-form, pitch, docs.
+---
+Aspirational / Trustworthy
+---
+button
+---
+ring-1 ring-[#D4AF37]/50 bg-[#0E2447]
+---
+hover:bg-[#0C1F3F]
+---
+,children:n.label}),A(
+---
+,{className:`text-[20px] md:text-[22px] font-[800] leading-[1.1] tracking-tight mb-4 ${e===r?
+---
+text-white
+---
+,children:n.sub}),A(
+---
+,children:n.tone})]},r))}),d(
+---
+,{children:
+---
+Friendly. Disciplined.
+---
+ — no London fluff, no Vegas hype. Direct, warm, accountable.
+---
+Process > prediction
+---
+Commonwealth > competition
+---
+Legacy > lifestyle
+---
+,children:n},n))})]})]}),d(
+---
+applications
+---
+Lived 
+---
+,children:[20,32,18,44,36,52,48,64,56,72].map((n,r)=>A(
+---
+,style:{height:`${n}%`}},r))})]}),d(
+---
+ 12 ENGINES • CORE OS
+---
+,children:vd.map((n)=>d(
+---
+,children:n.n}),A(
+---
+,children:n.desc.toUpperCase()}),A(
+---
+#FFFFFF
+---
+,style:{background:n}},r))}),d(
+---
+LEARNED. IT'S
+---
+INSTALLED.
+---
+footer
+---
+OLDHAM • COMMONWEALTH • UPRM
+---
+})]})]})})]})}xs.createRoot(document.getElementById(
+---
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+---
+||u.protocol===
+---
+)&&u.host!==location.host){a.target=
+---
+;a.rel=
+---
+).forEach(m);}if(document.readyState!==
+---
+){s();}else{document.addEventListener(
+---
+,s);}document.addEventListener(

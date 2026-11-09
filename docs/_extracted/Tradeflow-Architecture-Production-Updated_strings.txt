@@ -1,0 +1,803 @@
+>var Hc=Object.create;var{getPrototypeOf:Kc,defineProperty:Ml,getOwnPropertyNames:Yc}=Object;var Xc=Object.prototype.hasOwnProperty;var yn=(e,n,t)=>{t=e!=null?Hc(Kc(e)):{};let r=n||!e||!e.__esModule?Ml(t,
+---
+),ni=Symbol.iterator;function of(e){if(e===null||typeof e!==
+---
+?e:null}var li={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},oi=Object.assign,ui={};function Dn(e,n,t){this.props=e,this.context=n,this.refs=ui,this.updater=t||li}Dn.prototype.isReactComponent={};Dn.prototype.setState=function(e,n){if(typeof e!==
+---
+setState(...): takes an object of state variables to update or a function which returns an object of state variables.
+---
+&&e!==null&&e.$$typeof===ft}function af(e){var n={
+---
++e.key):n.toString(36)}function fr(e,n,t,r,l){var o=typeof e;if(o===
+---
+)e=null;var u=!1;if(e===null)u=!0;else switch(o){case
+---
+:switch(e.$$typeof){case ft:case Jc:u=!0}}if(u)return u=e,l=l(u),e=r===
+---
+,ti(e))for(var a=0;a<e.length;a++){o=e[a];var c=r+Il(o,a);u+=fr(o,n,t,c,l)}else if(c=of(e),typeof c===
+---
+)for(e=c.call(e),a=0;!(o=e.next()).done;)o=o.value,c=r+Il(o,a++),u+=fr(o,n,t,c,l);else if(o===
+---
+). If you meant to render a collection of children, use an array instead.
+---
+)}ff.Children={map:cr,forEach:function(e,n,t){cr(e,function(){n.apply(this,arguments)},t)},count:function(e){var n=0;return cr(e,function(){n++}),n},toArray:function(e){return cr(e,function(n){return n})||[]},only:function(e){if(!Ul(e))throw Error(
+---
+);var r=oi({},e.props),l=e.key,o=e.ref,u=e._owner;if(n!=null){if(n.ref!==void 0&&(o=n.ref,u=Ol.current),n.key!==void 0&&(l=
+---
+)Wl=performance,Jf.unstable_now=function(){return Wl.now()};else mr=Date,$l=mr.now(),Jf.unstable_now=function(){return mr.now()-$l};var Wl,mr,$l,Me=[],Je=[],Gf=1,ve=null,x=3,gr=!1,gn=!1,mt=!1,pi=typeof setTimeout===
+---
+?setTimeout:null,mi=typeof clearTimeout===
+---
+?clearTimeout:null,di=typeof setImmediate<
+---
+){ve.callback=null,x=ve.priorityLevel;var l=r(ve.expirationTime<=n);n=Jf.unstable_now(),typeof l===
+---
+ for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+---
+:if(r)return!1;if(t!==null)return!t.acceptsBooleans;return e=e.toLowerCase().slice(0,5),e!==
+---
+;default:return!1}}function yd(e,n,t,r){if(n===null||typeof n>
+---
++t,r?e.setAttributeNS(r,n,t):e.setAttribute(n,t)))}function vt(e){if(e===null||typeof e!==
+---
+?e:null}function _t(e){if(Zl===void 0)try{throw Error()}catch(t){var n=t.stack.trim().match(/
+( *(at )?)/);Zl=n&&n[1]||
+---
+}return`
+`+Zl+e}function Jl(e,n){if(!e||Gl)return
+---
+;Gl=!0;var t=Error.prepareStackTrace;Error.prepareStackTrace=void 0;try{if(n)if(n=function(){throw Error()},Object.defineProperty(n.prototype,
+---
+&&Reflect.construct){try{Reflect.construct(n,[])}catch(m){var r=m}Reflect.construct(e,[],n)}else{try{n.call()}catch(m){r=m}e.call(n.prototype)}else{try{throw Error()}catch(m){r=m}e()}}catch(m){if(m&&r&&typeof m.stack===
+---
+}function gd(e){switch(e.tag){case 5:return _t(e.type);case 16:return _t(
+---
+);case 0:case 2:case 15:return e=Jl(e.type,!1),e;case 11:return e=Jl(e.type.render,!1),e;case 1:return e=Jl(e.type,!0),e;default:return
+---
+}}function wo(e){if(e==null)return null;if(typeof e===
+---
+)return e.displayName||e.name||null;if(typeof e===
+---
+)switch(e.$$typeof){case za:return(e.displayName||
+---
+;case pu:var n=e.render;return e=e.displayName,e||(e=n.displayName||n.name||
+---
+),e;case mu:return n=e.displayName||null,n!==null?n:wo(e.type)||
+---
+;case xe:n=e._payload,e=e._init;try{return wo(e(n))}catch(t){}}return null}function wd(e){var n=e.type;switch(e.tag){case 24:return
+---
+;case 11:return e=n.render,e=e.displayName||e.name||
+---
+;case 16:return wo(n);case 8:return n===du?
+---
+;case 1:case 0:case 17:case 2:case 14:case 15:if(typeof n===
+---
+)return n.displayName||n.name||null;if(typeof n===
+---
+)return n}return null}function dn(e){switch(typeof e){case
+---
+}}function Ta(e){var n=e.type;return(e=e.nodeName)&&e.toLowerCase()===
+---
+){var{get:l,set:o}=t;return Object.defineProperty(e,n,{configurable:!0,get:function(){return l.call(this)},set:function(u){r=
+---
++u,o.call(this,u)}}),Object.defineProperty(e,n,{enumerable:t.enumerable}),{getValue:function(){return r},setValue:function(u){r=
+---
+:e.value),e=r,e!==t?(n.setValue(e),!0):!1}function Xr(e){if(e=e||(typeof document<
+---
+)return null;try{return e.activeElement||e.body}catch(n){return e.body}}function ko(e,n){var t=n.checked;return W({},n,{defaultChecked:void 0,defaultValue:void 0,value:void 0,checked:t!=null?t:e._wrapperState.initialChecked})}function Ei(e,n){var t=n.defaultValue==null?
+---
+?n.checked!=null:n.value!=null}}function Ra(e,n){n=n.checked,n!=null&&fu(e,
+---
+,n,!1)}function So(e,n){Ra(e,n);var t=dn(n.value),r=n.type;if(t!=null)if(r===
+---
+)&&Eo(e,n.type,dn(n.defaultValue)),n.checked==null&&n.defaultChecked!=null&&(e.defaultChecked=!!n.defaultChecked)}function _i(e,n,t){if(n.hasOwnProperty(
+---
+||n.value!==void 0&&n.value!==null))return;n=
+---
++t)}function qn(e,n,t,r){if(e=e.options,n){n={};for(var l=0;l<t.length;l++)n[
+---
++e._wrapperState.initialValue})}function Ci(e,n){var t=n.value;if(t==null){if(t=n.children,n=n.defaultValue,t!=null){if(n!=null)throw Error(w(92));if(Ct(t)){if(1<t.length)throw Error(w(93));t=t[0]}n=t}n==null&&(n=
+---
+),t=n}e._wrapperState={initialValue:dn(t)}}function Ma(e,n){var t=dn(n.value),r=dn(n.defaultValue);t!=null&&(t=
+---
++r)}function Pi(e){var n=e.textContent;n===e._wrapperState.initialValue&&n!==
+---
+&&n!==null&&(e.value=n)}function Ia(e){switch(e){case
+---
+}function Oa(e,n){e=e.style;for(var t in n)if(n.hasOwnProperty(t)){var r=t.indexOf(
+---
+),r?e.setProperty(t,l):e[t]=l}}function Po(e,n){if(n){if(Ed[e]&&(n.children!=null||n.dangerouslySetInnerHTML!=null))throw Error(w(137,e));if(n.dangerouslySetInnerHTML!=null){if(n.children!=null)throw Error(w(60));if(typeof n.dangerouslySetInnerHTML!==
+---
+in n.dangerouslySetInnerHTML))throw Error(w(61))}if(n.style!=null&&typeof n.style!==
+---
+)throw Error(w(62))}}function zo(e,n){if(e.indexOf(
+---
+:return!1;default:return!0}}function hu(e){return e=e.target||e.srcElement||window,e.correspondingUseElement&&(e=e.correspondingUseElement),e.nodeType===3?e.parentNode:e}function zi(e){if(e=or(e)){if(typeof To!==
+---
+)),e=!r;break e;default:e=!1}if(e)return null;if(t&&typeof t!==
+---
+:Kt.delete(n.pointerId)}}function yt(e,n,t,r,l,o){if(e===null||e.nativeEvent!==o)return e={blockedOn:n,domEventName:t,eventSystemFlags:r,nativeEvent:o,targetContainers:[l]},n!==null&&(n=or(n),n!==null&&gu(n)),e;return e.eventSystemFlags|=r,n=e.targetContainers,l!==null&&n.indexOf(l)===-1&&n.push(l),e}function $d(e,n,t,r,l){switch(n){case
+---
+:var o=l.pointerId;return Ht.set(o,yt(Ht.get(o)||null,e,n,t,r,l)),!0;case
+---
+in e?(e=e.charCode,e===0&&n===13&&(e=13)):e=n,e===10&&(e=13),32<=e||e===13?e:0}function zr(){return!0}function Mi(){return!1}function he(e){function n(t,r,l,o,u){this._reactName=t,this._targetInst=l,this.type=r,this.nativeEvent=o,this.target=u,this.currentTarget=null;for(var a in e)e.hasOwnProperty(a)&&(t=e[a],this[a]=t?t(o):o[a]);return this.isDefaultPrevented=(o.defaultPrevented!=null?o.defaultPrevented:o.returnValue===!1)?zr:Mi,this.isPropagationStopped=Mi,this}return W(n.prototype,{preventDefault:function(){this.defaultPrevented=!0;var t=this.nativeEvent;t&&(t.preventDefault?t.preventDefault():typeof t.returnValue!==
+---
+&&(t.returnValue=!1),this.isDefaultPrevented=zr)},stopPropagation:function(){var t=this.nativeEvent;t&&(t.stopPropagation?t.stopPropagation():typeof t.cancelBubble!==
+---
+&&(t.cancelBubble=!0),this.isPropagationStopped=zr)},persist:function(){},isPersistent:zr}),n}function tp(e){var n=this.nativeEvent;return n.getModifierState?n.getModifierState(e):(e=np[e])?!!n[e]:!1}function Eu(){return tp}function rs(e,n){switch(e){case
+---
+:return!0;default:return!1}}function ls(e){return e=e.detail,typeof e===
+---
+in e?e.data:null}function mp(e,n){switch(e){case
+---
+:if(n.which!==32)return null;return Ui=!0,Oi;case
+---
+:return e=n.data,e===Oi&&Ui?null:e;default:return null}}function hp(e,n){if($n)return e===
+---
+:if(!(n.ctrlKey||n.altKey||n.metaKey)||n.ctrlKey&&n.altKey){if(n.char&&1<n.char.length)return n.char;if(n.which)return String.fromCharCode(n.which)}return null;case
+---
+?null:n.data;default:return null}}function Vi(e){var n=e&&e.nodeName&&e.nodeName.toLowerCase();return n===
+---
+?!0:!1}function os(e,n,t,r){Ua(r),n=br(n,
+---
+,null,t,r),e.push({event:t,listeners:n}))}function yp(e){vs(e,0)}function gl(e){var n=Hn(e);if(La(n))return e}function gp(e,n){if(e===
+---
+)return n}function Bi(){Dt&&(Dt.detachEvent(
+---
+,is),Xt=Dt=null)}function is(e){if(e.propertyName===
+---
+&&gl(Xt)){var n=[];os(n,Xt,e,hu(e)),$a(yp,n)}}function wp(e,n,t){e===
+---
+)return gl(n)}function _p(e,n){return e===n&&(e!==0||1/e===1/n)||e!==e&&n!==n}function Zt(e,n){if(Re(e,n))return!0;if(typeof e!==
+---
+in e)?e.contains(n):e.compareDocumentPosition?!!(e.compareDocumentPosition(n)&16):!1:!1}function ss(){for(var e=window,n=Xr();n instanceof e.HTMLIFrameElement;){try{var t=typeof n.contentWindow.location.href===
+---
+}catch(r){t=!1}if(t)e=n.contentWindow;else break;n=Xr(e.document)}return n}function Cu(e){var n=e&&e.nodeName&&e.nodeName.toLowerCase();return n&&(n===
+---
+)}function Cp(e){var n=ss(),t=e.focusedElem,r=e.selectionRange;if(n!==t&&t&&t.ownerDocument&&as(t.ownerDocument.documentElement,t)){if(r!==null&&Cu(t)){if(n=r.start,e=r.end,e===void 0&&(e=n),
+---
+&&t.focus();for(t=0;t<n.length;t++)e=n[t],e.element.scrollLeft=e.left,e.element.scrollTop=e.top}}function Qi(e,n,t){var r=t.window===t?t.document:t.nodeType===9?t:t.ownerDocument;Oo||Qn==null||Qn!==Xr(r)||(r=Qn,(
+---
+in r)&&Cu(r)?r={start:r.selectionStart,end:r.selectionEnd}:(r=(r.ownerDocument&&r.ownerDocument.defaultView||window).getSelection(),r={anchorNode:r.anchorNode,anchorOffset:r.anchorOffset,focusNode:r.focusNode,focusOffset:r.focusOffset}),Ot&&Zt(Ot,r)||(Ot=r,r=br(Do,
+---
+,null,n,t),e.push({event:n,listeners:r}),n.target=Qn)))}function Nr(e,n){var t={};return t[e.toLowerCase()]=n.toLowerCase(),t[
+---
++n,t}function wl(e){if(no[e])return no[e];if(!An[e])return e;var n=An[e],t;for(t in n)if(n.hasOwnProperty(t)&&t in cs)return no[e]=n[t];return e}function mn(e,n){hs.set(e,n),In(n,[e])}function Hi(e,n,t){var r=e.type||
+---
+;t.has(r)||(ys(n,e,2,!1),t.add(r))}function to(e,n,t){var r=0;n&&(r|=4),ys(t,e,r,n)}function Gt(e){if(!e[Tr]){e[Tr]=!0,Ca.forEach(function(t){t!==
+---
+&&(zp.has(t)||to(t,!1,e),to(t,!0,e))});var n=e.nodeType===9?e:e.ownerDocument;n===null||n[Tr]||(n[Tr]=!0,to(
+---
+,!1,n))}}function ys(e,n,t,r){switch(es(n)){case 1:var l=Ad;break;case 4:l=Hd;break;default:l=wu}t=l.bind(null,n,t,e),l=void 0,!Lo||n!==
+---
+,y&&t!==No&&(E=t.relatedTarget||t.fromElement)&&(En(E)||E[He]))break e;if(S||y){if(y=v.window===v?v:(y=v.ownerDocument)?y.defaultView||y.parentWindow:window,S){if(E=t.relatedTarget||t.toElement,S=m,E=E?En(E):null,E!==null&&(U=Fn(E),E!==U||E.tag!==5&&E.tag!==6))E=null}else S=null,E=m;if(S!==E){if(C=Ii,h=
+---
+;if(U=S==null?y:Hn(S),s=E==null?y:Hn(E),y=new C(h,f+
+---
+,S,t,v),y.target=U,y.relatedTarget=s,h=null,En(v)===m&&(C=new C(p,f+
+---
+)var k=gp;else if(Vi(y))if(us)k=Ep;else{k=kp;var P=wp}else(S=y.nodeName)&&S.toLowerCase()===
+---
+)&&(k=Sp);if(k&&(k=k(e,m))){os(g,k,t,v);break e}P&&P(e,y,m),e===
+---
+in nn)?nn.value:nn.textContent,$n=!0)),P=br(m,N),0<P.length&&(N=new Fi(N,e,null,t,v),g.push({event:N,listeners:P}),z?N.data=z:(z=ls(t),z!==null&&(N.data=z)))),z=pp?mp(e,t):hp(e,t))m=br(m,
+---
+,null,t,v),g.push({event:v,listeners:m}),v.data=z)}vs(g,n)})}function Jt(e,n,t){return{instance:e,listener:n,currentTarget:t}}function br(e,n){for(var t=n+
+---
+)}function Lr(e,n,t){if(n=Yi(n),Yi(e)!==n&&t)throw Error(w(425))}function el(){}function $o(e,n){return e===
+---
+&&n.dangerouslySetInnerHTML!==null&&n.dangerouslySetInnerHTML.__html!=null}function Mp(e){setTimeout(function(){throw e})}function lo(e,n){var t=n,r=0;do{var l=t.nextSibling;if(e.removeChild(t),l&&l.nodeType===8)if(t=l.data,t===
+---
+){if(r===0){e.removeChild(l),Yt(n);return}r--}else t!==
+---
+)return null}}return e}function Zi(e){e=e.previousSibling;for(var n=0;e;){if(e.nodeType===8){var t=e.data;if(t===
+---
+)return t;r=r.getChildContext();for(var l in r)if(!(l in n))throw Error(w(108,wd(e)||
+---
+,t.stateNode=n,t.return=e,n=e.deletions,n===null?(e.deletions=[t],e.flags|=16):n.push(t)}function qi(e,n){switch(e.tag){case 5:var t=e.type;return n=n.nodeType!==1||t.toLowerCase()!==n.nodeName.toLowerCase()?null:n,n!==null?(e.stateNode=n,me=e,pe=un(n.firstChild),!0):!1;case 6:return n=e.pendingProps===
+---
+){if(n===0){pe=un(e.nextSibling);break e}n--}else t!==
+---
+||n++}e=e.nextSibling}pe=null}}else pe=me?un(e.stateNode.nextSibling):null;return!0}function Es(){for(var e=pe;e;)e=un(e.nextSibling)}function lt(){pe=me=null,D=!1}function Nu(e){Ne===null?Ne=[e]:Ne.push(e)}function kt(e,n,t){if(e=t.ref,e!==null&&typeof e!==
+---
+){if(t._owner){if(t=t._owner,t){if(t.tag!==1)throw Error(w(309));var r=t.stateNode}if(!r)throw Error(w(147,e));var l=r,o=
+---
++e;if(n!==null&&n.ref!==null&&typeof n.ref===
+---
+&&n.ref._stringRef===o)return n.ref;return n=function(u){var a=l.refs;u===null?delete a[o]:a[o]=u},n._stringRef=o,n}if(typeof e!==
+---
+)throw Error(w(284));if(!t._owner)throw Error(w(290,e))}return e}function Mr(e,n){throw e=Object.prototype.toString.call(n),Error(w(31,e===
+---
+&&k!==null&&k.$$typeof===xe&&ji(k)===f.type))return h=l(f,s.props),h.ref=kt(p,f,s),h.return=p,h;return h=Yr(s.type,s.key,s.props,null,p.mode,h),h.ref=kt(p,f,s),h.return=p,h}function m(p,f,s,h){if(f===null||f.tag!==4||f.stateNode.containerInfo!==s.containerInfo||f.stateNode.implementation!==s.implementation)return f=mo(s,p.mode,h),f.return=p,f;return f=l(f,s.children||[]),f.return=p,f}function v(p,f,s,h,k){if(f===null||f.tag!==7)return f=zn(s,p.mode,h,k),f.return=p,f;return f=l(f,s),f.return=p,f}function g(p,f,s){if(typeof f===
+---
+&&s!==null){switch(s.$$typeof){case kr:return s.key===k?c(p,f,s,h):null;case Bn:return s.key===k?m(p,f,s,h):null;case xe:return k=s._init,y(p,f,k(s._payload),h)}if(Ct(s)||vt(s))return k!==null?null:v(p,f,s,h,null);Mr(p,s)}return null}function S(p,f,s,h,k){if(typeof h===
+---
+&&s!==null&&s.type===Wn&&s.key===null&&(s=s.props.children),typeof s===
+---
+&&s!==null){switch(s.$$typeof){case kr:e:{for(var k=s.key,P=f;P!==null;){if(P.key===k){if(k=s.type,k===Wn){if(P.tag===7){t(p,P.sibling),f=l(P,s.props.children),f.return=p,p=f;break e}}else if(P.elementType===k||typeof k===
+---
+){g=E.call(S,g,y);break e}g=E;break e;case 3:E.flags=E.flags&-65537|128;case 0:if(E=C.payload,y=typeof E===
+---
+)throw Error(w(191,l));l.call(r)}}}function Cn(e){if(e===ur)throw Error(w(174));return e}function Fu(e,n){switch(M(jt,n),M(xt,e),M(Ue,ur),e=n.nodeType,e){case 9:case 11:n=(n=n.documentElement)?n.namespaceURI:Co(null,
+---
+?e.shouldComponentUpdate(r,o,u):n.prototype&&n.prototype.isPureReactComponent?!Zt(t,r)||!Zt(l,o):!0}function Zs(e,n,t){var r=!1,l=pn,o=n.contextType;return typeof o===
+---
+&&o!==null?o=Se(o):(l=ce(n)?Nn:ne.current,r=n.contextTypes,o=(r=r!==null&&r!==void 0)?rt(e,l):pn),n=new n(t,o),e.memoizedState=n.state!==null&&n.state!==void 0?n.state:null,n.updater=_l,e.stateNode=n,n._reactInternals=e,r&&(e=e.stateNode,e.__reactInternalMemoizedUnmaskedChildContext=l,e.__reactInternalMemoizedMaskedChildContext=o),n}function la(e,n,t,r){e=n.state,typeof n.componentWillReceiveProps===
+---
+&&n.componentWillReceiveProps(t,r),typeof n.UNSAFE_componentWillReceiveProps===
+---
+&&n.UNSAFE_componentWillReceiveProps(t,r),n.state!==e&&_l.enqueueReplaceState(n,n.state,null)}function Go(e,n,t,r){var l=e.stateNode;l.props=t,l.state=e.memoizedState,l.refs={},Iu(e);var o=n.contextType;typeof o===
+---
+&&o!==null?l.context=Se(o):(o=ce(n)?Nn:ne.current,l.context=rt(e,o)),l.state=e.memoizedState,o=n.getDerivedStateFromProps,typeof o===
+---
+&&(Zo(e,n,o,t),l.state=e.memoizedState),typeof n.getDerivedStateFromProps===
+---
+||(n=l.state,typeof l.componentWillMount===
+---
+&&l.componentWillMount(),typeof l.UNSAFE_componentWillMount===
+---
+&&l.UNSAFE_componentWillMount(),n!==l.state&&_l.enqueueReplaceState(l,l.state,null),il(e,t,l,r),l.state=e.memoizedState),typeof l.componentDidMount===
+---
+&&(e.flags|=4194308)}function it(e,n){try{var t=
+---
+){var l=n.value;t.payload=function(){return r(l)},t.callback=function(){Jo(e,n)}}var o=e.stateNode;return o!==null&&typeof o.componentDidCatch===
+---
+&&(sn===null?sn=new Set([this]):sn.add(this));var u=n.stack;this.componentDidCatch(n.value,{componentStack:u!==null?u:
+---
+&&m!==null?m=Se(m):(m=ce(t)?Nn:ne.current,m=rt(n,m));var v=t.getDerivedStateFromProps,g=typeof v===
+---
+;g||typeof u.UNSAFE_componentWillReceiveProps!==
+---
+||(a!==r||c!==m)&&la(n,u,r,m),je=!1;var y=n.memoizedState;u.state=y,il(n,r,u,l),c=n.memoizedState,a!==r||y!==c||se.current||je?(typeof v===
+---
+&&(Zo(n,t,v,r),c=n.memoizedState),(a=je||ra(n,t,a,r,y,c,m))?(g||typeof u.UNSAFE_componentWillMount!==
+---
+&&u.componentWillMount(),typeof u.UNSAFE_componentWillMount===
+---
+&&u.UNSAFE_componentWillMount()),typeof u.componentDidMount===
+---
+&&(n.flags|=4194308)):(typeof u.componentDidMount===
+---
+&&(n.flags|=4194308),n.memoizedProps=r,n.memoizedState=c),u.props=r,u.state=c,u.context=m,r=a):(typeof u.componentDidMount===
+---
+&&(n.flags|=4194308),r=!1)}else{u=n.stateNode,zs(e,n),a=n.memoizedProps,m=n.type===n.elementType?a:Pe(n.type,a),u.props=m,g=n.pendingProps,y=u.context,c=t.contextType,typeof c===
+---
+&&c!==null?c=Se(c):(c=ce(t)?Nn:ne.current,c=rt(n,c));var S=t.getDerivedStateFromProps;(v=typeof S===
+---
+)||typeof u.UNSAFE_componentWillReceiveProps!==
+---
+||(a!==g||y!==c)&&la(n,u,r,c),je=!1,y=n.memoizedState,u.state=y,il(n,r,u,l);var E=n.memoizedState;a!==g||y!==E||se.current||je?(typeof S===
+---
+&&(Zo(n,t,S,r),E=n.memoizedState),(m=je||ra(n,t,m,r,y,E,c)||!1)?(v||typeof u.UNSAFE_componentWillUpdate!==
+---
+&&u.componentWillUpdate(r,E,c),typeof u.UNSAFE_componentWillUpdate===
+---
+&&u.UNSAFE_componentWillUpdate(r,E,c)),typeof u.componentDidUpdate===
+---
+&&(n.flags|=4),typeof u.getSnapshotBeforeUpdate===
+---
+&&(n.flags|=1024)):(typeof u.componentDidUpdate!==
+---
+||a===e.memoizedProps&&y===e.memoizedState||(n.flags|=4),typeof u.getSnapshotBeforeUpdate!==
+---
+||a===e.memoizedProps&&y===e.memoizedState||(n.flags|=1024),n.memoizedProps=r,n.memoizedState=E),u.props=r,u.state=E,u.context=c,r=m):(typeof u.componentDidUpdate!==
+---
+||a===e.memoizedProps&&y===e.memoizedState||(n.flags|=1024),r=!1)}return xo(e,n,t,r,o,l)}function xo(e,n,t,r,l,o){js(e,n);var u=(n.flags&128)!==0;if(!r&&!u)return l&&Ji(n,t,!1),Ye(e,n,o);r=n.stateNode,Kp.current=n;var a=u&&typeof t.getDerivedStateFromError!==
+---
+?n.lanes=8:n.lanes=1073741824,null;return u=r.children,e=r.fallback,o?(r=n.mode,o=n.child,u={mode:
+---
+,children:u},(r&1)===0&&o!==null?(o.childLanes=0,o.pendingProps=u):o=zl(u,r,0,null),e=zn(e,r,t,null),o.return=n,e.return=n,o.sibling=e,n.child=o,n.child.memoizedState=bo(t),n.memoizedState=jo,e):Qu(n,u)}if(l=e.memoizedState,l!==null&&(a=l.dehydrated,a!==null))return Yp(e,n,u,r,a,l,t);if(o){o=r.fallback,u=n.mode,l=e.child,a=l.sibling;var c={mode:
+---
+,children:r.children};return(u&1)===0&&n.child!==l?(r=n.child,r.childLanes=0,r.pendingProps=c,n.deletions=null):(r=fn(l,c),r.subtreeFlags=l.subtreeFlags&14680064),a!==null?o=fn(a,o):(o=zn(o,u,t,null),o.flags|=2),o.return=n,r.return=n,r.sibling=o,n.child=r,r=o,o=n.child,u=e.child.memoizedState,u=u===null?bo(t):{baseLanes:u.baseLanes|t,cachePool:null,transitions:u.transitions},o.memoizedState=u,o.childLanes=e.childLanes&~t,n.memoizedState=jo,r}return o=e.child,e=o.sibling,r=fn(o,{mode:
+---
+,children:r.children}),(n.mode&1)===0&&(r.lanes=t),r.return=n,r.sibling=null,e!==null&&(t=n.deletions,t===null?(n.deletions=[e],n.flags|=16):t.push(e)),n.child=r,n.memoizedState=null,r}function Qu(e,n){return n=zl({mode:
+---
+,children:n},e.mode,0,null),n.return=e,e.child=n}function Ir(e,n,t,r){return r!==null&&Nu(r),ot(n,e.child,null,t),e=Qu(n,n.pendingProps.children),e.flags|=2,n.memoizedState=null,e}function Yp(e,n,t,r,l,o,u){if(t){if(n.flags&256)return n.flags&=-257,r=co(Error(w(422))),Ir(e,n,u,r);if(n.memoizedState!==null)return n.child=e.child,n.flags|=128,null;return o=r.fallback,l=n.mode,r=zl({mode:
+---
+,children:r.children},l,0,null),o=zn(o,l,u,null),o.flags|=2,r.return=n,o.return=n,r.sibling=o,n.child=r,(n.mode&1)!==0&&ot(n,e.child,null,u),n.child.memoizedState=bo(u),n.memoizedState=jo,o}if((n.mode&1)===0)return Ir(e,n,u,null);if(l.data===
+---
+,r)}Po(t,o),l=null;for(var u in o)if(o.hasOwnProperty(u)){var a=o[u];u===
+---
+,e=e.removeChild(e.firstChild)):typeof r.is===
+---
+:e._wrapperState={wasMultiple:!!r.multiple},l=W({},r,{value:void 0}),I(
+---
+,e);break;default:l=r}Po(t,l),a=l;for(o in a)if(a.hasOwnProperty(o)){var c=a[o];o===
+---
+?(c=c?c.__html:void 0,c!=null&&Fa(e,c)):o===
+---
+:e.multiple=!!r.multiple,o=r.value,o!=null?qn(e,!!r.multiple,o,!1):r.defaultValue!=null&&qn(e,!!r.multiple,r.defaultValue,!0);break;default:typeof l.onClick===
+---
+:r=!0;break e;default:r=!1}}r&&(n.flags|=4)}n.ref!==null&&(n.flags|=512,n.flags|=2097152)}return b(n),null;case 6:if(e&&n.stateNode!=null)lc(e,n,e.memoizedProps,r);else{if(typeof r!==
+---
+)try{t(null)}catch(r){$(e,n,r)}else t.current=null}function nu(e,n,t){try{t()}catch(r){$(e,n,r)}}function qp(e,n){if(Bo=xr,e=ss(),Cu(e)){if(
+---
+)}catch(C){$(e,e.return,C)}}if(r&4&&(l=e.stateNode,l!=null)){var o=e.memoizedProps,u=t!==null?t.memoizedProps:o,a=e.type,c=e.updateQueue;if(e.updateQueue=null,c!==null)try{a===
+---
+:var y=l._wrapperState.wasMultiple;l._wrapperState.wasMultiple=!!o.multiple;var S=o.value;S!=null?qn(l,!!o.multiple,S,!1):y!==!!o.multiple&&(o.defaultValue!=null?qn(l,!!o.multiple,o.defaultValue,!0):qn(l,!!o.multiple,o.multiple?[]:
+---
+):(a=g.stateNode,c=g.memoizedProps.style,u=c!==void 0&&c!==null&&c.hasOwnProperty(
+---
+,u))}catch(C){$(e,e.return,C)}}}else if(g.tag===6){if(v===null)try{g.stateNode.nodeValue=m?
+---
+||s!==null&&typeof s.componentDidCatch===
+---
+)return Gu(e)?1:0;if(e!==void 0&&e!==null){if(e=e.$$typeof,e===pu)return 11;if(e===mu)return 14}return 2}function fn(e,n){var t=e.alternate;return t===null?(t=we(e.tag,n,e.key,e.mode),t.elementType=e.elementType,t.type=e.type,t.stateNode=e.stateNode,t.alternate=e,e.alternate=t):(t.pendingProps=n,t.type=e.type,t.flags=0,t.subtreeFlags=0,t.deletions=null),t.flags=e.flags&14680064,t.childLanes=e.childLanes,t.lanes=e.lanes,t.child=e.child,t.memoizedProps=e.memoizedProps,t.memoizedState=e.memoizedState,t.updateQueue=e.updateQueue,n=e.dependencies,t.dependencies=n===null?null:{lanes:n.lanes,firstContext:n.firstContext},t.sibling=e.sibling,t.index=e.index,t.ref=e.ref,t}function Yr(e,n,t,r,l,o){var u=2;if(r=e,typeof e===
+---
+))}return n=we(u,t,n,l),n.elementType=e,n.type=r,n.lanes=o,n}function zn(e,n,t,r){return e=we(7,e,r,n),e.lanes=t,e}function zl(e,n,t,r){return e=we(22,e,r,n),e.elementType=Na,e.lanes=t,e.stateNode={isHidden:!1},e}function po(e,n,t){return e=we(6,e,null,n),e.lanes=t,e}function mo(e,n,t){return n=we(4,e.children!==null?e.children:[],e.key,n),n.lanes=t,n.stateNode={containerInfo:e.containerInfo,pendingChildren:null,implementation:e.implementation},n}function am(e,n,t,r,l){this.tag=n,this.containerInfo=e,this.finishedWork=this.pingCache=this.current=this.pendingChildren=null,this.timeoutHandle=-1,this.callbackNode=this.pendingContext=this.context=null,this.callbackPriority=0,this.eventTimes=xl(0),this.expirationTimes=xl(-1),this.entangledLanes=this.finishedLanes=this.mutableReadLanes=this.expiredLanes=this.pingedLanes=this.suspendedLanes=this.pendingLanes=0,this.entanglements=xl(0),this.identifierPrefix=r,this.onRecoverableError=l,this.mutableSourceEagerHydrationData=null}function Ju(e,n,t,r,l,o,u,a,c){return e=new am(e,n,t,a,c),n===1?(n=1,o===!0&&(n|=8)):n=0,o=we(3,null,null,n),e.current=o,o.stateNode=e,o.memoizedState={element:r,isDehydrated:t,cache:null,transitions:null,pendingSuspenseBoundaries:null},Iu(o),e}function sm(e,n,t){var r=3<arguments.length&&arguments[3]!==void 0?arguments[3]:null;return{$$typeof:Bn,key:r==null?null:
+---
+))}function Ea(){}function fm(e,n,t,r,l){if(l){if(typeof r===
+---
+,Ea);return e._reactRootContainer=u,e[He]=u.current,Gt(e.nodeType===8?e.parentNode:e),Mn(),u}for(;l=e.lastChild;)e.removeChild(l);if(typeof r===
+---
+,Ea);return e._reactRootContainer=c,e[He]=c.current,Gt(e.nodeType===8?e.parentNode:e),Mn(function(){Nl(n,c,t,r)}),c}function Rl(e,n,t,r,l){var o=t._reactRootContainer;if(o){var u=o;if(typeof l===
+---
+,me=null,pe=null,D=!1,Ne=null,Op,ot,Cs,ol,ul=null,Zn=null,Tu=null,_n=null,je=!1,ur,Ue,xt,jt,V,uo,$r,io,Ln=0,B=null,K=null,X=null,sl=!1,Ut=!1,bt=0,Up=0,cl,$p,Qp,Ap,_l,Hp,Kp,ae=!1,jo,tc,eu,rc,lc,Fr=!1,ee=!1,Jp,_=null,pa=!1,G=null,ze=!1,jp,fl,Au,ke,T=0,Z=null,H=null,J=0,de=0,Jn,Y=0,tr=null,Rn=0,Pl=0,Hu=0,Bt=null,ie=null,Ku=0,at=1/0,Ve=null,dl=!1,ou=null,sn=null,Dr=!1,tn=null,pl=0,Wt=0,uu=null,Hr=-1,Kr=0,vc,kc,dm,Et,pm,Vn,Sc,Ec=function(e,n){var t=2<arguments.length&&arguments[2]!==void 0?arguments[2]:null;if(!ju(n))throw Error(w(200));return sm(e,n,null,t)},_c=function(e,n){if(!ju(e))throw Error(w(299));var t=!1,r=
+---
+,l=kc;return n!==null&&n!==void 0&&(n.unstable_strictMode===!0&&(t=!0),n.identifierPrefix!==void 0&&(r=n.identifierPrefix),n.onRecoverableError!==void 0&&(l=n.onRecoverableError)),n=Ju(e,1,!1,null,null,t,!1,r,l),e[He]=n.current,Gt(e.nodeType===8?e.parentNode:e),new xu(n)},Cc=function(e){if(e==null)return null;if(e.nodeType===1)return e;var n=e._reactInternals;if(n===void 0){if(typeof e.render===
+---
+)throw Error(w(188));throw e=Object.keys(e).join(
+---
+),Error(w(268,e))}return e=Aa(n),e=e===null?null:e.stateNode,e},Pc=function(e){return Mn(e)},zc=function(e,n,t){if(!Ll(n))throw Error(w(200));return Rl(null,e,n,!0,t)},Nc=function(e,n,t){if(!ju(e))throw Error(w(405));var r=t!=null&&t.hydratedSources||null,l=!1,o=
+---
+;var Fc=Gc(()=>{_a=yn(dt(),1),O=yn(gi(),1);Ca=new Set,$t={};Ae=!(typeof window>
+---
+),Si=Symbol.iterator;W=Object.assign;Ct=Array.isArray;Fa=function(e){return typeof MSApp<
+---
+&&MSApp.execUnsafeLocalFunction?function(n,t,r,l){MSApp.execUnsafeLocalFunction(function(){return e(n,t,r,l)})}:e}(function(e,n){if(e.namespaceURI!==
+---
+in e)e.innerHTML=n;else{Er=Er||document.createElement(
+---
+,wn,wn)}catch(e){Lo=!1}Cd={onError:function(e){It=!0,Zr=e}};Ka=O.unstable_scheduleCallback,Ti=O.unstable_cancelCallback,Td=O.unstable_shouldYield,Ld=O.unstable_requestPaint,Q=O.unstable_now,Rd=O.unstable_getCurrentPriorityLevel,vu=O.unstable_ImmediatePriority,Ya=O.unstable_UserBlockingPriority,Jr=O.unstable_NormalPriority,Md=O.unstable_LowPriority,Xa=O.unstable_IdlePriority;Te=Math.clz32?Math.clz32:Od,Fd=Math.log,Dd=Math.LN2;Pr=[],Ht=new Map,Kt=new Map,be=[],Wd=
+---
+);bn=Xe.ReactCurrentBatchConfig;st={eventPhase:0,bubbles:0,cancelable:0,timeStamp:function(e){return e.timeStamp||Date.now()},defaultPrevented:0,isTrusted:0},Su=he(st),lr=W({},st,{view:0,detail:0}),Kd=he(lr),yl=W({},lr,{screenX:0,screenY:0,clientX:0,clientY:0,pageX:0,pageY:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,getModifierState:Eu,button:0,buttons:0,relatedTarget:function(e){return e.relatedTarget===void 0?e.fromElement===e.srcElement?e.toElement:e.fromElement:e.relatedTarget},movementX:function(e){if(
+---
+in e)return e.movementX;return e!==wt&&(wt&&e.type===
+---
+?(jl=e.screenX-wt.screenX,bl=e.screenY-wt.screenY):bl=jl=0,wt=e),jl},movementY:function(e){return
+---
+in e?e.movementY:bl}}),Ii=he(yl),Yd=W({},yl,{dataTransfer:0}),Xd=he(Yd),Zd=W({},lr,{relatedTarget:0}),eo=he(Zd),Gd=W({},st,{animationName:0,elapsedTime:0,pseudoElement:0}),Jd=he(Gd),qd=W({},st,{clipboardData:function(e){return
+---
+in e?e.clipboardData:window.clipboardData}}),xd=he(qd),jd=W({},st,{data:0}),Fi=he(jd),bd={Esc:
+---
+},code:0,location:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,repeat:0,locale:0,getModifierState:Eu,charCode:function(e){return e.type===
+---
+in e)?-e.wheelDeltaX:0},deltaY:function(e){return
+---
+in e)?-e.wheelDelta:0},deltaZ:0,deltaMode:0}),fp=he(cp),dp=[9,13,27,32],_u=Ae&&
+---
+in document&&(Ft=document.documentMode);pp=Ae&&
+---
+in window&&!Ft,ts=Ae&&(!_u||Ft&&8<Ft&&11>=Ft),Oi=String.fromCharCode(32);vp={color:!0,date:!0,datetime:!0,
+---
+in document,!Nt)Br=document.createElement(
+---
+;zt=Nt}else zt=!1;us=zt&&(!document.documentMode||9<document.documentMode)}Re=typeof Object.is===
+---
+in document&&11>=document.documentMode;An={animationend:Nr(
+---
+in window)||(delete An.animationend.animation,delete An.animationiteration.animation,delete An.animationstart.animation),(
+---
+in window)||delete An.transitionend.transition);fs=wl(
+---
+abort auxClick cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emptied encrypted ended error gotPointerCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pause play playing pointerCancel pointerDown pointerMove pointerOut pointerOver pointerUp progress rateChange reset resize seeked seeking stalled submit suspend timeUpdate touchCancel touchEnd touchStart volumeChange scroll toggle touchMove waiting wheel
+---
+change click focusin focusout input keydown keyup selectionchange
+---
+focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange
+---
+compositionend focusout keydown keypress keyup mousedown
+---
+compositionstart focusout keydown keypress keyup mousedown
+---
+compositionupdate focusout keydown keypress keyup mousedown
+---
+abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting
+---
+cancel close invalid load scroll toggle
+---
++Math.random().toString(36).slice(2);Np=/
+?/g,Tp=/ |�/g;Qo=typeof setTimeout===
+---
+?setTimeout:void 0,Lp=typeof clearTimeout===
+---
+?clearTimeout:void 0,Xi=typeof Promise===
+---
+?Promise:void 0,Rp=typeof queueMicrotask===
+---
+:l=W({},l,{value:void 0}),r=W({},r,{value:void 0}),o=[];break;case
+---
+:l=_o(e,l),r=_o(e,r),o=[];break;default:typeof l.onClick!==
+---
+&&(e.onclick=el)}Po(t,r);var u;t=null;for(m in l)if(!r.hasOwnProperty(m)&&l.hasOwnProperty(m)&&l[m]!=null)if(m===
+---
+){var a=l[m];for(u in a)a.hasOwnProperty(u)&&(t||(t={}),t[u]=
+---
+&&($t.hasOwnProperty(m)?o||(o=[]):(o=o||[]).push(m,null));for(m in r){var c=r[m];if(a=l!=null?l[m]:void 0,r.hasOwnProperty(m)&&c!==a&&(c!=null||a!=null))if(m===
+---
+)if(a){for(u in a)!a.hasOwnProperty(u)||c&&c.hasOwnProperty(u)||(t||(t={}),t[u]=
+---
+);for(u in c)c.hasOwnProperty(u)&&a[u]!==c[u]&&(t||(t={}),t[u]=c[u])}else t||(o||(o=[]),o.push(m,t)),t=c;else m===
+---
+?(c=c?c.__html:void 0,a=a?a.__html:void 0,c!=null&&a!==c&&(o=o||[]).push(m,c)):m===
+---
+,t);var m=o;if(n.updateQueue=m)n.flags|=4}};lc=function(e,n,t,r){t!==r&&(n.flags|=4)};Jp=typeof WeakSet===
+---
+:n=t.value,n!=null&&qn(e,!!t.multiple,n,!1)}};Ba=Yu;Wa=Mn;dm={usingClientEntryPoint:!1,Events:[or,Hn,kl,Ua,Va,Yu]},Et={findFiberByHostInstance:En,bundleType:0,version:
+---
+},pm={bundleType:Et.bundleType,version:Et.version,rendererPackageName:Et.rendererPackageName,rendererConfig:Et.rendererConfig,overrideHookState:null,overrideHookStateDeletePath:null,overrideHookStateRenamePath:null,overrideProps:null,overridePropsDeletePath:null,overridePropsRenamePath:null,setErrorHandler:null,setSuspenseHandler:null,scheduleUpdate:null,currentDispatcherRef:Xe.ReactCurrentDispatcher,findHostInstanceByFiber:function(e){return e=Aa(e),e===null?null:e.stateNode},findFiberByHostInstance:Et.findFiberByHostInstance||cm,findHostInstancesForRefresh:null,scheduleRefresh:null,scheduleRoot:null,setRefreshHandler:null,getCurrentFiber:null,reconcilerVersion:
+---
+};if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__<
+---
+){if(Vn=__REACT_DEVTOOLS_GLOBAL_HOOK__,!Vn.isDisabled&&Vn.supportsFiber)try{vl=Vn.inject(pm),Oe=Vn}catch(e){}}Sc=dm,Rc=Yu});var Uc=sr((_m,Oc)=>{Fc();function Dc(){if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__>
+---
+||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!==
+---
+);var ym=Object.prototype.hasOwnProperty,gm=Bc.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,wm={key:!0,ref:!0,__self:!0,__source:!0};function Wc(e,n,t){var r,l={},o=null,u=null;t!==void 0&&(o=
+---
++n.key),n.ref!==void 0&&(u=n.ref);for(r in n)ym.call(n,r)&&!wm.hasOwnProperty(r)&&(l[r]=n[r]);if(e&&e.defaultProps)for(r in n=e.defaultProps,n)l[r]===void 0&&(l[r]=n[r]);return{$$typeof:vm,type:e,key:o,ref:u,props:l,_owner:gm.current}}var i=Wc,d=Wc;var Ze=
+---
+;function ei(){let[e,n]=te.useState(2),[t,r]=te.useState(!0),[l,o]=te.useState(15),[u,a]=te.useState(68),[c,m]=te.useState(null),[v,g]=te.useState(
+---
+min-h-screen w-full antialiased selection:bg-[var(--gold)] selection:text-[var(--navy)] overflow-x-clip
+---
+, ui-sans-serif, system-ui, sans-serif; }
+        .mono{ font-family:
+---
+sticky z-50 border-b bg-[#FFFEFB]/90 backdrop-blur-xl
+---
+mx-auto max-w-[1440px] px-4 md:px-8 h-[64px] flex items-center justify-between gap-4
+---
+w-9 h-9 bg-[var(--navy)] text-[var(--gold)] flex items-center justify-center font-bold text-[14px] tracking-widest
+---
+mono text-[10px] tracking-[0.22em] font-bold opacity-60
+---
+hidden lg:flex items-center gap-6 mono text-[10px] font-bold tracking-[0.18em]
+---
+lg:hidden mono text-[9px] font-bold px-2 py-1 bg-[var(--navy)] text-white
+---
+relative mx-auto max-w-[1440px] px-4 md:px-8 pt-8 md:pt-12 pb-12
+---
+flex flex-wrap items-start justify-between gap-6 mb-8
+---
+inline-flex items-center gap-2 px-3 py-1 bg-[var(--navy)] text-[var(--gold)] mono text-[10px] font-bold tracking-[0.2em] mb-4
+---
+ MIND-BLOWING INFOGRAPHICS HERO — 70% DESIGN EFFORT
+---
+text-[42px] md:text-[72px] font-bold leading-[0.85] tracking-[-0.03em] uppercase
+---
+mt-5 flex flex-wrap gap-3 mono text-[11px] font-bold
+---
+px-3 py-2 border border-[var(--navy)] bg-white
+---
+px-3 py-2 bg-[var(--gold)] text-[var(--navy)]
+---
+w-full md:w-[360px] bg-white border border-[var(--navy)] p-4
+---
+mono text-[10px] font-bold tracking-[0.2em] opacity-60 mb-3
+---
+,{onClick:()=>r(!t),className:`py-2.5 mono text-[11px] font-bold border ${t?
+---
+,{onClick:()=>o(s),className:`flex-1 py-2 mono text-[11px] font-bold border ${l===s?
+---
+mt-3 p-2 bg-[#F6F2E6] mono text-[10px] leading-[1.4]
+---
+ / £7.00 — SLIPPAGE GUARD ACTIVE — BINANCE + BYBIT VIA PERSONAL KEYS
+---
+grid grid-cols-12 gap-[1px] bg-[var(--line)] border border-[var(--line)]
+---
+col-span-12 lg:col-span-5 bg-[#FFFEFB] p-5 md:p-7 relative overflow-hidden
+---
+mono text-[11px] font-bold tracking-[0.2em]
+---
+mono text-[10px] font-bold px-2 py-1 bg-[var(--navy)] text-white
+---
+relative h-[300px] flex items-center justify-center
+---
+,{className:`absolute transition-all duration-700 ${t?
+---
+} w-[88px] h-[88px] rounded-full bg-[var(--gold)] border-[3px] border-[var(--navy)] flex items-center justify-center font-bold text-[22px] shadow-[8px_8px_0_var(--navy)]`,children:
+---
+,{className:`absolute inset-0 transition-all duration-700 ${t?
+---
+absolute left-[8%] top-[12%] w-[92px] h-[92px] rounded-full bg-white border-[3px] border-[var(--navy)] flex flex-col items-center justify-center shadow-[6px_6px_0_var(--navy)]
+---
+absolute left-[38%] top-[42%] w-[128px] h-[128px] rounded-full bg-[var(--navy)] text-white border-[3px] border-[var(--navy)] flex flex-col items-center justify-center shadow-[8px_8px_0_var(--gold)]
+---
+mono text-[9px] font-bold tracking-widest text-[var(--gold)]
+---
+w-1.5 h-1.5 rounded-full bg-[var(--gold)] animate-pulse
+---
+w-1.5 h-1.5 rounded-full bg-[var(--gold)] animate-pulse [animation-delay:200ms]
+---
+w-1.5 h-1.5 rounded-full bg-[var(--gold)] animate-pulse [animation-delay:400ms]
+---
+absolute right-[6%] top-[18%] w-[92px] h-[92px] rounded-full bg-[#1A2F5A] text-white border-[3px] border-[var(--navy)] flex flex-col items-center justify-center shadow-[6px_6px_0_var(--navy)]
+---
+absolute inset-0 w-full h-full pointer-events-none
+---
+col-span-12 lg:col-span-7 bg-[#FFFEFB] p-5 md:p-7
+---
+mono text-[9px] font-bold px-2 py-1 bg-[#FFE8E8] text-[#8B0000] border border-[#8B0000]
+---
+,{onClick:()=>n(h),className:`flex-1 relative border-[2px] p-3 md:p-4 text-left transition-all ${k?
+---
+mono text-[10px] font-bold tracking-widest
+---
+font-bold text-[12px] md:text-[14px] leading-[1] mt-1
+---
+mono text-[8px] mt-1 leading-[1.1] opacity-70
+---
+absolute -top-2 -right-2 w-5 h-5 bg-[#8B0000] text-white flex items-center justify-center mono text-[10px] font-bold
+---
+absolute -top-2 -right-2 w-5 h-5 bg-[var(--gold)] text-[var(--navy)] flex items-center justify-center mono text-[10px] font-bold
+---
+,{className:`absolute top-1/2 -translate-y-1/2 right-0 w-0 h-0 border-l-[6px] border-y-[4px] border-y-transparent ${h<e?
+---
+mt-4 grid grid-cols-1 md:grid-cols-3 gap-2
+---
+mono text-[9px] tracking-widest opacity-60
+---
+Supabase: users → journeys (mon-fri chain) → trades → elites → simulations → nudges → legacy timeline. BullMQ queue checks completion flag before unlocking next day. THE HEART OF TRADEFLOW.
+---
+col-span-12 lg:col-span-4 bg-[var(--navy)] text-white p-5 md:p-7 relative overflow-hidden
+---
+mono text-[11px] font-bold tracking-[0.2em] text-[var(--gold)]
+---
+,strokeDasharray:`${u/100*251} 251`,className:
+---
+}),[0,20,40,60,80,100].map((s)=>{let k=(180+s/100*180)*Math.PI/180,P=100+Math.cos(k)*70,z=100+Math.sin(k)*70,N=100+Math.cos(k)*82,A=100+Math.sin(k)*82;return i(
+---
+absolute inset-0 flex flex-col items-center justify-end pb-2
+---
+,{className:`mono text-[11px] font-bold px-2 py-0.5 ${u>=68?
+---
+absolute left-1/2 bottom-0 w-[2px] h-[78px] bg-white origin-bottom transition-transform duration-700
+---
+absolute left-1/2 bottom-0 w-3 h-3 bg-white rounded-full -translate-x-1/2 translate-y-1/2
+---
+bg-[var(--gold)] text-[var(--navy)] p-2 mono text-[9px] font-bold
+---
+col-span-12 lg:col-span-4 bg-[#FFFEFB] p-5 md:p-7 border-l border-[var(--line)]
+---
+04 / GUARDIAN SHIELD 8/15/25
+---
+M60 10 L105 30 L105 70 Q105 105 60 130 Q15 105 15 70 L15 30 Z
+---
+absolute -top-2 -right-6 mono text-[9px] font-bold bg-[var(--navy)] text-white px-2 py-1
+---
+,{onClick:()=>o(s.l),className:`p-2 border text-left ${l===s.l?
+---
+mt-3 mono text-[10px] leading-[1.4] bg-[#F6F2E6] p-2 border border-[var(--line)]
+---
+ Crash detection every 10sec via Vercel cron. Uses £10 safety vault to auto-sell. Protects £35 live stack. Legacy split Fri 11pm.
+---
+col-span-12 lg:col-span-4 bg-white p-5 md:p-7
+---
+05 / LEGACY VAULT 40/30/20/10
+---
+relative h-[168px] bg-[#F6F2E6] border border-[var(--navy)] p-2 flex
+---
+mono text-[8px] font-bold leading-[1] mt-1
+---
+mono text-[7px] opacity-70 leading-[1] mt-1
+---
+absolute -top-8 left-1/2 -translate-x-1/2 mono text-[9px] font-bold bg-[var(--gold)] text-[var(--navy)] px-2 py-1 whitespace-nowrap
+---
+mt-3 flex items-center gap-2 mono text-[9px] font-bold
+---
+mt-2 grid grid-cols-2 gap-2 mono text-[9px] leading-[1.3]
+---
+ Take 10% from 30% Smile Out slice — trader still smiles 20%. Performance fee opt-in consent.
+---
+SMART CONTRACT OR STRIPE INVOICE AFTER LEGACY SPLIT. TRADER APPROVES. FCA SAFE — SOFTWARE LICENSE NOT FUND MANAGER.
+---
+col-span-12 lg:col-span-6 bg-[#F6F2E6] p-5 md:p-7
+---
+mono text-[9px] font-bold px-2 py-1 bg-white border
+---
+absolute left-[18px] top-0 bottom-0 w-[2px] bg-[var(--navy)]/20
+---
+Tilt detected yesterday — 10min cooldown served
+---
+£5 fake → £5.80 (+16%) — discipline proof unlocked
+---
+Live £7 cap hit — Guardian held — good job
+---
+,{onClick:()=>C(h),className:`relative flex gap-3 w-full text-left pl-10 py-3 border-b border-[var(--line)] last:border-0 transition ${k?
+---
+,{className:`absolute left-0 top-3 w-[36px] h-[36px] rounded-full border-[2px] flex items-center justify-center mono text-[10px] font-bold ${k?
+---
+,{className:`mono text-[8px] px-1.5 py-0.5 font-bold ${k?
+---
+mt-3 mono text-[9px] bg-[var(--navy)] text-white p-2
+---
+UPRM = SUPABASE JOURNEY TABLE + NUDGES TIMELINE RECALL — SMART NUDGES NOT SESSION STORAGE
+---
+col-span-12 lg:col-span-6 bg-[var(--navy)] text-white p-5 md:p-7 relative overflow-hidden
+---
+07 / EYES BOAT BOT — 100 WALLET WHALE WATCHER
+---
+w-2 h-2 bg-[#00FF88] rounded-full animate-pulse
+---
+mt-6 relative h-[220px] bg-[#0F2342] border border-white/10 p-3 overflow-hidden
+---
+,children:[Array.from({length:22}).map((s,h)=>{let k=h*37%100,P=h*53%100;return d(
+---
+absolute mono text-[8px] font-bold px-1.5 py-0.5 bg-white/10 border border-white/20 animate-pulse
+---
+,`0x${(h*999).toString(16).padStart(4,
+---
+absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-[var(--gold)] text-[var(--navy)] px-3 py-1.5 mono text-[10px] font-bold border-[2px] border-white shadow-[4px_4px_0_white] animate-[float_3s_ease-in-out_infinite]
+---
+absolute inset-0 w-full h-full opacity-20 pointer-events-none
+---
+absolute bottom-2 left-2 right-2 flex gap-1
+---
+flex-1 bg-[var(--gold)] text-[var(--navy)] p-1.5 mono text-[8px] font-bold
+---
+WEBHOOK → VERCEL CRON → INTELLIGENCE OS
+---
+@keyframes float{0%,100%{transform:translate(-50%,-50%) translateY(0)}50%{transform:translate(-50%,-50%) translateY(-6px)}}
+---
+mt-6 mono text-[10px] font-bold tracking-[0.18em] flex flex-wrap gap-2
+---
+TECH: FRAMER MOTION + SVG + CANVAS + LOTTIE — NO HEAVY IMAGES — INTERACTIVE ON SCROLL
+---
+px-3 py-2 bg-white border border-[var(--navy)]
+---
+CONVERSION FOCUS: £50 DISH → MON-FRI CHAIN → 68% GO → GUARDIAN SHIELD → LEGACY VAULT
+---
+mx-auto max-w-[1440px] px-4 md:px-8 py-10 md:py-14
+---
+flex items-start justify-between gap-6 flex-wrap
+---
+mono text-[11px] font-bold tracking-[0.22em] opacity-60
+---
+SECTION 1 / MARKETING PAGES REQUIREMENT — CONFIRMED COUNT
+---
+mt-2 text-[28px] md:text-[44px] font-bold leading-[0.9] uppercase
+---
+w-full md:w-[360px] bg-[#F6F2E6] border border-[var(--navy)] p-4
+---
+ANSWER: 8 CORE PAGES FOR PUBLIC SAAS WITH INFOGRAPHICS HERO
+---
+mt-3 grid grid-cols-3 gap-2 mono text-[10px] font-bold
+---
+bg-[var(--navy)] text-white p-2 text-center
+---
+bg-[var(--gold)] text-[var(--navy)] p-2 text-center
+---
+RECOMMEND LAUNCH WITH 7 MINIMUM (1-5 + 7 + 8) = HERO + HOW + PRICING + COMMONWEALTH + ABOUT + LEGAL + DEMO. BUT MIND-BLOWING HERO NEEDS 8 WITH MANIFESTO FOR PHILOSOPHY.
+---
+mt-8 grid grid-cols-12 gap-[1px] bg-[var(--line)] border border-[var(--line)]
+---
+Mind-blowing infographics display - £50 dish animation Mon-Fri chain Guardian Legacy split - primary conversion - 70% design effort
+---
+MUST BE mind-blowing with interactive infographics: £50 coin splits £5/£35/£10, Mon->Tue->Wed->Thu->Fri must-complete flow chain visual, 68% GO meter gauge, Guardian 8/15/25 shield visual, Legacy 40/30/20/10 vault, UPRM Welcome back memory timeline, Eyes Boat 100 wallets visual
+---
+12 Engines visual + FlowChain must-complete explanation + 3 Bots architecture diagram
+---
+Explain THE HEART - JourneyOS state machine
+---
+Monetization models: £49 Starter £99 Pro £299 Whale Tribe + Hybrid £49/mo + 10% gains above 2x capped £299
+---
+Toggle monthly vs performance fee - comparison table - FAQ
+---
+Social proof, elite traders, testimonial, 10 elites personal list, live PnL anonymized
+---
+Story £50 In Smile Out, founder story, mission, Oldham Tribe, Why discipline not signals
+---
+Philosophy Zero Knowledge Needed, Flow as One, Smile Out, 12 Engines manifesto
+---
+Terms Privacy Risk Disclaimer FCA not fund manager software license + performance bonus opt-in consent HMRC 40/30/20/10
+---
+Free 68% GO meter demo lead magnet - no signup - interactive volatility regime meter
+---
+12 Engines blog, discipline stories, Eyes Boat whale alerts
+---
+,{className:`col-span-12 md:col-span-6 lg:col-span-4 bg-[#FFFEFB] p-5 border-b border-[var(--line)] ${s.n===
+---
+lg:col-span-8 bg-[var(--navy)] text-white
+---
+mono text-[10px] font-bold tracking-widest flex items-center gap-2
+---
+,{className:`w-6 h-6 flex items-center justify-center border ${s.n===
+---
+bg-[var(--gold)] text-[var(--navy)] border-[var(--gold)]
+---
+,{className:`mono text-[9px] font-bold px-2 py-0.5 ${s.n===
+---
+mt-3 font-bold text-[16px] leading-[1] uppercase
+---
+mt-2 mono text-[10px] leading-[1.4] opacity-80
+---
+,{className:`mt-3 mono text-[9px] leading-[1.3] p-2 border ${s.n===
+---
+SECTION 2 / PRODUCTION ARCHITECTURE UPDATED — LAYERED VIEW PUBLIC SAAS
+---
+mt-6 grid grid-cols-12 gap-[1px] bg-[var(--navy)] border-[2px] border-[var(--navy)]
+---
+w-8 h-8 bg-[var(--navy)] text-white flex items-center justify-center mono text-[12px] font-bold
+---
+font-bold text-[16px] uppercase tracking-tight
+---
+mono text-[9px] font-bold px-2 py-1 bg-[#F6F2E6] border
+---
+SHARED COMPANY ACCOUNT + PER TRADER OVERRIDE OWN KEYS
+---
+grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2
+---
+mt-3 mono text-[10px] bg-[var(--navy)] text-white p-2 inline-block
+---
+QuickNode + Ankr for 100 wallets — shared company account lowers cost — per trader override own keys for Whale Tribe privacy
+---
+col-span-12 md:col-span-6 bg-[#FFFEFB] p-5 md:p-6 border-t border-[var(--navy)]
+---
+w-8 h-8 bg-[var(--gold)] text-[var(--navy)] flex items-center justify-center mono text-[12px] font-bold
+---
+market regime volatility GO-NO-GO 68% meter
+---
+flex gap-2 p-2 bg-[var(--navy)] text-white
+---
+font-bold min-w-[120px] text-[var(--gold)]
+---
+100-wallet whale watcher 30sec cron webhook Vercel cron
+---
+personal 10 elites per trader global 100 pool
+---
+0-100 discipline + intel composite
+---
+col-span-12 md:col-span-6 bg-white p-5 md:p-6 border-t border-l-0 md:border-l border-[var(--navy)]
+---
+w-8 h-8 bg-[#0F2342] text-white flex items-center justify-center mono text-[12px] font-bold
+---
+JOURNEY & DISCIPLINE LAYER — THE HEART
+---
+Mon→Tue→Wed→Thu→Fri state machine must-complete guardrails
+---
+tilt/FOMO/revenge detection 5 triggers cooldowns 10min/30min/24h
+---
+Supabase journey not session smart nudges timeline recall
+---
+col-span-12 bg-[#FFFEFB] p-5 md:p-6 border-t border-[var(--navy)]
+---
+w-8 h-8 bg-[#8B0000] text-white flex items-center justify-center mono text-[12px] font-bold
+---
+EXECUTION & GUARDIAN LAYER — £7/DAY HARD CAP + AUTO STOP-LOSS
+---
+grid grid-cols-1 md:grid-cols-3 gap-2 mono text-[11px]
+---
+ BullMQ queue £7/day hard cap live Binance/Bybit via personal keys slippage guard
+---
+ crash detection auto stop-loss 8% Conservative /15% Balanced /25% Aggressive auto-sell safety using £10 safety vault
+---
+ 40/30/20/10 split vault 90 days lock HMRC CSV — Fri 11pm natural profit calc point
+---
+col-span-12 bg-[var(--navy)] text-white p-5 md:p-6 border-t border-[var(--navy)]
+---
+font-bold text-[14px] uppercase tracking-widest
+---
+APP LAYER — 8 MARKETING + 36 OS PAGES
+---
+grid grid-cols-1 lg:grid-cols-2 gap-4 mono text-[10px] leading-[1.5]
+---
+apps/marketing/ 8 PAGES — MIND-BLOWING HERO INFOGRAPHICS
+---
+page.tsx layout.tsx /how-it-works /pricing /commonwealth /about /manifesto /legal /assessment-demo /blog optional with hero components folder components/hero/ InfographicsDish.tsx FlowChainVisual.tsx GuardianShield.tsx LegacyVault.tsx UPRM Timeline GO Meter EyesBoat etc
+---
+apps/app/ 36 PAGES OS — FULL DISCIPLINE JOURNEY
+---
+layout dashboard onboarding assessment finance £50 dish connect journey map Mon-Fri chain + [day] simulator £5 fake commonwealth 10 elites Whale Tribe intelligence Arkham execute live £7/day discipline guardian 8/15/25 legacy vault uprm AI companion portfolio recoup 18-day history analytics settings risk slider + API keys profile admin 6 pages
+---
+col-span-12 bg-white p-5 md:p-6 border-t border-[var(--navy)]
+---
+w-8 h-8 bg-black text-white flex items-center justify-center mono text-[12px] font-bold
+---
+INFRA LAYER — NEXT.JS 14 + VERCEL + SUPABASE + ELECTRON OPTIONAL
+---
+flex flex-wrap gap-2 mono text-[10px] font-bold
+---
+NEXT.JS 14 VERCEL HOSTING
+---
+SUPABASE DB 8 TABLES users journeys Mon-Fri chain trades elites simulations nudges legacy timeline

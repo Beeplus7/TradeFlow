@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TradFlow · Artifact Score Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0A1931;
+      --navy-deep: #060E1F;
+      --navy-lift: #0E2447;
+      --gold: #D4AF37;
+      --gold-light: #C9A86A;
+      --paper: #FFFFFF;
+      --ready: #3DDC97;
+      --wait: #D4AF37;
+      --miss: #F07178;
+      --line: rgba(255, 255, 255, 0.1);
+      --muted: rgba(255, 255, 255, 0.5);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 175, 55, 0.12), transparent 55%),
+        linear-gradient(165deg, var(--navy-deep) 0%, var(--navy) 45%, #0C1F3F 100%);
+      color: var(--paper);
+      font-family: Inter, system-ui, sans-serif;
+      padding: 32px 20px 64px;
+    }
+    .shell {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+    .brand {
+      font-family: Montserrat, sans-serif;
+      font-weight: 800;
+      font-size: clamp(28px, 5vw, 40px);
+      letter-spacing: -0.02em;
+    }
+    .brand span { color: var(--gold); }
+    .kicker {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+    .stamp {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      text-align: right;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 28px;
+      align-items: center;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: linear-gradient(145deg, rgba(14, 36, 71, 0.95), rgba(6, 14, 31, 0.9));
+      margin-bottom: 22px;
+    }
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+    }
+    .ring {
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+    .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+    .ring .track { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 12; }
+    .ring .prog {
+      fill: none;
+      stroke: var(--gold);
+      stroke-width: 12;
+      stroke-linecap: round;
+      stroke-dasharray: 534;
+      stroke-dashoffset: 534;
+      transition: stroke-dashoffset 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .ring .score {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: none;
+    }
+    .ring .score strong {
+      font-family: Montserrat, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      line-height: 1;
+    }
+    .ring .score em {
+      font-style: normal;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      color: var(--gold);
+      margin-top: 6px;
+    }
+    .hero h1 {
+      font-family: Montserrat, sans-serif;
+      font-weight: 800;
+      font-size: clamp(22px, 3.5vw, 28px);
+      margin-bottom: 8px;
+    }
+    .hero p {
+      color: var(--muted);
+      line-height: 1.55;
+      max-width: 42ch;
+      font-size: 15px;
+    }
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .pill {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--gold-light);
+    }
+    .pill.ready { border-color: rgba(61, 220, 151, 0.45); color: var(--ready); }
+    .pill.wait { border-color: rgba(212, 175, 55, 0.45); color: var(--wait); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+    .card {
+      padding: 18px 18px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(14, 36, 71, 0.72);
+    }
+    .card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .card h2 {
+      font-family: Montserrat, sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .card .mark {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+    }
+    .mark.ready { color: var(--ready); }
+    .mark.wait { color: var(--wait); }
+    .mark.miss { color: var(--miss); }
+    .bar {
+      height: 8px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.08);
+      overflow: hidden;
+    }
+    .bar > i {
+      display: block;
+      height: 100%;
+      width: 0;
+      border-radius: 6px;
+      background: linear-gradient(90deg, var(--gold-light), var(--gold));
+      transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .bar.ready > i { background: linear-gradient(90deg, #2bb87a, var(--ready)); }
+    .meta {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .table {
+      margin-top: 22px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      background: rgba(6, 14, 31, 0.55);
+    }
+    .table h3 {
+      padding: 16px 18px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      border-bottom: 1px solid var(--line);
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 1.4fr 0.7fr 0.6fr 1.4fr;
+      gap: 8px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      align-items: center;
+      font-size: 14px;
+    }
+    .row:last-child { border-bottom: 0; }
+    .row .phase {
+      font-family: Montserrat, sans-serif;
+      font-weight: 700;
+    }
+    .row .status {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+    }
+    .row .pts {
+      font-family: "JetBrains Mono", monospace;
+      color: var(--gold-light);
+    }
+    .row .note { color: var(--muted); font-size: 13px; }
+    @media (max-width: 720px) {
+      .row {
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+      .row .note { grid-column: 1 / -1; }
+    }
+    footer {
+      margin-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer strong { color: var(--gold-light); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <div class="kicker">ARTIFACT · WEB VIEW</div>
+        <div class="brand">Trad<span>Flow</span> Score Card</div>
+      </div>
+      <div class="stamp">
+        BUILD READINESS<br />
+        OCT 2026 · LOCAL
+      </div>
+    </header>
+
+    <section class="hero" aria-label="Overall score">
+      <div class="ring" id="ring">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <circle class="track" cx="100" cy="100" r="85" />
+          <circle class="prog" id="prog" cx="100" cy="100" r="85" />
+        </svg>
+        <div class="score">
+          <strong id="scoreNum">0</strong>
+          <em>OVERALL</em>
+        </div>
+      </div>
+      <div>
+        <h1>Assessment to Legacy — installed so far</h1>
+        <p>
+          Weighted readiness across OS phases plus external APIs. First local
+          test needs Supabase + Google only; Stripe is wired for pay test.
+        </p>
+        <div class="pills">
+          <span class="pill ready">PHASE 0–7 LIVE</span>
+          <span class="pill wait">DEPLOY OPEN</span>
+          <span class="pill ready">2 APIS · FIRST TEST</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" id="modules" aria-label="Module scores"></section>
+
+    <section class="table" aria-label="Phase score table">
+      <h3>PHASE BREAKDOWN</h3>
+      <div id="rows"></div>
+    </section>
+
+    <section class="table" aria-label="External APIs" style="margin-top:22px">
+      <h3>EXTERNAL APIS · FIRST TEST NEEDS 2</h3>
+      <div id="api-rows"></div>
+    </section>
+
+    <footer>
+      <div>Navy is the vault. <strong>Gold is the key.</strong></div>
+      <div>Open in browser · design/tradeflow-scorecard.html</div>
+    </footer>
+  </div>
+
+  <script>
+    const modules = [
+      { name: 'Foundation', score: 100, state: 'ready', note: 'Supabase · Google Auth · schema' },
+      { name: 'Marketing site', score: 95, state: 'ready', note: 'Hero · pricing · GO demo' },
+      { name: 'Onboarding + GO', score: 100, state: 'ready', note: '6-step · 68% meter · dish' },
+      { name: 'Journey Heart', score: 100, state: 'ready', note: 'Mon→Fri · FlowChain guard' },
+      { name: 'Simulator', score: 100, state: 'ready', note: '£5 fake · discipline proof' },
+      { name: 'Execution', score: 92, state: 'ready', note: 'Paper · £7 cap · Gate 5' },
+      { name: 'Guardian', score: 92, state: 'ready', note: '8/15/25 tap-out · 10s check' },
+      { name: 'Eyes / Discipline', score: 90, state: 'ready', note: 'EliteFlow · Eyes Boat · locks' },
+      { name: 'Legacy + Billing', score: 88, state: 'ready', note: 'Split · Stripe Checkout test' },
+      { name: 'VPS harden', score: 25, state: 'wait', note: 'DNS ready · deploy waiting' },
+    ];
+
+    const phases = [
+      { phase: '0–1 Foundation', status: 'READY', pts: '100', note: 'Credentials · brand · shell' },
+      { phase: '2 Onboarding', status: 'READY', pts: '100', note: 'Risk · assessment · finance' },
+      { phase: '3 Journey Heart', status: 'READY', pts: '100', note: 'FlowChain · simulator' },
+      { phase: '4 Execute + Guard', status: 'READY', pts: '92', note: 'Paper console · shield' },
+      { phase: '5 Commonwealth', status: 'READY', pts: '90', note: 'EliteFlow · Eyes · Discipline · UPRM' },
+      { phase: '6 Legacy + Pay', status: 'READY', pts: '88', note: 'Legacy · Stripe · admin' },
+      { phase: '7 Marketing polish', status: 'READY', pts: '95', note: 'Live under /' },
+      { phase: '8 Deploy', status: 'WAIT', pts: '25', note: 'VPS isolation reserved' },
+    ];
+
+    const apis = [
+      { api: 'Supabase', need: 'FIRST TEST', status: 'READY', portal: 'supabase.com/dashboard → Settings → API', note: 'Auth · DB · Edge · RLS' },
+      { api: 'Google OAuth', need: 'FIRST TEST', status: 'READY', portal: 'console.cloud.google.com → Credentials', note: 'Sign-in · Testing audience' },
+      { api: 'Stripe', need: 'PAY TEST', status: 'READY', portal: 'dashboard.stripe.com/test/apikeys', note: 'Checkout · webhook · VG/RA acct' },
+      { api: 'Binance / Bybit', need: 'LATER', status: 'WAIT', portal: 'Exchange → API Management', note: 'Live execute · paper for now' },
+      { api: 'Alchemy / Moralis', need: 'LATER', status: 'WAIT', portal: 'dashboard.alchemy.com · moralis.io', note: 'Eyes Boat live · paper OK' },
+      { api: 'VPS / DNS', need: 'LATER', status: 'WAIT', portal: 'Host panel · f.reelstorm.uk', note: 'Deploy slot · not for local test' },
+    ];
+
+    const overall = Math.round(
+      modules.reduce((a, m) => a + m.score, 0) / modules.length
+    );
+
+    const circ = 2 * Math.PI * 85;
+    const prog = document.getElementById('prog');
+    prog.style.strokeDasharray = String(circ);
+    prog.style.strokeDashoffset = String(circ);
+
+    requestAnimationFrame(() => {
+      prog.style.strokeDashoffset = String(circ * (1 - overall / 100));
+      const el = document.getElementById('scoreNum');
+      let n = 0;
+      const step = () => {
+        n += 2;
+        if (n >= overall) { el.textContent = String(overall); return; }
+        el.textContent = String(n);
+        requestAnimationFrame(step);
+      };
+      step();
+    });
+
+    document.getElementById('modules').innerHTML = modules.map((m) => `
+      <article class="card">
+        <div class="card-head">
+          <h2>${m.name}</h2>
+          <span class="mark ${m.state}">${m.score}</span>
+        </div>
+        <div class="bar ${m.state}"><i data-w="${m.score}"></i></div>
+        <p class="meta">${m.note}</p>
+      </article>
+    `).join('');
+
+    document.getElementById('rows').innerHTML = phases.map((p) => {
+      const cls = p.status === 'READY' ? 'ready' : p.status === 'WAIT' ? 'wait' : 'miss';
+      return `
+        <div class="row">
+          <div class="phase">${p.phase}</div>
+          <div class="status ${cls}" style="color:var(--${cls === 'ready' ? 'ready' : cls === 'wait' ? 'wait' : 'miss'})">${p.status}</div>
+          <div class="pts">${p.pts}/100</div>
+          <div class="note">${p.note}</div>
+        </div>
+      `;
+    }).join('');
+
+    document.getElementById('api-rows').innerHTML = apis.map((a) => {
+      const cls = a.status === 'READY' ? 'ready' : a.status === 'WAIT' ? 'wait' : 'miss';
+      return `
+        <div class="row">
+          <div class="phase">${a.api}</div>
+          <div class="status" style="color:var(--${cls})">${a.need}</div>
+          <div class="pts" style="color:var(--${cls})">${a.status}</div>
+          <div class="note">${a.portal}<br/>${a.note}</div>
+        </div>
+      `;
+    }).join('');
+
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.bar > i').forEach((el) => {
+        el.style.width = el.getAttribute('data-w') + '%';
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+>
+<head>
+  <meta charset=
+>
+  <meta name=
+ content=
+></div>
+  
+  <script type=
+,{value:e,enumerable:!0}):t;for(let l of Yc(e))if(!Xc.call(r,l))Ml(r,l,{get:()=>e[l],enumerable:!0});return r};var sr=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports);var Zc=(e,n)=>{for(var t in n)Ml(e,t,{get:n[t],enumerable:!0,configurable:!0,set:(r)=>n[t]=()=>r})};var Gc=(e,n)=>()=>(e&&(n=e(e=0)),n);var dt=sr((ff)=>{var ft=Symbol.for(
+)return null;return e=ni&&e[ni]||e[
+],typeof e===
+&&typeof e!==
+&&e!=null)throw Error(
+)e=null;var u=!1;if(e===null)u=!0;else switch(o){case
+:switch(e.$$typeof){case ft:case Jc:u=!0}}if(u)return u=e,l=l(u),e=r===
+,ti(e))for(var a=0;a<e.length;a++){o=e[a];var c=r+Il(o,a);u+=fr(o,n,t,c,l)}else if(c=of(e),typeof c===
+)for(e=c.call(e),a=0;!(o=e.next()).done;)o=o.value,c=r+Il(o,a++),u+=fr(o,n,t,c,l);else if(o===
+)throw n=String(e),Error(
+object with keys {
+). If you meant to render a collection of children, use an array instead.
+);var r=oi({},e.props),l=e.key,o=e.ref,u=e._owner;if(n!=null){if(n.ref!==void 0&&(o=n.ref,u=Ol.current),n.key!==void 0&&(l=
+&&typeof performance.now===
+?setTimeout:null,mi=typeof clearTimeout===
+?clearTimeout:null,di=typeof setImmediate<
+?setImmediate:null;typeof navigator<
+&&t!==null?(t=t.delay,t=typeof t===
+https://reactjs.org/docs/error-decoder.html?invariant=
+Minified React error #
+; visit 
+ for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+:if(r)return!1;if(t!==null)return!t.acceptsBooleans;return e=e.toLowerCase().slice(0,5),e!==
+)return null;return e=Si&&e[Si]||e[
+){for(var l=m.stack.split(`
+`),o=r.stack.split(`
+`),u=l.length-1,a=o.length-1;1<=u&&0<=a&&l[u]!==o[a];)a--;for(;1<=u&&0<=a;u--,a--)if(l[u]!==o[a]){if(u!==1||a!==1)do if(u--,a--,0>a||l[u]!==o[a]){var c=`
+`+l[u].replace(
+);return e.displayName&&c.includes(
+);case 13:return _t(
+);case 19:return _t(
+);case 0:case 2:case 15:return e=Jl(e.type,!1),e;case 11:return e=Jl(e.type.render,!1),e;case 1:return e=Jl(e.type,!0),e;default:return
+)return e.displayName||e.name||null;if(typeof e===
+)return e;switch(e){case Wn:return
+;case Bn:return
+;case vo:return
+;case du:return
+;case yo:return
+;case go:return
+}if(typeof e===
+)switch(e.$$typeof){case za:return(e.displayName||
+;case 9:return(n.displayName||
+;case 3:return
+;case 6:return
+;case 16:return wo(n);case 8:return n===du?
+;case 22:return
+;case 12:return
+;case 21:return
+;case 13:return
+;case 19:return
+;case 25:return
+;case 1:case 0:case 17:case 2:case 14:case 15:if(typeof n===
+)return n.displayName||n.name||null;if(typeof n===
+:return e;default:return
++e[n];if(!e.hasOwnProperty(n)&&typeof t<
+&&typeof t.get===
+&&typeof t.set===
+;return e&&(r=Ta(e)?e.checked?
+?document:void 0),typeof e>
+:n.defaultValue,r=n.checked!=null?n.checked:n.defaultChecked;t=dn(n.value!=null?n.value:t),e._wrapperState={initialChecked:r,initialValue:t,controlled:n.type===
++t}else e.value!==
++t);else if(r===
+)){var r=n.type;if(!(r!==
+||n.value!==void 0&&n.value!==null))return;n=
++e._wrapperState.initialValue,t||n===e.value||(e.value=n),e.defaultValue=n}t=e.name,t!==
+),e.defaultChecked=!!e._wrapperState.initialChecked,t!==
++e._wrapperState.initialValue:e.defaultValue!==
+http://www.w3.org/2000/svg
+http://www.w3.org/1998/Math/MathML
+http://www.w3.org/1999/xhtml
+:t||typeof n!==
+in n.dangerouslySetInnerHTML))throw Error(w(61))}if(n.style!=null&&typeof n.style!==
+)===-1)return typeof n.is===
+:return rn=yt(rn,e,n,t,r,l),!0;case
+:return ln=yt(ln,e,n,t,r,l),!0;case
+:return on=yt(on,e,n,t,r,l),!0;case
+:var o=l.pointerId;return Ht.set(o,yt(Ht.get(o)||null,e,n,t,r,l)),!0;case
+:return dp.indexOf(n.keyCode)!==-1;case
+:return n.keyCode!==229;case
+:return ls(n);case
+:if(n.which!==32)return null;return Ui=!0,Oi;case
+||!_u&&rs(e,n)?(e=ns(),Ur=ku=nn=null,$n=!1,e):null;switch(e){case
+:return null;case
+:if(!(n.ctrlKey||n.altKey||n.metaKey)||n.ctrlKey&&n.altKey){if(n.char&&1<n.char.length)return n.char;if(n.which)return String.fromCharCode(n.which)}return null;case
+:return ts&&n.locale!==
+),0<n.length&&(t=new Su(
+||e===null||typeof n!==
+__bubble
+:if(t.button===2)break e;case
+:null:y;C=[];for(var f=m,s;f!==null;){s=f;var h=s.stateNode;if(s.tag===5&&h!==null&&(s=h,p!==null&&(h=At(f,p),h!=null&&C.push(Jt(f,h,s)))),U)break;f=f.return}0<C.length&&(y=new S(y,E,null,t,v),g.push({event:y,listeners:C}))}}if((n&7)===0){e:{if(y=e===
+;if(U=S==null?y:Hn(S),s=E==null?y:Hn(E),y=new C(h,f+
+,S,t,v),y.target=U,y.relatedTarget=s,h=null,En(v)===m&&(C=new C(p,f+
+,E,t,v),C.target=s,C.relatedTarget=U,h=C),U=h,S&&E)n:{C=S,p=E,f=0;for(s=C;s;s=Un(s))f++;s=0;for(h=p;h;h=Un(h))s++;for(;0<f-s;)C=Un(C),f--;for(;0<s-f;)p=Un(p),s--;for(;f--;){if(C===p||p!==null&&C===p.alternate)break n;C=Un(C),p=Un(p)}C=null}else C=null;S!==null&&Ki(g,y,S,C,!1),E!==null&&U!==null&&Ki(g,U,E,C,!0)}}}e:{if(y=m?Hn(m):window,S=y.nodeName&&y.nodeName.toLowerCase(),S===
+)var k=gp;else if(Vi(y))if(us)k=Ep;else{k=kp;var P=wp}else(S=y.nodeName)&&S.toLowerCase()===
+)&&(k=Sp);if(k&&(k=k(e,m))){os(g,k,t,v);break e}P&&P(e,y,m),e===
+&&(P=y._wrapperState)&&P.controlled&&y.type===
+:Qi(g,t,v)}var z;if(_u)e:{switch(e){case
+in nn)?nn.value:nn.textContent,$n=!0)),P=br(m,N),0<P.length&&(N=new Fi(N,e,null,t,v),g.push({event:N,listeners:P}),z?N.data=z:(z=ls(t),z!==null&&(N.data=z)))),z=pp?mp(e,t):hp(e,t))m=br(m,
+),0<m.length&&(v=new Fi(
+||typeof n.children===
+||typeof n.dangerouslySetInnerHTML===
+){if(r===0){e.removeChild(l),Yt(n);return}r--}else t!==
+){if(n===0)return e;n--}else t===
+&&!$o(e.type,e.memoizedProps)),n&&(n=pe)){if(Ko(e))throw Es(),Error(w(418));for(;n;)Ss(e,n),n=un(n.nextSibling)}if(xi(e),e.tag===13){if(e=e.memoizedState,e=e!==null?e.dehydrated:null,!e)throw Error(w(317));e:{e=e.nextSibling;for(n=0;e;){if(e.nodeType===8){var t=e.data;if(t===
+){if(n===0){pe=un(e.nextSibling);break e}n--}else t!==
+){if(t._owner){if(t=t._owner,t){if(t.tag!==1)throw Error(w(309));var r=t.stateNode}if(!r)throw Error(w(147,e));var l=r,o=
++e;if(n!==null&&n.ref!==null&&typeof n.ref===
+||typeof f===
+)return f=po(
++f,p.mode,s),f.return=p,f;if(typeof f===
+||typeof s===
+)return k!==null?null:a(p,f,
++s,h);if(typeof s===
+||typeof h===
+)return p=p.get(s)||null,a(f,p,
++h,k);if(typeof h===
+&&s!==null&&s.type===Wn&&s.key===null&&(s=s.props.children),typeof s===
+&&s!==null){switch(s.$$typeof){case kr:e:{for(var k=s.key,P=f;P!==null;){if(P.key===k){if(k=s.type,k===Wn){if(P.tag===7){t(p,P.sibling),f=l(P,s.props.children),f.return=p,p=f;break e}}else if(P.elementType===k||typeof k===
+&&o!==null?l.context=Se(o):(o=ce(n)?Nn:ne.current,l.context=rt(e,o)),l.state=e.memoizedState,o=n.getDerivedStateFromProps,typeof o===
+&&(Zo(e,n,o,t),l.state=e.memoizedState),typeof n.getDerivedStateFromProps===
+||typeof l.getSnapshotBeforeUpdate===
+||typeof l.UNSAFE_componentWillMount!==
+&&typeof l.componentWillMount!==
+||(n=l.state,typeof l.componentWillMount===
+&&l.componentWillMount(),typeof l.UNSAFE_componentWillMount===
+&&l.UNSAFE_componentWillMount(),n!==l.state&&_l.enqueueReplaceState(l,l.state,null),il(e,t,l,r),l.state=e.memoizedState),typeof l.componentDidMount===
+&&m!==null?m=Se(m):(m=ce(t)?Nn:ne.current,m=rt(n,m));var v=t.getDerivedStateFromProps,g=typeof v===
+||typeof u.getSnapshotBeforeUpdate===
+;g||typeof u.UNSAFE_componentWillReceiveProps!==
+&&typeof u.componentWillReceiveProps!==
+||(a!==r||c!==m)&&la(n,u,r,m),je=!1;var y=n.memoizedState;u.state=y,il(n,r,u,l),c=n.memoizedState,a!==r||y!==c||se.current||je?(typeof v===
+&&(Zo(n,t,v,r),c=n.memoizedState),(a=je||ra(n,t,a,r,y,c,m))?(g||typeof u.UNSAFE_componentWillMount!==
+&&typeof u.componentWillMount!==
+||(typeof u.componentWillMount===
+&&u.componentWillMount(),typeof u.UNSAFE_componentWillMount===
+&&u.UNSAFE_componentWillMount()),typeof u.componentDidMount===
+&&(n.flags|=4194308)):(typeof u.componentDidMount===
+&&(n.flags|=4194308),n.memoizedProps=r,n.memoizedState=c),u.props=r,u.state=c,u.context=m,r=a):(typeof u.componentDidMount===
+&&(n.flags|=4194308),r=!1)}else{u=n.stateNode,zs(e,n),a=n.memoizedProps,m=n.type===n.elementType?a:Pe(n.type,a),u.props=m,g=n.pendingProps,y=u.context,c=t.contextType,typeof c===
+&&c!==null?c=Se(c):(c=ce(t)?Nn:ne.current,c=rt(n,c));var S=t.getDerivedStateFromProps;(v=typeof S===
+)||typeof u.UNSAFE_componentWillReceiveProps!==
+||(a!==g||y!==c)&&la(n,u,r,c),je=!1,y=n.memoizedState,u.state=y,il(n,r,u,l);var E=n.memoizedState;a!==g||y!==E||se.current||je?(typeof S===
+&&(Zo(n,t,S,r),E=n.memoizedState),(m=je||ra(n,t,m,r,y,E,c)||!1)?(v||typeof u.UNSAFE_componentWillUpdate!==
+&&typeof u.componentWillUpdate!==
+||(typeof u.componentWillUpdate===
+&&u.componentWillUpdate(r,E,c),typeof u.UNSAFE_componentWillUpdate===
+&&u.UNSAFE_componentWillUpdate(r,E,c)),typeof u.componentDidUpdate===
+&&(n.flags|=4),typeof u.getSnapshotBeforeUpdate===
+&&(n.flags|=1024)):(typeof u.componentDidUpdate!==
+||a===e.memoizedProps&&y===e.memoizedState||(n.flags|=4),typeof u.getSnapshotBeforeUpdate!==
+||a===e.memoizedProps&&y===e.memoizedState||(n.flags|=1024),n.memoizedProps=r,n.memoizedState=E),u.props=r,u.state=E,u.context=c,r=m):(typeof u.componentDidUpdate!==
+?n.lanes=8:n.lanes=1073741824,null;return u=r.children,e=r.fallback,o?(r=n.mode,o=n.child,u={mode:
+,children:u},(r&1)===0&&o!==null?(o.childLanes=0,o.pendingProps=u):o=zl(u,r,0,null),e=zn(e,r,t,null),o.return=n,e.return=n,o.sibling=e,n.child=o,n.child.memoizedState=bo(t),n.memoizedState=jo,e):Qu(n,u)}if(l=e.memoizedState,l!==null&&(a=l.dehydrated,a!==null))return Yp(e,n,u,r,a,l,t);if(o){o=r.fallback,u=n.mode,l=e.child,a=l.sibling;var c={mode:
+,children:r.children},l,0,null),o=zn(o,l,u,null),o.flags|=2,r.return=n,o.return=n,r.sibling=o,n.child=r,(n.mode&1)!==0&&ot(n,e.child,null,u),n.child.memoizedState=bo(u),n.memoizedState=jo,o}if((n.mode&1)===0)return Ir(e,n,u,null);if(l.data===
+:n=e.tail;for(var t=null;n!==null;)n.alternate!==null&&(t=n),n=n.sibling;t===null?e.tail=null:t.sibling=null;break;case
+:r._wrapperState={wasMultiple:!!o.multiple},I(
+,r)}Po(t,o),l=null;for(var u in o)if(o.hasOwnProperty(u)){var a=o[u];u===
+?typeof a===
+,a]):typeof a===
+:Sr(r),_i(r,o,!0);break;case
+:break;default:typeof o.onClick===
+,e=e.removeChild(e.firstChild)):typeof r.is===
+:e._wrapperState={wasMultiple:!!r.multiple},l=W({},r,{value:void 0}),I(
+,e);break;default:l=r}Po(t,l),a=l;for(o in a)if(a.hasOwnProperty(o)){var c=a[o];o===
+?(c=c?c.__html:void 0,c!=null&&Fa(e,c)):o===
+?typeof c===
+)&&Qt(e,c):typeof c===
+:Sr(e),_i(e,r,!1);break;case
+:e.multiple=!!r.multiple,o=r.value,o!=null?qn(e,!!r.multiple,o,!1):r.defaultValue!=null&&qn(e,!!r.multiple,r.defaultValue,!0);break;default:typeof l.onClick===
+:r=!0;break e;default:r=!1}}r&&(n.flags|=4)}n.ref!==null&&(n.flags|=512,n.flags|=2097152)}return b(n),null;case 6:if(e&&n.stateNode!=null)lc(e,n,e.memoizedProps,r);else{if(typeof r!==
+)}catch(C){$(e,e.return,C)}}if(r&4&&(l=e.stateNode,l!=null)){var o=e.memoizedProps,u=t!==null?t.memoizedProps:o,a=e.type,c=e.updateQueue;if(e.updateQueue=null,c!==null)try{a===
+&&o.name!=null&&Ra(l,o),zo(a,u);var m=zo(a,o);for(u=0;u<c.length;u+=2){var v=c[u],g=c[u+1];v===
+:var y=l._wrapperState.wasMultiple;l._wrapperState.wasMultiple=!!o.multiple;var S=o.value;S!=null?qn(l,!!o.multiple,S,!1):y!==!!o.multiple&&(o.defaultValue!=null?qn(l,!!o.multiple,o.defaultValue,!0):qn(l,!!o.multiple,o.multiple?[]:
+):(a=g.stateNode,c=g.memoizedProps.style,u=c!==void 0&&c!==null&&c.hasOwnProperty(
+,u))}catch(C){$(e,e.return,C)}}}else if(g.tag===6){if(v===null)try{g.stateNode.nodeValue=m?
+&&typeof c.then===
+)u=5;else e:switch(e){case Wn:return zn(t.children,l,o,n);case du:u=8,l|=8;break;case vo:return e=we(12,t,n,l|2),e.elementType=vo,e.lanes=o,e;case yo:return e=we(13,t,n,l),e.elementType=yo,e.lanes=o,e;case go:return e=we(19,t,n,l),e.elementType=go,e.lanes=o,e;case Na:return zl(t,l,o,n);default:if(typeof e===
+&&e!==null)switch(e.$$typeof){case Pa:u=10;break e;case za:u=9;break e;case pu:u=11;break e;case mu:u=14;break e;case xe:u=16,r=null;break e}throw Error(w(130,e==null?e:typeof e,
+ react-mount-point-unstable 
+,Ea);return e._reactRootContainer=u,e[He]=u.current,Gt(e.nodeType===8?e.parentNode:e),Mn(),u}for(;l=e.lastChild;)e.removeChild(l);if(typeof r===
+)throw Error(w(188));throw e=Object.keys(e).join(
+||typeof window.document>
+||typeof window.document.createElement>
+allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/1999/xlink
+react.strict_mode
+react.forward_ref
+react.suspense_list
+in e?e.deltaX:(
+in e?e.deltaY:(
+in e)?-e.wheelDeltaY:(
+in e)?-e.wheelDelta:0},deltaZ:0,deltaMode:0}),fp=he(cp),dp=[9,13,27,32],_u=Ae&&
+in window;Ae&&
+in document&&(Ft=document.documentMode);pp=Ae&&
+in window&&!Ft,ts=Ae&&(!_u||Ft&&8<Ft&&11>=Ft),Oi=String.fromCharCode(32);vp={color:!0,date:!0,datetime:!0,
+in document,!Nt)Br=document.createElement(
+),Nt=typeof Br.oninput===
+;zt=Nt}else zt=!1;us=zt&&(!document.documentMode||9<document.documentMode)}Re=typeof Object.is===
+?Object.is:_p;Pp=Ae&&
+in document&&11>=document.documentMode;An={animationend:Nr(
+in window)||(delete An.animationend.animation,delete An.animationiteration.animation,delete An.animationstart.animation),(
+in window)||delete An.transitionend.transition);fs=wl(
+),hs=new Map,Ai=
+change click focusin focusout input keydown keyup selectionchange
+focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange
+abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting
+),zp=new Set(
+__reactProps$
+__reactContainer$
+__reactEvents$
+__reactListeners$
+__reactHandles$
+}else t=Up++,n=
+:l=W({},l,{value:void 0}),r=W({},r,{value:void 0}),o=[];break;case
+:l=_o(e,l),r=_o(e,r),o=[];break;default:typeof l.onClick!==
+&&typeof r.onClick===
+&&(e.onclick=el)}Po(t,r);var u;t=null;for(m in l)if(!r.hasOwnProperty(m)&&l.hasOwnProperty(m)&&l[m]!=null)if(m===
+){var a=l[m];for(u in a)a.hasOwnProperty(u)&&(t||(t={}),t[u]=
+)}else m!==
+)if(a){for(u in a)!a.hasOwnProperty(u)||c&&c.hasOwnProperty(u)||(t||(t={}),t[u]=
+);for(u in c)c.hasOwnProperty(u)&&a[u]!==c[u]&&(t||(t={}),t[u]=c[u])}else t||(o||(o=[]),o.push(m,t)),t=c;else m===
+?(c=c?c.__html:void 0,a=a?a.__html:void 0,c!=null&&a!==c&&(o=o||[]).push(m,c)):m===
+?typeof c!==
+&&typeof c!==
+&&l!==null&&typeof l.render===
+]');for(n=0;n<t.length;n++){var r=t[n];if(r!==e&&r.form===e.form){var l=kl(r);if(!l)throw Error(w(90));La(r),So(r,l)}}}break;case
+||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!==
+)return;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(Dc)}catch(e){console.error(e)}}Dc(),Oc.exports=bu});var Vc=sr((hm)=>{var ir=yn(Uc(),1);hm.createRoot=ir.createRoot,hm.hydrateRoot=ir.hydrateRoot;var mm});var $c=yn(dt(),1),Qc=yn(Vc(),1);var te=yn(dt(),1);var Bc=yn(dt(),1),vm=Symbol.for(
++t),n.key!==void 0&&(o=
++n.key),n.ref!==void 0&&(u=n.ref);for(r in n)ym.call(n,r)&&!wm.hasOwnProperty(r)&&(l[r]=n[r]);if(e&&e.defaultProps)for(r in n=e.defaultProps,n)l[r]===void 0&&(l[r]=n[r]);return{$$typeof:vm,type:e,key:o,ref:u,props:l,_owner:gm.current}}var i=Wc,d=Wc;var Ze=
+),[y,S]=te.useState(7),[E,C]=te.useState(2),U=te.useRef(null);te.useEffect(()=>{let s=setInterval(()=>a((h)=>{let k=h+(Math.random()-0.5)*2;return Math.max(62,Math.min(74,k))}),1800);return()=>clearInterval(s)},[]),te.useEffect(()=>{let s=setInterval(()=>S((h)=>h>=7?0.2:h+0.13),120);return()=>clearInterval(s)},[]);let p=[{k:
+68% GO CHECK
+THE START
+ELITES + WHALES
+INTEL GATHER
+£5 FAKE TRAINING
+DISCIPLINE PROOF
+£35 LIVE £7/DAY
+RISK CAPPED
+40/30/20/10 SPLIT
+SMILE OUT
+TAKE PROFIT
+SAFETY VAULT
+£10 PROTECTION
+TAX READY CSV
+, ui-sans-serif, system-ui, sans-serif; }
+        .mono{ font-family:
+ PUBLIC SAAS EDITION
+MARKETING 8
+10 OS + 3 BOTS
+ MIND-BLOWING INFOGRAPHICS HERO — 70% DESIGN EFFORT
+ZERO KNOWLEDGE
+,{onClick:()=>r(!t),className:`py-2.5 mono text-[11px] font-bold border ${t?
+£50 DISH 
+,{onClick:()=>o(s),className:`flex-1 py-2 mono text-[11px] font-bold border ${l===s?
+% SHIELD
+ £7/DAY CAP = £
+ / £7.00 — SLIPPAGE GUARD ACTIVE — BINANCE + BYBIT VIA PERSONAL KEYS
+,{className:`absolute transition-all duration-700 ${t?
+scale-100 opacity-100
+,{className:`absolute inset-0 transition-all duration-700 ${t?
+opacity-0 pointer-events-none
+SIMULATOR • NO RISK
+£35 LIVE
+£7/DAY CAP • BULLMQ
+£10 SAFE
+GUARDIAN VAULT
+,children:p.map((s,h)=>{let k=h===e,P=h<e,z=h>e;return d(te.default.Fragment,{children:[d(
+,{onClick:()=>n(h),className:`flex-1 relative border-[2px] p-3 md:p-4 text-left transition-all ${k?
+,{className:`w-6 md:w-8 h-[3px] ${h<e?
+,{className:`absolute top-1/2 -translate-y-1/2 right-0 w-0 h-0 border-l-[6px] border-y-[4px] border-y-transparent ${h<e?
+,strokeDasharray:`${u/100*251} 251`,className:
+}),[0,20,40,60,80,100].map((s)=>{let k=(180+s/100*180)*Math.PI/180,P=100+Math.cos(k)*70,z=100+Math.sin(k)*70,N=100+Math.cos(k)*82,A=100+Math.sin(k)*82;return i(
+,{className:`mono text-[11px] font-bold px-2 py-0.5 ${u>=68?
+GO — TRADE
+NO-GO — WAIT
+,style:{transform:`translateX(-50%) rotate(${-90+u/100*180}deg)`}}),i(
+,{onClick:()=>o(s.l),className:`p-2 border text-left ${l===s.l?
+ Crash detection every 10sec via Vercel cron. Uses £10 safety vault to auto-sell. Protects £35 live stack. Legacy split Fri 11pm.
+,children:f.map((s,h)=>{let k=c===h;return d(
+FRI 11PM NATURAL PROFIT CALC POINT
+ Take 10% from 30% Smile Out slice — trader still smiles 20%. Performance fee opt-in consent.
+Welcome back — you left at £32.4 live
+Tilt detected yesterday — 10min cooldown served
+£5 fake → £5.80 (+16%) — discipline proof unlocked
+THU 11AM
+Live £7 cap hit — Guardian held — good job
+,{onClick:()=>C(h),className:`relative flex gap-3 w-full text-left pl-10 py-3 border-b border-[var(--line)] last:border-0 transition ${k?
+hover:bg-white/60
+,{className:`absolute left-0 top-3 w-[36px] h-[36px] rounded-full border-[2px] flex items-center justify-center mono text-[10px] font-bold ${k?
+,{className:`mono text-[8px] px-1.5 py-0.5 font-bold ${k?
+30SEC CRON LIVE
+,children:[Array.from({length:22}).map((s,h)=>{let k=h*37%100,P=h*53%100;return d(
+MORALIS $49 • ETHERSCAN $20
+QUICKNODE $49 • 100 WALLETS
++ 1 OPTIONAL BLOG = 9 MAX
+WITH MANIFESTO
++ BLOG SEO
+HERO LANDING
+Mind-blowing infographics display - £50 dish animation Mon-Fri chain Guardian Legacy split - primary conversion - 70% design effort
+MUST BE mind-blowing with interactive infographics: £50 coin splits £5/£35/£10, Mon->Tue->Wed->Thu->Fri must-complete flow chain visual, 68% GO meter gauge, Guardian 8/15/25 shield visual, Legacy 40/30/20/10 vault, UPRM Welcome back memory timeline, Eyes Boat 100 wallets visual
+/how-it-works
+HOW IT WORKS
+12 Engines visual + FlowChain must-complete explanation + 3 Bots architecture diagram
+Explain THE HEART - JourneyOS state machine
+/pricing
+Toggle monthly vs performance fee - comparison table - FAQ
+1.5 DAYS
+/commonwealth
+Social proof, elite traders, testimonial, 10 elites personal list, live PnL anonymized
+Whale Tribe - Oldham Tribe story
+Zero Knowledge Needed narrative
+/manifesto
+Philosophy Zero Knowledge Needed, Flow as One, Smile Out, 12 Engines manifesto
+Needed for mind-blowing hero context
+FCA safe - software license language
+/assessment-demo
+ASSESSMENT DEMO
+Free 68% GO meter demo lead magnet - no signup - interactive volatility regime meter
+Lead magnet - no signup conversion
+/blog (OPT)
+BLOG / SEO
+12 Engines blog, discipline stories, Eyes Boat whale alerts
+Optional - SEO engine
+,{className:`col-span-12 md:col-span-6 lg:col-span-4 bg-[#FFFEFB] p-5 border-b border-[var(--line)] ${s.n===
+,{className:`w-6 h-6 flex items-center justify-center border ${s.n===
+,{className:`mono text-[9px] font-bold px-2 py-0.5 ${s.n===
+,{className:`mt-3 mono text-[9px] leading-[1.3] p-2 border ${s.n===
+PRIMARY RPC
+MORALIS $49
+WALLET API
+ETHERSCAN $20
+TX VERIFY
+ANKR $99
+100 WALLETS SCALE
+QUICKNODE $49
+BACKUP RPC
+PRICE FEED
+MARKET DATA
+ARKHAM + DEFILLAMA
+ELITE INTEL
+ BullMQ queue £7/day hard cap live Binance/Bybit via personal keys slippage guard
+ crash detection auto stop-loss 8% Conservative /15% Balanced /25% Aggressive auto-sell safety using £10 safety vault
+ 40/30/20/10 split vault 90 days lock HMRC CSV — Fri 11pm natural profit calc point
+SUPABASE DB 8 TABLES users journeys Mon-Fri chain trades elites simulations nudges legacy timeline
+UPSTASH REDIS BULLMQ
+VERCEL CRONS dailyAssessment 6am Oldham whaleAlerts 30sec guardian 10sec legacySplit Fri 11pm
+STRIPE BILLING £49/£99/£299 + HYBRID PERFORMANCE FEE OPT-IN
+RESEND EMAIL
+ELECTRON OPTIONAL DESKTOP WRAPPER FOR PERSONAL LAPTOP
+= 170 DAYS =
+£204K @ £1200/D HIGH
+),className:`px-3 py-1.5 mono text-[11px] font-bold ${v===
+MONTHLY FEE
+HYBRID 10%
+CAPPED £99
+68% GO + Journey
+CAPPED £299
+Eyes Boat 100 + 10 Elites
+WHALE TRIBE
+MAX £348/MO
+All 10 OS + 3 Bots + Commonwealth
+,{className:`border-[2px] p-4 ${s.name===
+,{className:`mono text-[9px] font-bold mt-1 px-1.5 py-0.5 inline-block ${s.name===
+FRI 11PM LEGACY SPLIT
+40% Reinvest / 30% Smile Out / 20% Safety / 10% HMRC
+PROFIT CALC
+Take 10% from 30% Smile slice only if above 2x initial
+TRADER APPROVAL
+Stripe invoice or smart contract — trader must approve before charge
+CAPPED PROTECTION
+Max £299 performance fee — max £348 total mo — software license
+Into £5 fake £35 live £10 safety visual dish — physics spring animation — shadow 8px — tap to split — Framer Motion + SVG
+INTERACTIVE MON→FRI CHAIN
+Must-complete guardrails locks — if Mon incomplete Tue locked red — THE HEART animation — state machine visual — Supabase journey check
+68% GO METER GAUGE
+Live volatility regime gauge — AssessmentOS market regime — needle rotation — color green above 68% red below — Canvas arc
+GUARDIAN SHIELD 8/15/25
+Tap-out shield animation protects £35 live — crash detection 10sec cron — auto-sell using £10 vault — shield morph
+EYES BOAT BOT 100 WALLETS
+Floating around watching elite trades — 100 wallets visual orbit — 30sec cron webhook — Vercel cron — Arkham + Alchemy
+LEGACY VAULT 40/30/20/10
+Split animation reinvest smile HMRC vault — hover 90d lock + CSV — Fri 11pm calc — progress bars
+UPRM MEMORY TIMELINE
+Welcome back journey not session — Supabase timeline recall — smart nudges — vertical timeline with moods
+LIVE CONSOLE £7/DAY CAP
+Counter — £7/day cap BullMQ queue — Binance/Bybit via personal keys — slippage guard — live ticking
+,{className:`col-span-12 md:col-span-6 lg:col-span-3 p-5 ${h%2===0?
+ marketing + app — Next.js 14 — Edge + Serverless
+ DB — 8 tables + RLS + Realtime
+ + BullMQ — queues
+ billing £49/£99/£299 + hybrid fee
+ optional desktop wrapper for personal laptop — private edition 5 traders personal laptop no marketing → now public SaaS
+ dailyAssessment 6am Oldham / whaleAlerts 30sec / guardian 10sec / legacySplit Fri 11pm
+PUBLIC SAAS EDITION WITH MARKETING PAGES + MIND-BLOWING INFOGRAPHICS HERO LANDING — 10 OS + 3 BOTS — £50 IN SMILE OUT ZERO KNOWLEDGE NEEDED
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+noopener noreferrer
+);if(a){m(a);}},true);})();</script>
+  <script type=
+ data-clippy-inline-media-manifest=

@@ -1,0 +1,351 @@
+,children:t.name}),s(
+,{className:
+,children:t.price}),s(
+,children:t.sub}),e&&s(
+,children:
+})]},t.name))}),s(
+backend
+,style:{[
+]:km,paddingTop:
+,boxSizing:
+},children:[s(
+,children:[m(
+,children:[s(
+,{children:[s(
+,children:s(
+,children:[
+INFOGRAPHICS HERO
+,children:s(Sm,{})}),s(
+,children:s(Em,{})}),s(
+,{children:s(Cm,{})}),s(
+,{children:s(_m,{})}),s(
+,{children:s(Pm,{})}),s(
+,{children:s(Nm,{})}),s(
+,{children:s(zm,{})}),s(
+,children:s(Tm,{})}),s(
+,children:s(Lm,{})})]}),m(
+,children:[{n:
+Mind-blowing infographics - 70% effort - 12 days
+2. /HOW-IT-WORKS
+12 Engines visual + FlowChain + 3 Bots diagram
+3. /PRICING
+£49/£99/£299 + Hybrid toggle comparison FAQ
+4. /COMMONWEALTH
+Whale Tribe social proof 10 elites live PnL anon
+5. /ABOUT
+Story £50 In Smile Out Oldham mission
+6. /MANIFESTO
+Zero Knowledge Needed Flow as One Smile Out
+7. /LEGAL
+Terms Privacy Risk FCA not fund manager HMRC
+8. /ASSESSMENT-DEMO
+Free 68% GO meter lead magnet no signup
+,children:r.n}),s(
+,children:r.d})]},r.n))}),m(
+,children:[{file:
+,comps:
+,effort:
+},{file:
+}].map((r)=>m(
+,children:r.file}),s(
+,children:r.comps}),s(
+,children:r.effort.toUpperCase()})]},r.file))})]})]})]}),s(
+,children:m(
+VISUAL TREE BLUEPRINT
+,children:[{k:
+,open:!0,children:[{k:
+,open:e.includes(
+),toggle:
+page.tsx # HERO LANDING mind-blowing infographics main conversion
+components/
+  hero/
+    InfographicsDish.tsx # £50 coin splits £5 fake £35 live £10 safety
+    FlowChainVisual.tsx # Mon→Tue→Wed→Thu→Fri must-complete THE HEART
+    GuardianShield.tsx # 8% Conservative 15% Balanced 25% Aggressive shield
+    LegacyVault.tsx # 40% reinvest 30% smile 20% HMRC 10% vault 90 days
+    GOMeter.tsx # 68% GO gauge volatility regime
+    UPRMTimeline.tsx # Welcome back journey memory
+    EyesBoatVisual.tsx # 100 wallets floating scan
+    LiveConsole.tsx # £7/day cap counter
+    PricingToggle.tsx # Monthly vs hybrid toggle
+  how-it-works/page.tsx
+  pricing/page.tsx
+  commonwealth/page.tsx
+  about/page.tsx
+  manifesto/page.tsx
+  legal/page.tsx
+  assessment-demo/page.tsx
+  blog/ # Optional 9th
+    page.tsx
+    [slug]/page.tsx
+app/ # MAIN OS - 36 PAGES PUBLIC SAAS
+page.tsx # Dashboard UPRM Home
+onboarding/page.tsx
+assessment/page.tsx # AssessmentOS 68% GO
+finance/page.tsx # FinanceOS £50 dish
+connect/page.tsx # Binance Bybit keys secure
+journey/page.tsx # Journey Map Mon-Fri
+journey/[day]/page.tsx # Mon Tue Wed Thu Fri THE HEART
+simulator/page.tsx # £5 fake
+commonwealth/page.tsx # EliteFlow 10 elites Whale Tribe
+intelligence/page.tsx # Arkham DeFiLlama 100 wallets
+execute/page.tsx # Live console £7/day
+discipline/page.tsx # Coach Lock tilt
+guardian/page.tsx # Tap-Out 8/15/25
+legacy/page.tsx # Vault HMRC 40/30/20/10
+uprm/page.tsx # AI Companion
+portfolio/page.tsx
+recoup/page.tsx # 18-day recoup
+history/page.tsx
+settings/page.tsx
+profile/page.tsx
+admin/ # 6 pages admin SaaS
+  page.tsx # Admin dashboard
+  tribe/page.tsx
+  elites/page.tsx # 100 wallets
+  nudges/page.tsx
+  billing/page.tsx # £49/£99/£299 hybrid 10%
+  support/page.tsx
+packages/
+  backend/ # ~65 FILES PUBLIC
+  api/ # 15 routes
+    assessment/route.ts
+    finance/route.ts
+    simulate/route.ts
+    execute/route.ts
+    journey/route.ts
+    guardian/route.ts
+    discipline/route.ts
+    legacy/route.ts
+    uprm/route.ts
+    recoup/route.ts
+    billing/route.ts # Stripe hybrid 10%
+    elite/route.ts
+    intelligence/route.ts
+    portfolio/route.ts
+    auth/route.ts
+  services/ # 11+ services
+    AlchemyService.ts $49
+    MoralisService.ts $49
+    EtherscanService.ts $20
+    AnkrService.ts $99 QuickNode $49
+    CoinGeckoService.ts
+    DexScreenerService.ts
+    BinanceExecutor.ts £7/day cap
+    BybitExecutor.ts
+    DisciplineEngine.ts tilt FOMO revenge 10/30/24
+    RecoupEngine.ts 18-day
+    AssessmentEngine.ts 68% GO
+    FinanceEngine.ts £50 dish
+    LegacyEngine.ts 40/30/20/10 vault
+    BillingEngine.ts £49/£99/£299 hybrid 10% capped £299
+    UPRMEngine.ts Welcome back
+    schema/
+      users.sql
+      journeys.sql Mon-Fri chain
+      trades.sql £7/day
+      elites.sql 10 per trader global 100
+      simulations.sql £5 fake
+      nudges.sql UPRM
+      legacy.sql 40/30/20/10 vault HMRC
+      timeline.sql UPRM memory
+      billing.sql Stripe hybrid 10%
+      intelligence.sql 100 wallets
+    client.ts Supabase
+  crons/
+    dailyAssessment.ts 6am Oldham
+    whaleAlerts.ts 30sec Eyes Boat 100 wallets
+    guardianCheck.ts 10sec crash 8/15/25
+    recoupCalc.ts 18-day
+    uprmHeartbeat.ts
+    legacySplit.ts Fri 11pm 40/30/20/10
+    billingReconcile.ts monthly + hybrid 10%
+    financeReconcile.ts £50 dish
+  middleware/
+    auth.ts
+    rateLimit.ts
+    flowChainGuard.ts Mon before Tue THE HEART
+    billingGuard.ts £49/£99/£299
+    constants.ts £50 68% 8/15/25 40/30/20/10 £7/day 10 elites 100 wallets
+    flowChain.ts
+    uprmMemory.ts
+bots/ # 3 BOTS 24/7 PUBLIC SAAS
+  eyes-boat/ 30sec 100 wallets webhook Vercel cron
+  discipline-coach/ real-time tilt 5 triggers
+  guardian-execution/ gate 5 greens £7/day 8/15/25 tap-out
+  flowChain.ts
+  pricing.ts £49/£99/£299 hybrid 10%
+  uprmMemory.ts
+infra/
+  vercel.json Vercel crons 6am 30sec 10sec Fri 11pm
+  supabase/ migrations
+  stripe/ billing £49/£99/£299 hybrid 10% webhook
+  .env.example ALCHEMY MORALIS etc STRIPE
+  README.md
+,{children:[m(
+,{onClick:()=>r.toggle&&t(r.toggle),className:`flex items-center gap-2 ${r.toggle?
+}`,children:[s(
+,{children:r.open!==void 0?r.open?
+,{className:r.k.includes(
+)||r.k.includes(
+text-[var(--navy)] bg-[var(--gold)] px-1.5 rounded
+,children:r.k})]}),(r.open===void 0||r.open)&&s(
+,children:r.children.map((o,u)=>{if(typeof o===
+)return s(
+,{className:o.includes(
+text-black/60
+text-black
+,{onClick:()=>o.toggle&&t(o.toggle),className:
+,{children:o.open!==void 0?o.open?
+,{className:o.k.includes(
+)||o.k.includes(
+,children:o.k})]}),o.open&&s(
+,children:o.children.map((i,a)=>s(
+,children:i},a))})]},u)})})]},l))})]}),m(
+8 +1 optional
+apps/marketing/
+OS PAGES
+apps/app/ + admin 6
+BACKEND
+packages/backend/
+TOTAL PAGES
+8+36 public SaaS
+OS ENGINES
+Finance Guardian etc
+BOTS 24/7
+Eyes Boat Coach Guardian
+,children:r.k}),s(
+,children:r.v}),s(
+,children:r.d})]},r.k))})]}),m(
+68% GO THRESHOLD
+8% / 15% / 25% GUARDIAN TAP-OUT
+40/30/20/10 LEGACY SPLIT
+£7/DAY EXECUTION CAP
+10 ELITES PER TRADER
+100 WALLETS GLOBAL EYES BOAT
+30SEC WHALE ALERT CRON
+10SEC GUARDIAN CHECK CRON
+18-DAY RECOUP ENGINE
+FRI 11PM LEGACY SPLIT
+£49/£99/£299 + HYBRID 10%
+,children:r},r))})]}),m(
+,children:[{name:
+,spec:
+,color:Ze},{name:
+,color:
+},{name:
+,style:{background:r.color}}),m(
+,children:r.name}),s(
+,children:r.spec})]})]},r.name))})]})]})]})]})}),s(
+,children:[{title:
+,pages:
+,backend:
+,days:
+,cost:
+,init:
+},{title:
+,{className:`rounded-[24px] p-7 ${r.color}`,children:[s(
+,children:r.title}),m(
+,children:r.pages})]}),m(
+,children:r.backend})]}),m(
+,children:r.days})]})]}),m(
+,children:r.cost}),s(
+,children:r.init})]})]},r.title))})]})}),m(
+MON-FRI CHAIN FLOWCHAIN_GUARD THE HEART LOCKS RED
+GUARDIAN SHIELD 8/15/25 PROTECTS £35 LIVE
+LEGACY VAULT 40/30/20/10 FRI 11PM
+UPRM TIMELINE WELCOME BACK JOURNEY MEMORY
+EYES BOAT 100 WALLETS FLOATING SCAN 30SEC
+GO METER 68% VOLATILITY REGIME LIVE
+£7/DAY CAP COUNTER LIVE CONSOLE
+PRICING TOGGLE MONTHLY VS HYBRID
+FRAMER MOTION SVG CANVAS LOTTIE
+,children:[{p:
+12 Engines visual + FlowChain + 3 Bots architecture diagram - EnginesVisual.tsx
+PRICING
+Hybrid toggle comparison table FAQ - PricingCards.tsx £49/£99/£299 + hybrid 10%
+COMMONWEALTH
+Whale Tribe social proof elite traders testimonial 10 elites personal list live PnL anonymized - EliteList.tsx
+Story £50 In Smile Out founder mission Oldham Why discipline not signals
+MANIFESTO
+Philosophy Zero Knowledge Needed Flow as One Smile Out 12 Engines
+Terms Privacy Risk Disclaimer FCA not fund manager software license performance bonus opt-in consent HMRC RiskDisclaimer.tsx
+ASSESSMENT-DEMO
+Free GO meter demo lead magnet no signup interactive volatility regime meter
+,children:r.p}),s(
+,children:r.d})]},r.p))})]}),m(
++ HYBRID TOGGLE £49/MO + 10% GAINS ABOVE 2X CAPPED £299
+,price:
+,feats:[
+Guardian 8%
+5 elites
+Basic Eyes Boat
+START TRADING
+Guardian 15%
+10 elites per trader
+Live console £7/day
+Discipline Coach
+GO PRO
+WHALE TRIBE
+Guardian 25%
+100 wallets global
+Whale Tribe commonwealth
+Legacy Vault 40/30/20/10
+JOIN TRIBE
+HYBRID MODEL
+GAINS ABOVE 2X CAPPED £299 MAX £348/MO WHALES
+Performance fee opt-in consent
+Software license not fund manager
+FCA safe smart contract or Stripe invoice after Fri Legacy split trader approves
+HYBRID OPT-IN
+,{className:`rounded-[22px] p-6 border-2 flex flex-col ${r.hybrid?
+:r.pop?
+bg-[#F6F2E6] border-black/5 text-[var(--navy)]
+}),r.hybrid&&s(
+,children:r.name}),m(
+,children:r.price}),s(
+,children:r.sub})]}),s(
+,children:r.feats.map((l)=>m(
+,{className:r.pop?
+opacity-80
+button
+bg-[var(--gold)] text-[var(--navy)]
+bg-[var(--navy)] text-white
+})]},r.name))}),m(
+,{children:
+30SEC EYES BOAT 100 wallets
+10SEC GUARDIAN CHECK crash
+,children:r},r))})]})]}),m(
+journeys.sql Mon-Fri chain
+trades.sql £7/day
+elites.sql 10 per trader global 100
+simulations.sql £5 fake
+nudges.sql UPRM
+legacy.sql 40/30/20/10 vault HMRC
+timeline.sql UPRM memory
+billing.sql Stripe hybrid 10%
+intelligence.sql 100 wallets
+client.ts Supabase
+middleware/auth.ts rateLimit.ts flowChainGuard.ts billingGuard.ts
+BillingEngine.ts £49/£99/£299 hybrid 10% capped £299
+billingReconcile.ts monthly + hybrid 10%
+billing.sql Stripe hybrid
+billingGuard.ts £49/£99/£299
+stripe/ billing webhook
+.env.example ALCHEMY MORALIS etc STRIPE
+README.md
+Upstash Redis BullMQ
+Resend email
+Electron optional desktop wrapper
+})]})}Wc.createRoot(document.getElementById(
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+||u.protocol===
+)&&u.host!==location.host){a.target=
+;a.rel=
+).forEach(m);}if(document.readyState!==
+){s();}else{document.addEventListener(
+,s);}document.addEventListener(
+);if(a){m(a);}},true);})();</script>
+  <script type=
+ data-clippy-inline-media-manifest=
+version

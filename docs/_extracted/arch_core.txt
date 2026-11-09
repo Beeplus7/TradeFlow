@@ -1,0 +1,492 @@
+,{className:
+---
+,children:[i(
+---
+#marketing
+---
+hover:opacity-60
+---
+MARKETING 8
+---
+#architecture
+---
+10 OS + 3 BOTS
+---
+,className:
+---
+,children:
+---
+,style:{width:
+---
+,{ref:U,className:
+---
+,children:[d(
+---
+ MIND-BLOWING INFOGRAPHICS HERO — 70% DESIGN EFFORT
+---
+,children:[
+---
+ZERO KNOWLEDGE
+---
+,{onClick:()=>n((s)=>(s+1)%5),className:
+---
+,children:[8,15,25].map((s)=>d(
+---
+% SHIELD
+---
+ £7/DAY CAP = £
+---
+ / £7.00 — SLIPPAGE GUARD ACTIVE — BINANCE + BYBIT VIA PERSONAL KEYS
+---
+scale-100 opacity-100
+---
+opacity-0 pointer-events-none
+---
+,viewBox:
+---
+,strokeDasharray:
+---
+,children:[{k:
+---
+SIMULATOR • NO RISK
+---
+£7/DAY CAP • BULLMQ
+---
+GUARDIAN VAULT
+---
+,children:s.k}),i(
+---
+,children:s.v})]},s.k))})]}),d(
+---
+,children:p.map((s,h)=>{let k=h===e,P=h<e,z=h>e;return d(te.default.Fragment,{children:[d(
+---
+,children:s.label}),i(
+---
+,children:s.desc}),z&&i(
+---
+,children:[p[e].k,
+---
+,p[e].must]}),d(
+---
+,p[e].label,
+---
+,{viewBox:
+---
+,stroke:
+---
+,strokeWidth:
+---
+,strokeLinecap:
+---
+,stroke:ar,strokeWidth:
+---
+,strokeDasharray:`${u/100*251} 251`,className:
+---
+}),[0,20,40,60,80,100].map((s)=>{let k=(180+s/100*180)*Math.PI/180,P=100+Math.cos(k)*70,z=100+Math.sin(k)*70,N=100+Math.cos(k)*82,A=100+Math.sin(k)*82;return i(
+---
+,{x1:P,y1:z,x2:N,y2:A,stroke:
+---
+,strokeOpacity:
+---
+,children:[u.toFixed(1),
+---
+GO — TRADE
+---
+NO-GO — WAIT
+---
+,style:{transform:`translateX(-50%) rotate(${-90+u/100*180}deg)`}}),i(
+---
+,{children:
+---
+M60 10 L105 30 L105 70 Q105 105 60 130 Q15 105 15 70 L15 30 Z
+---
+,stroke:Ze,strokeWidth:
+---
+,strokeDasharray:l===25?
+---
+,opacity:
+---
+,textAnchor:
+---
+,fontWeight:
+---
+,fontSize:
+---
+,fill:Ze,children:[l,
+---
+,letterSpacing:
+---
+,fill:Ze,children:
+---
+,children:[{l:8,t:
+---
+BALANCED
+---
+AGGRESSIVE
+---
+,children:[s.l,
+---
+,children:s.d})]},s.l))}),d(
+---
+ Crash detection every 10sec via Vercel cron. Uses £10 safety vault to auto-sell. Protects £35 live stack. Legacy split Fri 11pm.
+---
+,children:f.map((s,h)=>{let k=c===h;return d(
+---
+,{onMouseEnter:()=>m(h),onMouseLeave:()=>m(null),className:
+---
+,style:{width:`${s.p}%`,background:k?Ze:s.color,color:s.label===
+---
+},children:[d(
+---
+,children:[s.p,
+---
+,children:s.sub}),k&&i(
+---
+})]},s.label)})}),d(
+---
+FRI 11PM NATURAL PROFIT CALC POINT
+---
+ Take 10% from 30% Smile Out slice — trader still smiles 20%. Performance fee opt-in consent.
+---
+Welcome back — you left at £32.4 live
+---
+Tilt detected yesterday — 10min cooldown served
+---
+RECOVERY
+---
+£5 fake → £5.80 (+16%) — discipline proof unlocked
+---
+CONFIDENCE
+---
+Live £7 cap hit — Guardian held — good job
+---
+PROTECTED
+---
+hover:bg-white/60
+---
+,children:s.day}),i(
+---
+,children:s.ev})]})]},h)})]}),i(
+---
+30SEC CRON LIVE
+---
+,children:[Array.from({length:22}).map((s,h)=>{let k=h*37%100,P=h*53%100;return d(
+---
+,style:{left:`${k}%`,top:`${P}%`,animationDelay:`${h*120}ms`},children:[h<3?
+---
+,`0x${(h*999).toString(16).padStart(4,
+---
+MORALIS $49 • ETHERSCAN $20
+---
+QUICKNODE $49 • 100 WALLETS
+---
+marketing
+---
+,{children:[i(
+---
++ 1 OPTIONAL BLOG = 9 MAX
+---
+WITH MANIFESTO
+---
++ BLOG SEO
+---
+,children:[{n:
+---
+HERO LANDING
+---
+Mind-blowing infographics display - £50 dish animation Mon-Fri chain Guardian Legacy split - primary conversion - 70% design effort
+---
+MUST BE mind-blowing with interactive infographics: £50 coin splits £5/£35/£10, Mon->Tue->Wed->Thu->Fri must-complete flow chain visual, 68% GO meter gauge, Guardian 8/15/25 shield visual, Legacy 40/30/20/10 vault, UPRM Welcome back memory timeline, Eyes Boat 100 wallets visual
+---
+/how-it-works
+---
+HOW IT WORKS
+---
+12 Engines visual + FlowChain must-complete explanation + 3 Bots architecture diagram
+---
+Explain THE HEART - JourneyOS state machine
+---
+/pricing
+---
+,purpose:
+---
+Toggle monthly vs performance fee - comparison table - FAQ
+---
+/commonwealth
+---
+COMMONWEALTH
+---
+Social proof, elite traders, testimonial, 10 elites personal list, live PnL anonymized
+---
+Whale Tribe - Oldham Tribe story
+---
+Zero Knowledge Needed narrative
+---
+/manifesto
+---
+MANIFESTO
+---
+Philosophy Zero Knowledge Needed, Flow as One, Smile Out, 12 Engines manifesto
+---
+Needed for mind-blowing hero context
+---
+FCA safe - software license language
+---
+/assessment-demo
+---
+ASSESSMENT DEMO
+---
+Free 68% GO meter demo lead magnet - no signup - interactive volatility regime meter
+---
+Lead magnet - no signup conversion
+---
+/blog (OPT)
+---
+BLOG / SEO
+---
+12 Engines blog, discipline stories, Eyes Boat whale alerts
+---
+Optional - SEO engine
+---
+opacity-70
+---
+}`,children:[d(
+---
+,children:s.title}),i(
+---
+,children:s.purpose}),i(
+---
+architecture
+---
+PRIMARY RPC
+---
+MORALIS $49
+---
+WALLET API
+---
+ETHERSCAN $20
+---
+TX VERIFY
+---
+100 WALLETS SCALE
+---
+QUICKNODE $49
+---
+BACKUP RPC
+---
+DEXSCREENER
+---
+PRICE FEED
+---
+COINGECKO
+---
+MARKET DATA
+---
+ARKHAM + DEFILLAMA
+---
+ELITE INTEL
+---
+,children:s.n}),i(
+---
+,children:s.d})]},s.n))}),i(
+---
+ BullMQ queue £7/day hard cap live Binance/Bybit via personal keys slippage guard
+---
+ crash detection auto stop-loss 8% Conservative /15% Balanced /25% Aggressive auto-sell safety using £10 safety vault
+---
+ 40/30/20/10 split vault 90 days lock HMRC CSV — Fri 11pm natural profit calc point
+---
+SUPABASE DB 8 TABLES users journeys Mon-Fri chain trades elites simulations nudges legacy timeline
+---
+UPSTASH REDIS BULLMQ
+---
+VERCEL CRONS dailyAssessment 6am Oldham whaleAlerts 30sec guardian 10sec legacySplit Fri 11pm
+---
+STRIPE BILLING £49/£99/£299 + HYBRID PERFORMANCE FEE OPT-IN
+---
+RESEND EMAIL
+---
+ELECTRON OPTIONAL DESKTOP WRAPPER FOR PERSONAL LAPTOP
+---
+,children:s},s))})]})]})]})}),i(
+---
+,children:d(
+---
+£204K @ £1200/D HIGH
+---
+,children:i(
+---
+,children:[{label:
+---
+,pct:20,desc:
+---
+,pct:80,desc:
+---
+,pct:90,desc:
+---
+,pct:70,desc:
+---
+,pct:85,desc:
+---
+,pct:60,desc:
+---
+,children:s.cost})]}),d(
+---
+,style:{width:`${s.pct}%`}}),i(
+---
+,style:{width:`${s.pct*0.6}%`}})]}),i(
+---
+,children:s.desc})]})},s.label))})})]})]})}),i(
+---
+,{onClick:()=>g(
+---
+MONTHLY FEE
+---
+HYBRID 10%
+---
+,children:[{name:
+---
+,price:v===
+---
+CAPPED £99
+---
+68% GO + Journey
+---
+CAPPED £299
+---
+Eyes Boat 100 + 10 Elites
+---
+WHALE TRIBE
+---
+All 10 OS + 3 Bots + Commonwealth
+---
+,children:s.name}),i(
+---
+,children:s.price}),i(
+---
+,children:s.feat}),v===
+---
+})]},s.name))}),d(
+---
+,children:[{step:
+---
+FRI 11PM LEGACY SPLIT
+---
+40% Reinvest / 30% Smile Out / 20% Safety / 10% HMRC
+---
+PROFIT CALC
+---
+Take 10% from 30% Smile slice only if above 2x initial
+---
+TRADER APPROVAL
+---
+Stripe invoice or smart contract — trader must approve before charge
+---
+CAPPED PROTECTION
+---
+Max £299 performance fee — max £348 total mo — software license
+---
+,children:s.step}),d(
+---
+,children:s.t}),i(
+---
+,children:s.d})]})]},s.step))}),i(
+---
+,children:[{t:
+---
+Into £5 fake £35 live £10 safety visual dish — physics spring animation — shadow 8px — tap to split — Framer Motion + SVG
+---
+INTERACTIVE MON→FRI CHAIN
+---
+Must-complete guardrails locks — if Mon incomplete Tue locked red — THE HEART animation — state machine visual — Supabase journey check
+---
+68% GO METER GAUGE
+---
+Live volatility regime gauge — AssessmentOS market regime — needle rotation — color green above 68% red below — Canvas arc
+---
+GUARDIAN SHIELD 8/15/25
+---
+Tap-out shield animation protects £35 live — crash detection 10sec cron — auto-sell using £10 vault — shield morph
+---
+EYES BOAT BOT 100 WALLETS
+---
+Floating around watching elite trades — 100 wallets visual orbit — 30sec cron webhook — Vercel cron — Arkham + Alchemy
+---
+LEGACY VAULT 40/30/20/10
+---
+Split animation reinvest smile HMRC vault — hover 90d lock + CSV — Fri 11pm calc — progress bars
+---
+UPRM MEMORY TIMELINE
+---
+Welcome back journey not session — Supabase timeline recall — smart nudges — vertical timeline with moods
+---
+LIVE CONSOLE £7/DAY CAP
+---
+Counter — £7/day cap BullMQ queue — Binance/Bybit via personal keys — slippage guard — live ticking
+---
+,children:`0${h+1}`}),s.t]}),i(
+---
+,children:s.d}),i(
+---
+,style:{width:`${60+h*5}%`}})})]},h))}),i(
+---
+,{children:[
+---
+ marketing + app — Next.js 14 — Edge + Serverless
+---
+ DB — 8 tables + RLS + Realtime
+---
+ + BullMQ — queues
+---
+ billing £49/£99/£299 + hybrid fee
+---
+ optional desktop wrapper for personal laptop — private edition 5 traders personal laptop no marketing → now public SaaS
+---
+ dailyAssessment 6am Oldham / whaleAlerts 30sec / guardian 10sec / legacySplit Fri 11pm
+---
+PUBLIC SAAS EDITION WITH MARKETING PAGES + MIND-BLOWING INFOGRAPHICS HERO LANDING — 10 OS + 3 BOTS — £50 IN SMILE OUT ZERO KNOWLEDGE NEEDED
+---
+})]})]})})]})]})}Qc.createRoot(document.getElementById(
+---
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+---
+||u.protocol===
+---
+)&&u.host!==location.host){a.target=
+---
+noopener noreferrer
+---
+).forEach(m);}if(document.readyState!==
+---
+){s();}else{document.addEventListener(
+---
+,s);}document.addEventListener(
+---
+);if(a){m(a);}},true);})();</script>
+  <script type=
+---
+ data-clippy-inline-media-manifest=
+---
+flex-1 py-2 mono text-[11px] font-bold border ${l===s?"bg-[var(--gold)] text-[var(--navy)] border-[var(--navy)]":"bg-white border-[var(--line)]"}
+---
+flex-1 relative border-[2px] p-3 md:p-4 text-left transition-all ${k?"bg-[var(--navy)] text-white border-[var(--navy)] scale-[1.04] z-10 shadow-[6px_6px_0_var(--gold)]":P?"bg-white border-[var(--gold)]":"bg-[#F3F3F3] border-[var(--line)] opacity-60"} 
+---
+,className:"transition-all duration-700"}),[0,20,40,60,80,100].map((s)=>{let k=(180+s/100*180)*Math.PI/180,P=100+Math.cos(k)*70,z=100+Math.sin(k)*70,N=100+Math.cos(k)*82,A=100+Math.sin(k)*82;return i("line",{x1:P,y1:z,x2:N,y2:A,stroke:"white",strokeOpacity:"0.3",strokeWidth:"1"},s)})]}),d("div",{className:"absolute inset-0 flex flex-col items-center justify-end pb-2",children:[d("div",{className:"font-bold text-[42px] leading-[0.9]",children:[u.toFixed(1),"%"]}),i("div",{className:
+---
+,children:u>=68?"GO — TRADE":"NO-GO — WAIT"})]}),i("div",{className:"absolute left-1/2 bottom-0 w-[2px] h-[78px] bg-white origin-bottom transition-transform duration-700",style:{transform:
+---
+mono text-[8px] px-1.5 py-0.5 font-bold ${k?"bg-[var(--gold)] text-[var(--navy)]":"bg-[var(--navy)]/10"}
+---
+0x${(h*999).toString(16).padStart(4,"0")}…
+---
+col-span-12 md:col-span-6 lg:col-span-4 bg-[#FFFEFB] p-5 border-b border-[var(--line)] ${s.n==="01"?"lg:col-span-8 bg-[var(--navy)] text-white":""} ${s.n==="09"?"opacity-70":""}
+---
+mono text-[9px] font-bold px-2 py-0.5 ${s.n==="01"?"bg-white text-[var(--navy)]":"bg-[#F6F2E6] border"}
+---
+}}),i("div",{className:"absolute inset-y-0 left-0 bg-[var(--navy)] opacity-60",style:{width:
+---
+mono text-[9px] font-bold mt-1 px-1.5 py-0.5 inline-block ${s.name==="PRO"?"bg-[var(--gold)] text-[var(--navy)]":"bg-[#F6F2E6] text-[var(--navy)]"}
+---
+col-span-12 md:col-span-6 lg:col-span-3 p-5 ${h%2===0?"bg-[#FFFEFB]":"bg-[#F6F2E6]"} border-r border-b border-[var(--line)]
+---
+}),s.t]}),i("div",{className:"mt-3 mono text-[11px] leading-[1.4]",children:s.d}),i("div",{className:"mt-3 h-[2px] w-full bg-[var(--line)] relative",children:i("div",{className:"absolute inset-y-0 left-0 bg-[var(--gold)]",style:{width:

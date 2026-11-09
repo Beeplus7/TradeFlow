@@ -1,0 +1,390 @@
+>
+<head>
+  <meta charset=
+>
+  <meta name=
+ content=
+></div>
+  
+  <script type=
+,{value:e,enumerable:!0}):n;for(let l of hd(e))if(!Sd.call(r,l))to(r,l,{get:()=>e[l],enumerable:!0});return r};var Ar=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var Ed=(e,t)=>{for(var n in t)to(e,n,{get:t[n],enumerable:!0,configurable:!0,set:(r)=>t[n]=()=>r})};var kd=(e,t)=>()=>(e&&(t=e(e=0)),t);var kt=Ar((Bd)=>{var On=Symbol.for(
+)return null;return e=xa&&e[xa]||e[
+],typeof e===
+&&typeof e!==
+&&e!=null)throw Error(
+)e=null;var i=!1;if(e===null)i=!0;else switch(o){case
+:switch(e.$$typeof){case On:case wd:i=!0}}if(i)return i=e,l=l(i),e=r===
+,Ta(e))for(var a=0;a<e.length;a++){o=e[a];var u=r+no(o,a);i+=Mr(o,t,n,u,l)}else if(u=Fd(e),typeof u===
+)for(e=u.call(e),a=0;!(o=e.next()).done;)o=o.value,u=r+no(o,a++),i+=Mr(o,t,n,u,l);else if(o===
+)throw t=String(e),Error(
+object with keys {
+). If you meant to render a collection of children, use an array instead.
+);var r=Aa({},e.props),l=e.key,o=e.ref,i=e._owner;if(t!=null){if(t.ref!==void 0&&(o=t.ref,i=oo.current),t.key!==void 0&&(l=
+&&typeof performance.now===
+?setTimeout:null,za=typeof clearTimeout===
+?clearTimeout:null,Da=typeof setImmediate<
+?setImmediate:null;typeof navigator<
+&&n!==null?(n=n.delay,n=typeof n===
+https://reactjs.org/docs/error-decoder.html?invariant=
+Minified React error #
+; visit 
+ for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+:if(r)return!1;if(n!==null)return!n.acceptsBooleans;return e=e.toLowerCase().slice(0,5),e!==
+)return null;return e=Qa&&e[Qa]||e[
+){for(var l=c.stack.split(`
+`),o=r.stack.split(`
+`),i=l.length-1,a=o.length-1;1<=i&&0<=a&&l[i]!==o[a];)a--;for(;1<=i&&0<=a;i--,a--)if(l[i]!==o[a]){if(i!==1||a!==1)do if(i--,a--,0>a||l[i]!==o[a]){var u=`
+`+l[i].replace(
+);return e.displayName&&u.includes(
+);case 13:return zn(
+);case 19:return zn(
+);case 0:case 2:case 15:return e=Eo(e.type,!1),e;case 11:return e=Eo(e.type.render,!1),e;case 1:return e=Eo(e.type,!0),e;default:return
+)return e.displayName||e.name||null;if(typeof e===
+)return e;switch(e){case Kt:return
+;case Yt:return
+;case Go:return
+;case Di:return
+;case Ho:return
+;case $o:return
+}if(typeof e===
+)switch(e.$$typeof){case Ju:return(e.displayName||
+;case 9:return(t.displayName||
+;case 3:return
+;case 6:return
+;case 16:return Wo(t);case 8:return t===Di?
+;case 22:return
+;case 12:return
+;case 21:return
+;case 13:return
+;case 19:return
+;case 25:return
+;case 1:case 0:case 17:case 2:case 14:case 15:if(typeof t===
+)return t.displayName||t.name||null;if(typeof t===
+:return e;default:return
++e[t];if(!e.hasOwnProperty(t)&&typeof n<
+&&typeof n.get===
+&&typeof n.set===
+;return e&&(r=bu(e)?e.checked?
+?document:void 0),typeof e>
+:t.defaultValue,r=t.checked!=null?t.checked:t.defaultChecked;n=vt(t.value!=null?t.value:n),e._wrapperState={initialChecked:r,initialValue:n,controlled:t.type===
++n}else e.value!==
++n);else if(r===
+)){var r=t.type;if(!(r!==
+||t.value!==void 0&&t.value!==null))return;t=
++e._wrapperState.initialValue,n||t===e.value||(e.value=t),e.defaultValue=t}n=e.name,n!==
+),e.defaultChecked=!!e._wrapperState.initialChecked,n!==
++e._wrapperState.initialValue:e.defaultValue!==
+http://www.w3.org/2000/svg
+http://www.w3.org/1998/Math/MathML
+http://www.w3.org/1999/xhtml
+:n||typeof t!==
+in t.dangerouslySetInnerHTML))throw Error(h(61))}if(t.style!=null&&typeof t.style!==
+)===-1)return typeof t.is===
+:return at=Fn(at,e,t,n,r,l),!0;case
+:return ut=Fn(ut,e,t,n,r,l),!0;case
+:return st=Fn(st,e,t,n,r,l),!0;case
+:var o=l.pointerId;return lr.set(o,Fn(lr.get(o)||null,e,t,n,r,l)),!0;case
+:return Uf.indexOf(t.keyCode)!==-1;case
+:return t.keyCode!==229;case
+:return Ps(t);case
+:if(t.which!==32)return null;return iu=!0,ou;case
+:return null;case
+:if(!(t.ctrlKey||t.altKey||t.metaKey)||t.ctrlKey&&t.altKey){if(t.char&&1<t.char.length)return t.char;if(t.which)return String.fromCharCode(t.which)}return null;case
+:return Ts&&t.locale!==
+),0<t.length&&(n=new Qi(
+||e===null||typeof t!==
+__bubble
+:if(n.button===2)break e;case
+:null:g;N=[];for(var s=c,p;s!==null;){p=s;var E=p.stateNode;if(p.tag===5&&E!==null&&(p=E,d!==null&&(E=rr(s,d),E!=null&&N.push(cr(s,E,p)))),$)break;s=s.return}0<N.length&&(g=new k(g,C,null,n,v),y.push({event:g,listeners:N}))}}if((t&7)===0){e:{if(g=e===
+;if($=k==null?g:qt(k),p=C==null?g:qt(C),g=new N(E,s+
+,k,n,v),g.target=$,g.relatedTarget=p,E=null,Tt(v)===c&&(N=new N(d,s+
+,C,n,v),N.target=p,N.relatedTarget=$,E=N),$=E,k&&C)t:{N=k,d=C,s=0;for(p=N;p;p=Vt(p))s++;p=0;for(E=d;E;E=Vt(E))p++;for(;0<s-p;)N=Vt(N),s--;for(;0<p-s;)d=Vt(d),p--;for(;s--;){if(N===d||d!==null&&N===d.alternate)break t;N=Vt(N),d=Vt(d)}N=null}else N=null;k!==null&&mu(y,g,k,N,!1),C!==null&&$!==null&&mu(y,$,C,N,!0)}}}e:{if(g=c?qt(c):window,k=g.nodeName&&g.nodeName.toLowerCase(),k===
+)var x=Qf;else if(au(g))if(Rs)x=Zf;else{x=Kf;var T=Yf}else(k=g.nodeName)&&k.toLowerCase()===
+)&&(x=Xf);if(x&&(x=x(e,c))){As(y,x,n,v);break e}T&&T(e,g,c),e===
+&&(T=g._wrapperState)&&T.controlled&&g.type===
+:du(y,n,v)}var O;if(Ki)e:{switch(e){case
+in ot)?ot.value:ot.textContent,Xt=!0)),T=Sl(c,P),0<T.length&&(P=new ru(P,e,null,n,v),y.push({event:P,listeners:T}),O?P.data=O:(O=Ps(n),O!==null&&(P.data=O)))),O=Gf?Hf(e,n):$f(e,n))c=Sl(c,
+),0<c.length&&(v=new ru(
+||typeof t.children===
+||typeof t.dangerouslySetInnerHTML===
+){if(r===0){e.removeChild(l),ir(t);return}r--}else n!==
+){if(t===0)return e;t--}else n===
+&&!ci(e.type,e.memoizedProps)),t&&(t=ge)){if(mi(e))throw Ys(),Error(h(418));for(;t;)Qs(e,t),t=ct(t.nextSibling)}if(ku(e),e.tag===13){if(e=e.memoizedState,e=e!==null?e.dehydrated:null,!e)throw Error(h(317));e:{e=e.nextSibling;for(t=0;e;){if(e.nodeType===8){var n=e.data;if(n===
+){if(t===0){ge=ct(e.nextSibling);break e}t--}else n!==
+){if(n._owner){if(n=n._owner,n){if(n.tag!==1)throw Error(h(309));var r=n.stateNode}if(!r)throw Error(h(147,e));var l=r,o=
++e;if(t!==null&&t.ref!==null&&typeof t.ref===
+||typeof s===
+)return s=Bo(
++s,d.mode,p),s.return=d,s;if(typeof s===
+||typeof p===
+)return x!==null?null:a(d,s,
++p,E);if(typeof p===
+||typeof E===
+)return d=d.get(p)||null,a(s,d,
++E,x);if(typeof E===
+&&p!==null&&p.type===Kt&&p.key===null&&(p=p.props.children),typeof p===
+&&p!==null){switch(p.$$typeof){case Gr:e:{for(var x=p.key,T=s;T!==null;){if(T.key===x){if(x=p.type,x===Kt){if(T.tag===7){n(d,T.sibling),s=l(T,p.props.children),s.return=d,d=s;break e}}else if(T.elementType===x||typeof x===
+&&o!==null?l.context=Ne(o):(o=fe(t)?Mt:oe.current,l.context=pn(e,o)),l.state=e.memoizedState,o=t.getDerivedStateFromProps,typeof o===
+&&(yi(e,t,o,n),l.state=e.memoizedState),typeof t.getDerivedStateFromProps===
+||typeof l.getSnapshotBeforeUpdate===
+||typeof l.UNSAFE_componentWillMount!==
+&&typeof l.componentWillMount!==
+||(t=l.state,typeof l.componentWillMount===
+&&l.componentWillMount(),typeof l.UNSAFE_componentWillMount===
+&&l.UNSAFE_componentWillMount(),t!==l.state&&Wl.enqueueReplaceState(l,l.state,null),Ol(e,n,l,r),l.state=e.memoizedState),typeof l.componentDidMount===
+&&c!==null?c=Ne(c):(c=fe(n)?Mt:oe.current,c=pn(t,c));var v=n.getDerivedStateFromProps,y=typeof v===
+||typeof i.getSnapshotBeforeUpdate===
+;y||typeof i.UNSAFE_componentWillReceiveProps!==
+&&typeof i.componentWillReceiveProps!==
+||(a!==r||u!==c)&&Pu(t,i,r,c),nt=!1;var g=t.memoizedState;i.state=g,Ol(t,r,i,l),u=t.memoizedState,a!==r||g!==u||pe.current||nt?(typeof v===
+&&(yi(t,n,v,r),u=t.memoizedState),(a=nt||Ou(t,n,a,r,g,u,c))?(y||typeof i.UNSAFE_componentWillMount!==
+&&typeof i.componentWillMount!==
+||(typeof i.componentWillMount===
+&&i.componentWillMount(),typeof i.UNSAFE_componentWillMount===
+&&i.UNSAFE_componentWillMount()),typeof i.componentDidMount===
+&&(t.flags|=4194308)):(typeof i.componentDidMount===
+&&(t.flags|=4194308),t.memoizedProps=r,t.memoizedState=u),i.props=r,i.state=u,i.context=c,r=a):(typeof i.componentDidMount===
+&&(t.flags|=4194308),r=!1)}else{i=t.stateNode,Js(e,t),a=t.memoizedProps,c=t.type===t.elementType?a:Pe(t.type,a),i.props=c,y=t.pendingProps,g=i.context,u=n.contextType,typeof u===
+&&u!==null?u=Ne(u):(u=fe(n)?Mt:oe.current,u=pn(t,u));var k=n.getDerivedStateFromProps;(v=typeof k===
+)||typeof i.UNSAFE_componentWillReceiveProps!==
+||(a!==y||g!==u)&&Pu(t,i,r,u),nt=!1,g=t.memoizedState,i.state=g,Ol(t,r,i,l);var C=t.memoizedState;a!==y||g!==C||pe.current||nt?(typeof k===
+&&(yi(t,n,k,r),C=t.memoizedState),(c=nt||Ou(t,n,c,r,g,C,u)||!1)?(v||typeof i.UNSAFE_componentWillUpdate!==
+&&typeof i.componentWillUpdate!==
+||(typeof i.componentWillUpdate===
+&&i.componentWillUpdate(r,C,u),typeof i.UNSAFE_componentWillUpdate===
+&&i.UNSAFE_componentWillUpdate(r,C,u)),typeof i.componentDidUpdate===
+&&(t.flags|=4),typeof i.getSnapshotBeforeUpdate===
+&&(t.flags|=1024)):(typeof i.componentDidUpdate!==
+||a===e.memoizedProps&&g===e.memoizedState||(t.flags|=4),typeof i.getSnapshotBeforeUpdate!==
+||a===e.memoizedProps&&g===e.memoizedState||(t.flags|=1024),t.memoizedProps=r,t.memoizedState=C),i.props=r,i.state=C,i.context=u,r=c):(typeof i.componentDidUpdate!==
+?t.lanes=8:t.lanes=1073741824,null;return i=r.children,e=r.fallback,o?(r=t.mode,o=t.child,i={mode:
+,children:i},(r&1)===0&&o!==null?(o.childLanes=0,o.pendingProps=i):o=Yl(i,r,0,null),e=Rt(e,r,n,null),o.return=t,e.return=t,o.sibling=e,t.child=o,t.child.memoizedState=Ci(n),t.memoizedState=wi,e):da(t,i)}if(l=e.memoizedState,l!==null&&(a=l.dehydrated,a!==null))return hm(e,t,i,r,a,l,n);if(o){o=r.fallback,i=t.mode,l=e.child,a=l.sibling;var u={mode:
+,children:r.children},l,0,null),o=Rt(o,l,i,null),o.flags|=2,r.return=t,o.return=t,r.sibling=o,t.child=r,(t.mode&1)!==0&&mn(t,e.child,null,i),t.child.memoizedState=Ci(i),t.memoizedState=wi,o}if((t.mode&1)===0)return br(e,t,i,null);if(l.data===
+:t=e.tail;for(var n=null;t!==null;)t.alternate!==null&&(n=t),t=t.sibling;n===null?e.tail=null:n.sibling=null;break;case
+:r._wrapperState={wasMultiple:!!o.multiple},L(
+,r)}Zo(n,o),l=null;for(var i in o)if(o.hasOwnProperty(i)){var a=o[i];i===
+?typeof a===
+,a]):typeof a===
+:break;default:typeof o.onClick===
+,e=e.removeChild(e.firstChild)):typeof r.is===
+:e._wrapperState={wasMultiple:!!r.multiple},l=G({},r,{value:void 0}),L(
+,e);break;default:l=r}Zo(n,l),a=l;for(o in a)if(a.hasOwnProperty(o)){var u=a[o];o===
+?(u=u?u.__html:void 0,u!=null&&rs(e,u)):o===
+?typeof u===
+)&&nr(e,u):typeof u===
+,e):u!=null&&_i(e,o,u,i))}switch(n){case
+:e.multiple=!!r.multiple,o=r.value,o!=null?ln(e,!!r.multiple,o,!1):r.defaultValue!=null&&ln(e,!!r.multiple,r.defaultValue,!0);break;default:typeof l.onClick===
+:r=!0;break e;default:r=!1}}r&&(t.flags|=4)}t.ref!==null&&(t.flags|=512,t.flags|=2097152)}return re(t),null;case 6:if(e&&t.stateNode!=null)Pc(e,t,e.memoizedProps,r);else{if(typeof r!==
+)}catch(N){H(e,e.return,N)}}if(r&4&&(l=e.stateNode,l!=null)){var o=e.memoizedProps,i=n!==null?n.memoizedProps:o,a=e.type,u=e.updateQueue;if(e.updateQueue=null,u!==null)try{a===
+&&o.name!=null&&es(l,o),Jo(a,i);var c=Jo(a,o);for(i=0;i<u.length;i+=2){var v=u[i],y=u[i+1];v===
+?nr(l,y):_i(l,v,y,c)}switch(a){case
+:var g=l._wrapperState.wasMultiple;l._wrapperState.wasMultiple=!!o.multiple;var k=o.value;k!=null?ln(l,!!o.multiple,k,!1):g!==!!o.multiple&&(o.defaultValue!=null?ln(l,!!o.multiple,o.defaultValue,!0):ln(l,!!o.multiple,o.multiple?[]:
+):(a=y.stateNode,u=y.memoizedProps.style,i=u!==void 0&&u!==null&&u.hasOwnProperty(
+,i))}catch(N){H(e,e.return,N)}}}else if(y.tag===6){if(v===null)try{y.stateNode.nodeValue=c?
+&&typeof u.then===
+)i=5;else e:switch(e){case Kt:return Rt(n.children,l,o,t);case Di:i=8,l|=8;break;case Go:return e=we(12,n,t,l|2),e.elementType=Go,e.lanes=o,e;case Ho:return e=we(13,n,t,l),e.elementType=Ho,e.lanes=o,e;case $o:return e=we(19,n,t,l),e.elementType=$o,e.lanes=o,e;case qu:return Yl(n,l,o,t);default:if(typeof e===
+&&e!==null)switch(e.$$typeof){case Zu:i=10;break e;case Ju:i=9;break e;case Bi:i=11;break e;case zi:i=14;break e;case tt:i=16,r=null;break e}throw Error(h(130,e==null?e:typeof e,
+ react-mount-point-unstable 
+,Yu);return e._reactRootContainer=i,e[Xe]=i.current,sr(e.nodeType===8?e.parentNode:e),_t(),i}for(;l=e.lastChild;)e.removeChild(l);if(typeof r===
+)throw Error(h(188));throw e=Object.keys(e).join(
+||typeof window.document>
+||typeof window.document.createElement>
+allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/1999/xlink
+react.strict_mode
+react.forward_ref
+react.suspense_list
+in e?e.deltaX:(
+in e?e.deltaY:(
+in e)?-e.wheelDeltaY:(
+in e)?-e.wheelDelta:0},deltaZ:0,deltaMode:0}),zf=he(Bf),Uf=[9,13,27,32],Ki=Ke&&
+in window;Ke&&
+in document&&(Xn=document.documentMode);Gf=Ke&&
+in window&&!Xn,Ts=Ke&&(!Ki||Xn&&8<Xn&&11>=Xn),ou=String.fromCharCode(32);Wf={color:!0,date:!0,datetime:!0,
+in document,!$n)ll=document.createElement(
+),$n=typeof ll.oninput===
+;Hn=$n}else Hn=!1;Rs=Hn&&(!document.documentMode||9<document.documentMode)}Ie=typeof Object.is===
+in document&&11>=document.documentMode;Jt={animationend:Kr(
+in window)||(delete Jt.animationend.animation,delete Jt.animationiteration.animation,delete Jt.animationstart.animation),(
+in window)||delete Jt.transitionend.transition);_s=Ul(
+),Us=new Map,pu=
++ai);yt(_s,
+change click focusin focusout input keydown keyup selectionchange
+focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange
+abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting
+),jf=new Set(
+__reactProps$
+__reactContainer$
+__reactEvents$
+__reactListeners$
+__reactHandles$
+}else n=sm++,t=
+:l=G({},l,{value:void 0}),r=G({},r,{value:void 0}),o=[];break;case
+:l=Ko(e,l),r=Ko(e,r),o=[];break;default:typeof l.onClick!==
+&&typeof r.onClick===
+&&(e.onclick=El)}Zo(n,r);var i;n=null;for(c in l)if(!r.hasOwnProperty(c)&&l.hasOwnProperty(c)&&l[c]!=null)if(c===
+){var a=l[c];for(i in a)a.hasOwnProperty(i)&&(n||(n={}),n[i]=
+)}else c!==
+)if(a){for(i in a)!a.hasOwnProperty(i)||u&&u.hasOwnProperty(i)||(n||(n={}),n[i]=
+);for(i in u)u.hasOwnProperty(i)&&a[i]!==u[i]&&(n||(n={}),n[i]=u[i])}else n||(o||(o=[]),o.push(c,n)),n=u;else c===
+?(u=u?u.__html:void 0,a=a?a.__html:void 0,u!=null&&a!==u&&(o=o||[]).push(c,u)):c===
+?typeof u!==
+&&typeof u!==
+&&l!==null&&typeof l.render===
+]');for(t=0;t<n.length;t++){var r=n[t];if(r!==e&&r.form===e.form){var l=Gl(r);if(!l)throw Error(h(90));ju(r),Qo(r,l)}}}break;case
+:t=n.value,t!=null&&ln(e,!!n.multiple,t,!1)}};us=va;ss=_t;Um={usingClientEntryPoint:!1,Events:[Er,qt,Gl,is,as,va]},Bn={findFiberByHostInstance:Tt,bundleType:0,version:
+||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!==
+)return;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(ld)}catch(e){console.error(e)}}ld(),od.exports=Ca});var ad=Ar(($m)=>{var wr=He(id(),1);$m.createRoot=wr.createRoot,$m.hydrateRoot=wr.hydrateRoot;var Hm});var fd=He(kt(),1),md=He(ad(),1);var eo=He(kt(),1);var bl=He(kt(),1);var ud=(e)=>e.replace(/([a-z0-9])([A-Z])/g,
+).toLowerCase(),ql=(...e)=>e.filter((t,n,r)=>{return Boolean(t)&&t.trim()!==
+).trim();var Cr=He(kt(),1);var sd={xmlns:
+};var cd=Cr.forwardRef(({color:e=
+,children:o,iconNode:i,...a},u)=>{return Cr.createElement(
+,{ref:u,...sd,width:t,height:t,stroke:e,strokeWidth:r?Number(n)*24/Number(t):n,className:ql(
+,l),...a},[...i.map(([c,v])=>Cr.createElement(c,v)),...Array.isArray(o)?o:[o]])});var A=(e,t)=>{let n=bl.forwardRef(({className:r,...l},o)=>bl.createElement(cd,{ref:o,iconNode:t,className:ql(`lucide-${ud(e)}`,r),...l}));return n.displayName=`${e}`,n};var Nr=A(
+}]]);var En=A(
+}]]);var kn=A(
+}]]);var zt=A(
+}]]);var Ut=A(
+}]]);var xr=A(
+M7 6h1v4
+}]]);var Gt=A(
+}]]);var wn=A(
+}]]);var Cn=A(
+}]]);var Et=A(
+}]]);var Nn=A(
+M14 2v4a2 2 0 0 0 2 2h4
+}]]);var Tr=A(
+}]]);var Or=A(
+}]]);var Ge=A(
+}]]);var xn=A(
+}]]);var Ht=A(
+}]]);var Tn=A(
+}]]);var dd=He(kt(),1),Wm=Symbol.for(
++n),t.key!==void 0&&(o=
++t.key),t.ref!==void 0&&(i=t.ref);for(r in t)Vm.call(t,r)&&!Ym.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Wm,type:e,key:o,ref:i,props:l,_owner:Qm.current}}var f=pd,S=pd;var Q=
+,Pr=`#!/bin/bash
+set -e
+echo 
+
+mkdir -p tradeflow-os-public
+cd tradeflow-os-public
+
+# === APPS / MARKETING - 8 PAGES ===
+mkdir -p apps/marketing/components/hero
+mkdir -p apps/marketing/how-it-works apps/marketing/pricing apps/marketing/commonwealth apps/marketing/about apps/marketing/manifesto apps/marketing/legal apps/marketing/assessment-demo apps/marketing/blog/[slug]
+
+echo 
+ > apps/marketing/page.tsx
+for comp in InfographicsDish FlowChainVisual GuardianShield LegacyVault GOMeter UPRMTimeline EyesBoatVisual LiveConsole PricingToggle; do
+  echo 
+ > apps/marketing/components/hero/$comp.tsx
+done
+
+for p in how-it-works pricing commonwealth about manifesto legal assessment-demo; do
+  echo 
+ > apps/marketing/$p/page.tsx
+done
+
+echo 
+ > apps/marketing/blog/page.tsx
+echo 
+Journey Map Mon-Fri Chain THE HEART - FlowChainVisual
+Admin $admin - TradeFlow OS - Navy #0A1931 Gold #D4AF37
+Admin Dashboard - 6 pages - TradeFlow OS
+npm run build
+/api/crons/eyes-boat
+/api/crons/guardian
+✅ TradeFlow OS Public SaaS Full scaffolded - 8 Marketing + 36 OS + 65 Backend + 10 OS + 3 Bots
+£50 In Smile Out - Flow as One - Navy #0A1931 Gold #D4AF37
+COOLDOWN 10min - Breathe - £50 In Smile Out
+PROMPT 1
+ONBOARDING WIZARD
+apps/app/onboarding/page.tsx
+PROMPT 2
+ASSESSMENT 68% GO
+apps/app/assessment/page.tsx
+PROMPT 3
+FINANCE £50 DISH
+apps/app/finance/page.tsx
+PROMPT 4
+JOURNEY [DAY] THE HEART
+apps/app/journey/[day]/page.tsx
+PROMPT 5
+COMMONWEALTH ELITEFLOW
+apps/app/commonwealth/page.tsx
+PROMPT 6
+EXECUTE £7/DAY CAP
+apps/app/execute/page.tsx
+PROMPT 7
+GUARDIAN 8/15/25 TAP-OUT
+apps/app/guardian/page.tsx
+PROMPT 8
+LEGACY 40/30/20/10 SPLIT
+apps/app/legacy/page.tsx
+PROMPT 9
+UPRM JOURNEY MEMORY
+apps/app/uprm/page.tsx
+PROMPT 10
+DISCIPLINE TILT FOMO REVENGE
+apps/app/discipline/page.tsx
+);c.href=u,c.download=i,document.body.appendChild(c),c.click(),document.body.removeChild(c),URL.revokeObjectURL(u)};return S(
+8 MARKETING + 36 OS + 65 BACKEND
+hero infographics Dish FlowChain Guardian Legacy GO UPRM Eyes Boat Live Console PricingToggle Framer Motion SVG Canvas
+OS PAGES
+36 PAGES
+onboarding assessment finance connect journey [day] simulator commonwealth intelligence execute discipline guardian legacy uprm portfolio recoup history settings profile admin 6
+65 FILES
+api 15 routes services 14 Alchemy $49 Moralis $49 db schema 10 tables crons 8 middleware lib constants
+eyes-boat 30sec 100 wallets discipline-coach tilt guardian-execution gate 5 greens £7/day 8/15/25
+COPY SCRIPT
+ READY TO RUN
+COPIED FULL MD
+COPY FULL MD
+,children:Km.map((o)=>{let i=o.icon;return S(
+,style:{backgroundColor:`${m}18`,color:m,border:`1px solid ${m}33`},children:f(i,{size:18})}),S(
+,border:`1px solid ${m}14`},children:o.content}),S(
+Assessment 68% GO market regime volatility Fetch CoinGecko DexScreener Alchemy Moralis Calculate 5 factors Return GO score 0-100 If >=68% GO green unlock Mon If <68% NO-GO red Use constants.ts ASSESSMENT_GO_THRESHOLD Supabase save.
+BillingEngine.ts
+Billing £49/£99/£299 hybrid 10% gains above 2x capped £299 max £348/mo whales Performance fee opt-in consent software license not fund manager FCA safe Smart contract Stripe invoice after Fri Legacy split trader approves Take 10% from 30% smile out slice
+FinanceEngine + Guardian + UPRM
+FinanceEngine Dishing £50 RecoupEngine Recovery GuardianService Tap-out 8/15/25 auto-sell £10 vault UPRMEngine Journey memory not session timeline.sql nudges.sql welcome back journey progress Mon-Fri
+ONE-CLICK SCAFFOLD (5 SECONDS)
+bash setup-tradeflow-public-full.sh creates file tree placeholders: apps/marketing 8 pages + components/hero 8 files + apps/app 36 pages + packages/backend 65 files + bots 3 + lib + infra. Re-runnable idempotent restore missing folders anytime.
+TERMINAL AGENT BUILD REAL LOGIC
+Build apps/app/assessment/page.tsx AssessmentOS 68% GO meter real logic per Production Architecture
+REPEAT FOR 36 OS FILES
+Loop prompts 1-10 for onboarding assessment finance journey commonwealth execute guardian legacy uprm discipline + backend AssessmentEngine BillingEngine FinanceEngine GuardianService UPRMEngine. Each file becomes production logic Framer Motion SVG Canvas.
+NOT ONE-TIME - RE-RUNNABLE IDEMPOTENT
+Each trader clones repo + fills own .env with own API keys = clean separation Alchemy $49 Moralis $49 etc. Can re-prompt agent to add features fix bugs upgrade logic. Restore missing folders anytime. Project Acth = Production Architecture Reference forever.
+,{style:{color:m},children:'claude-code 
+ELITEFLOW 10 ELITES EYES BOAT
+SIMULATOR £5 FAKE
+EXECUTION £7/DAY LIVE
+{ fake:5, live:35, safety:10, total:50 }
+{ cons:8, bal:15, agg:25 }
+{ tilt:10min, fomo:30min, revenge:24h }
+canAccessDay(completed, day)
+Mon Assessment 68% GO unlocks Tue
+Tue EliteFlow 10 elites Eyes Boat unlocks Wed
+Wed Simulator £5 fake unlocks Thu
+Thu Execution £7/day live unlocks Fri
+Fri Legacy 40/30/20/10 unlocks Next Mon
+welcomeBack() Welcome back journey not session
+Timeline recall timeline.sql nudges.sql
+PRICING £49 Starter £99 Pro £299 Whale
+Hybrid £49/mo +10% gains above 2x capped £299 max £348
+FCA safe software license not fund manager
+WHALE TRIBE
+30sec 100 wallets whale watcher Alchemy $49 Moralis $49 Scoring 0-100 EliteFlow 10 personal Global 100
+BOT2 DISCIPLINE COACH
+Tilt FOMO revenge detection 5 triggers Cooldowns 10min tilt 30min FOMO 24h revenge Lock screen Breathe
+BOT3 GUARDIAN EXECUTION
+Gate 5 greens £7/day cap BinanceExecutor BybitExecutor slippage guard BullMQ £10 safety vault 8/15/25 tap-out
+,style:{backgroundColor:`${m}14`,color:m,border:`1px solid ${m}33`},children:
+,style:{backgroundColor:Q,color:ee,border:`1px solid ${m}22`},children:
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+noopener noreferrer
+);if(a){m(a);}},true);})();</script>
+  <script type=
+ data-clippy-inline-media-manifest=

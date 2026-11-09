@@ -1,0 +1,205 @@
+✅ TradeFlow OS Public SaaS Full scaffolded - 8 Marketing + 36 OS + 65 Backend + 10 OS + 3 Bots
+?? Location: $(pwd)
+?? Next: Fill infra/.env.example -> .env.local with own keys
+?? Next: Use Terminal Agent Prompts to build real logic for 36 OS files
+£50 In Smile Out - Flow as One - Navy #0A1931 Gold #D4AF37
+COOLDOWN 10min - Breathe - £50 In Smile Out
+PROMPT 1
+ONBOARDING WIZARD
+apps/app/onboarding/page.tsx
+,title:
+apps/app/assessment/page.tsx
+apps/app/finance/page.tsx
+apps/app/journey/[day]/page.tsx
+apps/app/commonwealth/page.tsx
+apps/app/execute/page.tsx
+apps/app/guardian/page.tsx
+apps/app/legacy/page.tsx
+apps/app/uprm/page.tsx
+apps/app/discipline/page.tsx
+}),u=URL.createObjectURL(a),c=document.createElement(
+);c.href=u,c.download=i,document.body.appendChild(c),c.click(),document.body.removeChild(c),URL.revokeObjectURL(u)};return S(
+,{className:
+,style:{backgroundColor:Q,paddingTop:
+,boxSizing:
+},children:[f(
+header
+sticky z-50 border-b
+var(--safe-area-inset-top)
+,children:[S(
+,children:[f(
+,style:{backgroundColor:m},children:f(
+,style:{color:Q},children:
+,style:{color:ee},children:
+,children:
+,style:{borderColor:m,color:m,backgroundColor:`${m}14`},children:
+,style:{backgroundColor:m,color:Q},children:
+,style:{borderColor:`${m}1A`,backgroundColor:`${m}0A`},children:S(
+,style:{color:ee},children:[f(
+,{children:
+,{children:[S(
+,children:[
+,{style:{color:m},children:
+8 MARKETING + 36 OS + 65 BACKEND
+,{onClick:()=>l(Pr,
+),className:
+,style:{backgroundColor:m,color:Q},children:[f(Et,{size:16}),
+,{onClick:()=>l(jl,
+,style:{borderColor:m,color:m},children:[f(Nn,{size:16}),
+,children:[{k:
+8 PAGES
+hero infographics Dish FlowChain Guardian Legacy GO UPRM Eyes Boat Live Console PricingToggle Framer Motion SVG Canvas
+OS PAGES
+36 PAGES
+onboarding assessment finance connect journey [day] simulator commonwealth intelligence execute discipline guardian legacy uprm portfolio recoup history settings profile admin 6
+BACKEND
+65 FILES
+api 15 routes services 14 Alchemy $49 Moralis $49 db schema 10 tables crons 8 middleware lib constants
+3 BOTS
+eyes-boat 30sec 100 wallets discipline-coach tilt guardian-execution gate 5 greens £7/day 8/15/25
+,style:{borderColor:`${m}2A`,backgroundColor:`${m}0A`},children:[f(
+,style:{color:m},children:o.k}),f(
+,children:o.v}),f(
+,style:{color:ee},children:o.d})]},o.k))})]}),S(
+,style:{borderColor:`${m}33`,backgroundColor:
+},children:[S(
+,style:{borderColor:`${m}1F`},children:[S(
+,style:{backgroundColor:m,color:Q},children:f(Ht,{size:16})}),S(
+,{children:[f(
+,style:{color:m},children:
+,{onClick:()=>r(Pr,
+,style:{borderColor:m,color:e===
+?Q:m,backgroundColor:e===
+transparent
+scaffold
+COPIED
+COPY SCRIPT
+button
+setup-tradeflow-public-full.sh
+ DOWNLOAD .SH
+,style:{borderColor:`${m}1F`,color:ee},children:[f(
+,style:{color:m},children:[f(Tn,{size:12}),
+,style:{borderColor:`${m}1F`,backgroundColor:
+,color:m},children:[f(
+ READY TO RUN
+,{ref:n,className:
+,style:{color:
+},children:Pr})]})]})]}),S(
+,{onClick:()=>r(jl,
+prompts-md
+COPIED FULL MD
+COPY FULL MD
+TERMINAL_AGENT_PROMPTS.md
+ DOWNLOAD MD
+,children:Km.map((o)=>{let i=o.icon;return S(
+,style:{borderColor:`${m}2A`,backgroundColor:
+,style:{backgroundColor:`${m}18`,color:m,border:`1px solid ${m}33`},children:f(i,{size:18})}),S(
+,style:{color:m},children:[o.id,
+,o.tag]}),f(
+,children:o.title})]})]}),S(
+,{onClick:()=>r(o.content,o.id),className:
+,style:{borderColor:m,color:e===o.id?Q:m,backgroundColor:e===o.id?m:
+},children:[e===o.id?f(Ut,{size:12}):f(Gt,{size:12}),
+,e===o.id?
+,style:{backgroundColor:
+,color:
+,border:`1px solid ${m}14`},children:o.content}),S(
+,style:{borderColor:`${m}33`,color:ee},children:
+,style:{backgroundColor:`${m}14`,color:m},children:
+},children:
+})]})]},o.id)})}),f(
+,children:[{t:
+Assessment 68% GO market regime volatility Fetch CoinGecko DexScreener Alchemy Moralis Calculate 5 factors Return GO score 0-100 If >=68% GO green unlock Mon If <68% NO-GO red Use constants.ts ASSESSMENT_GO_THRESHOLD Supabase save.
+BillingEngine.ts
+Billing £49/£99/£299 hybrid 10% gains above 2x capped £299 max £348/mo whales Performance fee opt-in consent software license not fund manager FCA safe Smart contract Stripe invoice after Fri Legacy split trader approves Take 10% from 30% smile out slice
+FinanceEngine + Guardian + UPRM
+FinanceEngine Dishing £50 RecoupEngine Recovery GuardianService Tap-out 8/15/25 auto-sell £10 vault UPRMEngine Journey memory not session timeline.sql nudges.sql welcome back journey progress Mon-Fri
+,style:{borderColor:`${m}22`,backgroundColor:`${m}07`},children:[f(
+,style:{color:m},children:o.t}),f(
+,style:{color:ee},children:o.d})]},o.t))})]}),S(
+,style:{backgroundColor:m,color:Q},children:f(wn,{size:18})}),S(
+,children:[{step:
+,desc:
+,icon:Tn},{step:
+,desc:'Use prompts with Claude Code / Cursor: claude-code 
+ Agent reads project acth Production Architecture from lib/constants.ts and builds real logic replacing placeholder',icon:kn},{step:
+,icon:Ge},{step:
+,icon:Cn}].map((o)=>{let i=o.icon;return S(
+,style:{borderColor:`${m}1E`,backgroundColor:
+,style:{color:m},children:o.step}),S(
+,style:{backgroundColor:`${m}18`,color:m},children:f(i,{size:14})}),S(
+,style:{borderColor:m,color:m},children:[
+,o.step]})]}),f(
+,children:o.title}),f(
+,style:{color:ee},children:o.desc})]},o.step)})}),S(
+,style:{borderColor:`${m}22`,backgroundColor:`${m}0A`},children:[S(
+,style:{backgroundColor:m,color:Q},children:f(Ht,{size:14})}),S(
+,{style:{color:m},children:'claude-code 
+'})]})]}),f(En,{size:16,style:{color:m}})]})]}),S(
+,style:{backgroundColor:m,color:Q},children:f(xn,{size:18})}),S(
+,children:[{d:
+ASSESSMENT 68% GO
+ELITEFLOW 10 ELITES EYES BOAT
+#7AA7FF
+SIMULATOR £5 FAKE
+EXECUTION £7/DAY LIVE
+LEGACY 40/30/20/10 SPLIT
+,style:{borderColor:`${o.c}44`,backgroundColor:`${o.c}14`},children:[f(
+,style:{color:o.c},children:o.d}),f(
+,children:o.t})]}),i<4&&f(En,{size:14,style:{color:m}})]},o.d))}),S(
+,style:{borderColor:`${m}22`,backgroundColor:
+,style:{color:ee},children:[S(
+,{children:[
+{ fake:5, live:35, safety:10, total:50 }
+{ cons:8, bal:15, agg:25 }
+{ tilt:10min, fomo:30min, revenge:24h }
+{ 49,99,299, hybridCap:299, max:348 }
+,style:{color:ee},children:[
+canAccessDay(completed, day)
+Mon Assessment 68% GO unlocks Tue
+Tue EliteFlow 10 elites Eyes Boat unlocks Wed
+Wed Simulator £5 fake unlocks Thu
+Thu Execution £7/day live unlocks Fri
+Fri Legacy 40/30/20/10 unlocks Next Mon
+welcomeBack() Welcome back journey not session
+Timeline recall timeline.sql nudges.sql
+PRICING £49 Starter £99 Pro £299 Whale
+Hybrid £49/mo +10% gains above 2x capped £299 max £348
+FCA safe software license not fund manager
+,style:{borderColor:m,backgroundColor:`${m}14`},children:[f(
+},children:[f(zt,{size:14,style:{color:m}}),f(
+},children:[f(Ge,{size:14,style:{color:m}}),f(
+},children:[f(Cn,{size:14,style:{color:m}}),f(
+,style:{borderColor:m,backgroundColor:m,color:Q},children:[f(
+,children:[{p:
+STARTER
+WHALE TRIBE
+,style:{borderColor:`${Q}22`,backgroundColor:`${Q}0A`},children:[f(
+,children:o.p}),f(
+,children:o.l})]},o.l))}),f(
+,children:[{n:
+30sec 100 wallets whale watcher Alchemy $49 Moralis $49 Scoring 0-100 EliteFlow 10 personal Global 100
+BOT2 DISCIPLINE COACH
+Tilt FOMO revenge detection 5 triggers Cooldowns 10min tilt 30min FOMO 24h revenge Lock screen Breathe
+BOT3 GUARDIAN EXECUTION
+Gate 5 greens £7/day cap BinanceExecutor BybitExecutor slippage guard BullMQ £10 safety vault 8/15/25 tap-out
+},children:[f(kn,{size:14,style:{color:m},className:
+,children:o.n}),f(
+,style:{color:ee},children:o.d})]})]},o.n))}),S(
+,style:{backgroundColor:`${m}14`,color:m,border:`1px solid ${m}33`},children:
+,style:{backgroundColor:Q,color:ee,border:`1px solid ${m}22`},children:
+ DOWNLOAD SETUP-TRADEFLOW-PUBLIC-FULL.SH
+ DOWNLOAD TERMINAL_AGENT_PROMPTS.MD
+,style:{borderColor:`${m}1A`,color:ee},children:[f(
+})]})]})]})]})}md.createRoot(document.getElementById(
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+||u.protocol===
+)&&u.host!==location.host){a.target=
+;a.rel=
+).forEach(m);}if(document.readyState!==
+){s();}else{document.addEventListener(
+,s);}document.addEventListener(
+);if(a){m(a);}},true);})();</script>
+  <script type=
+ data-clippy-inline-media-manifest=
+version

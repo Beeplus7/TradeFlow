@@ -1,0 +1,423 @@
+>
+<head>
+  <meta charset=
+>
+  <meta name=
+ content=
+>
+  <title>React Artifact</title>
+  <style>@import url(
+></div>
+  
+  <script type=
+,{value:e,enumerable:!0}):t;for(let l of Xc(e))if(!Zc.call(r,l))Ll(r,l,{get:()=>e[l],enumerable:!0});return r};var ir=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports);var Gc=(e,n)=>{for(var t in n)Ll(e,t,{get:n[t],enumerable:!0,configurable:!0,set:(r)=>n[t]=()=>r})};var Jc=(e,n)=>()=>(e&&(n=e(e=0)),n);var ft=ir((df)=>{var ct=Symbol.for(
+)return null;return e=ei&&e[ei]||e[
+],typeof e===
+&&typeof e!==
+&&e!=null)throw Error(
+)e=null;var u=!1;if(e===null)u=!0;else switch(o){case
+:switch(e.$$typeof){case ct:case qc:u=!0}}if(u)return u=e,l=l(u),e=r===
+,ni(e))for(var a=0;a<e.length;a++){o=e[a];var c=r+Rl(o,a);u+=sr(o,n,t,c,l)}else if(c=uf(e),typeof c===
+)for(e=c.call(e),a=0;!(o=e.next()).done;)o=o.value,c=r+Rl(o,a++),u+=sr(o,n,t,c,l);else if(o===
+)throw n=String(e),Error(
+object with keys {
+). If you meant to render a collection of children, use an array instead.
+);var r=li({},e.props),l=e.key,o=e.ref,u=e._owner;if(n!=null){if(n.ref!==void 0&&(o=n.ref,u=Fl.current),n.key!==void 0&&(l=
+&&typeof performance.now===
+?setTimeout:null,pi=typeof clearTimeout===
+?clearTimeout:null,fi=typeof setImmediate<
+?setImmediate:null;typeof navigator<
+&&t!==null?(t=t.delay,t=typeof t===
+https://reactjs.org/docs/error-decoder.html?invariant=
+Minified React error #
+; visit 
+ for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+:if(r)return!1;if(t!==null)return!t.acceptsBooleans;return e=e.toLowerCase().slice(0,5),e!==
+)return null;return e=Si&&e[Si]||e[
+){for(var l=p.stack.split(`
+`),o=r.stack.split(`
+`),u=l.length-1,a=o.length-1;1<=u&&0<=a&&l[u]!==o[a];)a--;for(;1<=u&&0<=a;u--,a--)if(l[u]!==o[a]){if(u!==1||a!==1)do if(u--,a--,0>a||l[u]!==o[a]){var c=`
+`+l[u].replace(
+);return e.displayName&&c.includes(
+);case 13:return Et(
+);case 19:return Et(
+);case 0:case 2:case 15:return e=Zl(e.type,!1),e;case 11:return e=Zl(e.type.render,!1),e;case 1:return e=Zl(e.type,!0),e;default:return
+)return e.displayName||e.name||null;if(typeof e===
+)return e;switch(e){case An:return
+;case Vn:return
+;case mo:return
+;case cu:return
+;case ho:return
+;case vo:return
+}if(typeof e===
+)switch(e.$$typeof){case Pa:return(e.displayName||
+;case 9:return(n.displayName||
+;case 3:return
+;case 6:return
+;case 16:return yo(n);case 8:return n===cu?
+;case 22:return
+;case 12:return
+;case 21:return
+;case 13:return
+;case 19:return
+;case 25:return
+;case 1:case 0:case 17:case 2:case 14:case 15:if(typeof n===
+)return n.displayName||n.name||null;if(typeof n===
+:return e;default:return
++e[n];if(!e.hasOwnProperty(n)&&typeof t<
+&&typeof t.get===
+&&typeof t.set===
+;return e&&(r=za(e)?e.checked?
+?document:void 0),typeof e>
+:n.defaultValue,r=n.checked!=null?n.checked:n.defaultChecked;t=fn(n.value!=null?n.value:t),e._wrapperState={initialChecked:r,initialValue:t,controlled:n.type===
++t}else e.value!==
++t);else if(r===
+)){var r=n.type;if(!(r!==
+||n.value!==void 0&&n.value!==null))return;n=
++e._wrapperState.initialValue,t||n===e.value||(e.value=n),e.defaultValue=n}t=e.name,t!==
+),e.defaultChecked=!!e._wrapperState.initialChecked,t!==
++e._wrapperState.initialValue:e.defaultValue!==
+http://www.w3.org/2000/svg
+http://www.w3.org/1998/Math/MathML
+http://www.w3.org/1999/xhtml
+:t||typeof n!==
+in n.dangerouslySetInnerHTML))throw Error(w(61))}if(n.style!=null&&typeof n.style!==
+)===-1)return typeof n.is===
+:return tn=vt(tn,e,n,t,r,l),!0;case
+:return rn=vt(rn,e,n,t,r,l),!0;case
+:return ln=vt(ln,e,n,t,r,l),!0;case
+:var o=l.pointerId;return Ht.set(o,vt(Ht.get(o)||null,e,n,t,r,l)),!0;case
+:return pp.indexOf(n.keyCode)!==-1;case
+:return n.keyCode!==229;case
+:return rs(n);case
+:if(n.which!==32)return null;return Di=!0,Oi;case
+:return null;case
+:if(!(n.ctrlKey||n.altKey||n.metaKey)||n.ctrlKey&&n.altKey){if(n.char&&1<n.char.length)return n.char;if(n.which)return String.fromCharCode(n.which)}return null;case
+:return ns&&n.locale!==
+),0<n.length&&(t=new wu(
+||e===null||typeof n!==
+__bubble
+:if(t.button===2)break e;case
+:null:h;_=[];for(var i=p,f;i!==null;){f=i;var g=f.stateNode;if(f.tag===5&&g!==null&&(f=g,d!==null&&(g=Bt(i,d),g!=null&&_.push(Gt(i,g,f)))),U)break;i=i.return}0<_.length&&(h=new S(h,k,null,t,v),y.push({event:h,listeners:_}))}}if((n&7)===0){e:{if(h=e===
+;if(U=S==null?h:Hn(S),f=k==null?h:Hn(k),h=new _(g,i+
+,S,t,v),h.target=U,h.relatedTarget=f,g=null,kn(v)===p&&(_=new _(d,i+
+,k,t,v),_.target=f,_.relatedTarget=U,g=_),U=g,S&&k)n:{_=S,d=k,i=0;for(f=_;f;f=Dn(f))i++;f=0;for(g=d;g;g=Dn(g))f++;for(;0<i-f;)_=Dn(_),i--;for(;0<f-i;)d=Dn(d),f--;for(;i--;){if(_===d||d!==null&&_===d.alternate)break n;_=Dn(_),d=Dn(d)}_=null}else _=null;S!==null&&Qi(y,h,S,_,!1),k!==null&&U!==null&&Qi(y,U,k,_,!0)}}}e:{if(h=p?Hn(p):window,S=h.nodeName&&h.nodeName.toLowerCase(),S===
+)var E=wp;else if(Ui(h))if(os)E=Cp;else{E=kp;var P=Sp}else(S=h.nodeName)&&S.toLowerCase()===
+)&&(E=Ep);if(E&&(E=E(e,p))){ls(y,E,t,v);break e}P&&P(e,h,p),e===
+&&(P=h._wrapperState)&&P.controlled&&h.type===
+:$i(y,t,v)}var N;if(ku)e:{switch(e){case
+in en)?en.value:en.textContent,Wn=!0)),P=xr(p,z),0<P.length&&(z=new Mi(z,e,null,t,v),y.push({event:z,listeners:P}),N?z.data=N:(N=rs(t),N!==null&&(z.data=N)))),N=mp?hp(e,t):vp(e,t))p=xr(p,
+),0<p.length&&(v=new Mi(
+||typeof n.children===
+||typeof n.dangerouslySetInnerHTML===
+){if(r===0){e.removeChild(l),Kt(n);return}r--}else t!==
+){if(n===0)return e;n--}else t===
+&&!Ao(e.type,e.memoizedProps)),n&&(n=pe)){if(Ho(e))throw ks(),Error(w(418));for(;n;)Ss(e,n),n=on(n.nextSibling)}if(qi(e),e.tag===13){if(e=e.memoizedState,e=e!==null?e.dehydrated:null,!e)throw Error(w(317));e:{e=e.nextSibling;for(n=0;e;){if(e.nodeType===8){var t=e.data;if(t===
+){if(n===0){pe=on(e.nextSibling);break e}n--}else t!==
+){if(t._owner){if(t=t._owner,t){if(t.tag!==1)throw Error(w(309));var r=t.stateNode}if(!r)throw Error(w(147,e));var l=r,o=
++e;if(n!==null&&n.ref!==null&&typeof n.ref===
+||typeof i===
+)return i=co(
++i,d.mode,f),i.return=d,i;if(typeof i===
+||typeof f===
+)return E!==null?null:a(d,i,
++f,g);if(typeof f===
+||typeof g===
+)return d=d.get(f)||null,a(i,d,
++g,E);if(typeof g===
+&&f!==null&&f.type===An&&f.key===null&&(f=f.props.children),typeof f===
+&&f!==null){switch(f.$$typeof){case gr:e:{for(var E=f.key,P=i;P!==null;){if(P.key===E){if(E=f.type,E===An){if(P.tag===7){t(d,P.sibling),i=l(P,f.props.children),i.return=d,d=i;break e}}else if(P.elementType===E||typeof E===
+&&o!==null?l.context=ke(o):(o=ce(n)?Nn:ne.current,l.context=tt(e,o)),l.state=e.memoizedState,o=n.getDerivedStateFromProps,typeof o===
+&&(Yo(e,n,o,t),l.state=e.memoizedState),typeof n.getDerivedStateFromProps===
+||typeof l.getSnapshotBeforeUpdate===
+||typeof l.UNSAFE_componentWillMount!==
+&&typeof l.componentWillMount!==
+||(n=l.state,typeof l.componentWillMount===
+&&l.componentWillMount(),typeof l.UNSAFE_componentWillMount===
+&&l.UNSAFE_componentWillMount(),n!==l.state&&kl.enqueueReplaceState(l,l.state,null),ol(e,t,l,r),l.state=e.memoizedState),typeof l.componentDidMount===
+&&p!==null?p=ke(p):(p=ce(t)?Nn:ne.current,p=tt(n,p));var v=t.getDerivedStateFromProps,y=typeof v===
+||typeof u.getSnapshotBeforeUpdate===
+;y||typeof u.UNSAFE_componentWillReceiveProps!==
+&&typeof u.componentWillReceiveProps!==
+||(a!==r||c!==p)&&ra(n,u,r,p),xe=!1;var h=n.memoizedState;u.state=h,ol(n,r,u,l),c=n.memoizedState,a!==r||h!==c||se.current||xe?(typeof v===
+&&(Yo(n,t,v,r),c=n.memoizedState),(a=xe||ta(n,t,a,r,h,c,p))?(y||typeof u.UNSAFE_componentWillMount!==
+&&typeof u.componentWillMount!==
+||(typeof u.componentWillMount===
+&&u.componentWillMount(),typeof u.UNSAFE_componentWillMount===
+&&u.UNSAFE_componentWillMount()),typeof u.componentDidMount===
+&&(n.flags|=4194308)):(typeof u.componentDidMount===
+&&(n.flags|=4194308),n.memoizedProps=r,n.memoizedState=c),u.props=r,u.state=c,u.context=p,r=a):(typeof u.componentDidMount===
+&&(n.flags|=4194308),r=!1)}else{u=n.stateNode,Ps(e,n),a=n.memoizedProps,p=n.type===n.elementType?a:Pe(n.type,a),u.props=p,y=n.pendingProps,h=u.context,c=t.contextType,typeof c===
+&&c!==null?c=ke(c):(c=ce(t)?Nn:ne.current,c=tt(n,c));var S=t.getDerivedStateFromProps;(v=typeof S===
+)||typeof u.UNSAFE_componentWillReceiveProps!==
+||(a!==y||h!==c)&&ra(n,u,r,c),xe=!1,h=n.memoizedState,u.state=h,ol(n,r,u,l);var k=n.memoizedState;a!==y||h!==k||se.current||xe?(typeof S===
+&&(Yo(n,t,S,r),k=n.memoizedState),(p=xe||ta(n,t,p,r,h,k,c)||!1)?(v||typeof u.UNSAFE_componentWillUpdate!==
+&&typeof u.componentWillUpdate!==
+||(typeof u.componentWillUpdate===
+&&u.componentWillUpdate(r,k,c),typeof u.UNSAFE_componentWillUpdate===
+&&u.UNSAFE_componentWillUpdate(r,k,c)),typeof u.componentDidUpdate===
+&&(n.flags|=4),typeof u.getSnapshotBeforeUpdate===
+&&(n.flags|=1024)):(typeof u.componentDidUpdate!==
+||a===e.memoizedProps&&h===e.memoizedState||(n.flags|=4),typeof u.getSnapshotBeforeUpdate!==
+||a===e.memoizedProps&&h===e.memoizedState||(n.flags|=1024),n.memoizedProps=r,n.memoizedState=k),u.props=r,u.state=k,u.context=c,r=p):(typeof u.componentDidUpdate!==
+?n.lanes=8:n.lanes=1073741824,null;return u=r.children,e=r.fallback,o?(r=n.mode,o=n.child,u={mode:
+,children:u},(r&1)===0&&o!==null?(o.childLanes=0,o.pendingProps=u):o=_l(u,r,0,null),e=Pn(e,r,t,null),o.return=n,e.return=n,o.sibling=e,n.child=o,n.child.memoizedState=xo(t),n.memoizedState=qo,e):Wu(n,u)}if(l=e.memoizedState,l!==null&&(a=l.dehydrated,a!==null))return Xp(e,n,u,r,a,l,t);if(o){o=r.fallback,u=n.mode,l=e.child,a=l.sibling;var c={mode:
+,children:r.children},l,0,null),o=Pn(o,l,u,null),o.flags|=2,r.return=n,o.return=n,r.sibling=o,n.child=r,(n.mode&1)!==0&&lt(n,e.child,null,u),n.child.memoizedState=xo(u),n.memoizedState=qo,o}if((n.mode&1)===0)return Rr(e,n,u,null);if(l.data===
+:n=e.tail;for(var t=null;n!==null;)n.alternate!==null&&(t=n),n=n.sibling;t===null?e.tail=null:t.sibling=null;break;case
+:r._wrapperState={wasMultiple:!!o.multiple},M(
+,r)}Co(t,o),l=null;for(var u in o)if(o.hasOwnProperty(u)){var a=o[u];u===
+?typeof a===
+,a]):typeof a===
+:wr(r),_i(r);break;case
+:break;default:typeof o.onClick===
+,e=e.removeChild(e.firstChild)):typeof r.is===
+&&(u=e,r.multiple?u.multiple=!0:r.size&&(u.size=r.size))):e=u.createElementNS(e,t),e[Oe]=n,e[Jt]=r,nc(e,n,!1,!1),n.stateNode=e;e:{switch(u=_o(t,r),t){case
+:e._wrapperState={wasMultiple:!!r.multiple},l=W({},r,{value:void 0}),M(
+,e);break;default:l=r}Co(t,l),a=l;for(o in a)if(a.hasOwnProperty(o)){var c=a[o];o===
+?(c=c?c.__html:void 0,c!=null&&Ma(e,c)):o===
+?typeof c===
+)&&$t(e,c):typeof c===
+:wr(e),_i(e);break;case
+:e.multiple=!!r.multiple,o=r.value,o!=null?Jn(e,!!r.multiple,o,!1):r.defaultValue!=null&&Jn(e,!!r.multiple,r.defaultValue,!0);break;default:typeof l.onClick===
+:r=!0;break e;default:r=!1}}r&&(n.flags|=4)}n.ref!==null&&(n.flags|=512,n.flags|=2097152)}return b(n),null;case 6:if(e&&n.stateNode!=null)rc(e,n,e.memoizedProps,r);else{if(typeof r!==
+)}catch(_){$(e,e.return,_)}}if(r&4&&(l=e.stateNode,l!=null)){var o=e.memoizedProps,u=t!==null?t.memoizedProps:o,a=e.type,c=e.updateQueue;if(e.updateQueue=null,c!==null)try{a===
+&&o.name!=null&&La(l,o),_o(a,u);var p=_o(a,o);for(u=0;u<c.length;u+=2){var v=c[u],y=c[u+1];v===
+:var h=l._wrapperState.wasMultiple;l._wrapperState.wasMultiple=!!o.multiple;var S=o.value;S!=null?Jn(l,!!o.multiple,S,!1):h!==!!o.multiple&&(o.defaultValue!=null?Jn(l,!!o.multiple,o.defaultValue,!0):Jn(l,!!o.multiple,o.multiple?[]:
+):(a=y.stateNode,c=y.memoizedProps.style,u=c!==void 0&&c!==null&&c.hasOwnProperty(
+,u))}catch(_){$(e,e.return,_)}}}else if(y.tag===6){if(v===null)try{y.stateNode.nodeValue=p?
+&&typeof c.then===
+)u=5;else e:switch(e){case An:return Pn(t.children,l,o,n);case cu:u=8,l|=8;break;case mo:return e=we(12,t,n,l|2),e.elementType=mo,e.lanes=o,e;case ho:return e=we(13,t,n,l),e.elementType=ho,e.lanes=o,e;case vo:return e=we(19,t,n,l),e.elementType=vo,e.lanes=o,e;case Na:return _l(t,l,o,n);default:if(typeof e===
+&&e!==null)switch(e.$$typeof){case _a:u=10;break e;case Pa:u=9;break e;case fu:u=11;break e;case du:u=14;break e;case qe:u=16,r=null;break e}throw Error(w(130,e==null?e:typeof e,
+ react-mount-point-unstable 
+,ka);return e._reactRootContainer=u,e[Qe]=u.current,Zt(e.nodeType===8?e.parentNode:e),Rn(),u}for(;l=e.lastChild;)e.removeChild(l);if(typeof r===
+)throw Error(w(188));throw e=Object.keys(e).join(
+||typeof window.document>
+||typeof window.document.createElement>
+allowFullScreen async autoFocus autoPlay controls default defer disabled disablePictureInPicture disableRemotePlayback formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/1999/xlink
+react.strict_mode
+react.forward_ref
+react.suspense_list
+in e?e.deltaX:(
+in e?e.deltaY:(
+in e)?-e.wheelDeltaY:(
+in e)?-e.wheelDelta:0},deltaZ:0,deltaMode:0}),dp=he(fp),pp=[9,13,27,32],ku=He&&
+in window;He&&
+in document&&(Mt=document.documentMode);mp=He&&
+in window&&!Mt,ns=He&&(!ku||Mt&&8<Mt&&11>=Mt),Oi=String.fromCharCode(32);yp={color:!0,date:!0,datetime:!0,
+in document,!Nt)Ur=document.createElement(
+),Nt=typeof Ur.oninput===
+;Pt=Nt}else Pt=!1;os=Pt&&(!document.documentMode||9<document.documentMode)}Re=typeof Object.is===
+?Object.is:_p;Np=He&&
+in document&&11>=document.documentMode;Bn={animationend:Pr(
+in window)||(delete Bn.animationend.animation,delete Bn.animationiteration.animation,delete Bn.animationstart.animation),(
+in window)||delete Bn.transitionend.transition);cs=yl(
+),ms=new Map,Bi=
+change click focusin focusout input keydown keyup selectionchange
+focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange
+abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting
+),zp=new Set(
+__reactProps$
+__reactContainer$
+__reactEvents$
+__reactListeners$
+__reactHandles$
+}else t=Vp++,n=
+:l=W({},l,{value:void 0}),r=W({},r,{value:void 0}),o=[];break;case
+:l=ko(e,l),r=ko(e,r),o=[];break;default:typeof l.onClick!==
+&&typeof r.onClick===
+&&(e.onclick=jr)}Co(t,r);var u;t=null;for(p in l)if(!r.hasOwnProperty(p)&&l.hasOwnProperty(p)&&l[p]!=null)if(p===
+){var a=l[p];for(u in a)a.hasOwnProperty(u)&&(t||(t={}),t[u]=
+)}else p!==
+)if(a){for(u in a)!a.hasOwnProperty(u)||c&&c.hasOwnProperty(u)||(t||(t={}),t[u]=
+);for(u in c)c.hasOwnProperty(u)&&a[u]!==c[u]&&(t||(t={}),t[u]=c[u])}else t||(o||(o=[]),o.push(p,t)),t=c;else p===
+?(c=c?c.__html:void 0,a=a?a.__html:void 0,c!=null&&a!==c&&(o=o||[]).push(p,c)):p===
+?typeof c!==
+&&typeof c!==
+&&l!==null&&typeof l.render===
+]');for(n=0;n<t.length;n++){var r=t[n];if(r!==e&&r.form===e.form){var l=gl(r);if(!l)throw Error(w(90));Ta(r),wo(r,l)}}}break;case
+||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!==
+)return;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(Fc)}catch(e){console.error(e)}}Fc(),Oc.exports=xu});var Uc=ir((vm)=>{var ur=vn(Dc(),1);vm.createRoot=ur.createRoot,vm.hydrateRoot=ur.hydrateRoot;var hm});var Bc=vn(ft(),1),Hc=vn(Uc(),1);var ue=vn(ft(),1);var Vc=vn(ft(),1),ym=Symbol.for(
++t),n.key!==void 0&&(o=
++n.key),n.ref!==void 0&&(u=n.ref);for(r in n)wm.call(n,r)&&!km.hasOwnProperty(r)&&(l[r]=n[r]);if(e&&e.defaultProps)for(r in n=e.defaultProps,n)l[r]===void 0&&(l[r]=n[r]);return{$$typeof:ym,type:e,key:o,ref:u,props:l,_owner:Sm.current}}var ju=gm,s=Ac,m=Ac;var Wc=[{id:
+/how-it-works
+How It Works
+/pricing
+/commonwealth
+/manifesto
+/assessment-demo
+Assessment Demo
+OnboardingOS
+£50 In. Identity. Risk profile. Wallet scan.
+AssessmentOS
+68% GO meter. Market regime. Volatility gate.
+FinanceOS
+£50 dish split £5 / £35 / £10. Capital routing.
+ConnectOS
+Binance + Bybit. Personal keys. Local vault.
+JourneyOS
+Mon-Fri must-complete chain. THE HEART.
+SimulatorOS
+£5 fake. Rep before risk. Zero loss learning.
+CommonwealthOS
+EliteFlow 10 elites. Eyes Boat scanner.
+IntelligenceOS
+Arkham + DeFiLlama. Whale intel layer.
+ExecutionOS
+£7/day hard cap. Live console. Auto gate.
+DisciplineOS
+Tilt FOMO revenge detection. Cooldowns.
+GuardianOS
+8% / 15% / 25% tap-out. Shield protects.
+LegacyOS
+40/30/20/10 + UPRM + Recoup 18-day cycle.
+,style:{transform:`translateY(-2px) rotate(${l}deg)`},children:s(
+,{className:`px-3 py-1 rounded-full text-[11px] font-bold tracking-widest ${o?
+),[u,a]=ue.useState(68),[c,p]=ue.useState(68),[v,y]=ue.useState({Mon:!0,Tue:!1,Wed:!1,Thu:!1,Fri:!1}),[h,S]=ue.useState(!1),[k,_]=ue.useState(7),U=ue.useRef(null);ue.useEffect(()=>{let i=setInterval(()=>{_((f)=>{let g=f+(Math.random()>0.5?0.07:-0.04);return Math.min(7,Math.max(0,g))})},1200);return()=>clearInterval(i)},[]);let d=(i)=>{n(i),S(!1),window.scrollTo({top:0,behavior:
+})};return m(
+,{onClick:()=>d(i.id),className:`px-3 py-2 rounded-[8px] text-[12px] font-bold tracking-wide transition ${e===i.id?
+,{onClick:()=>d(i.id),className:`text-left px-3 py-2 rounded-[8px] text-[13px] font-bold ${e===i.id?
+ £50 In. Smile Out. Zero Knowledge Needed.
+ for Crypto Traders Who Want to Smile Out
+ Free Assessment Demo 68% GO
+Private Beta
+£45k Initial
+£9k each • 20%
+12 Engines
+Discipline OS
+Eyes • Coach • Guardian
+radial-gradient(circle, transparent 62px, black 63px)
+ Simulator
+ Live £7/d
+ Guardian
+][f-1]]),P=v[i];return m(ue.default.Fragment,{children:[m(
+,{onClick:()=>{if(!E)y((N)=>({...N,[i]:!N[i]}))},className:`relative flex-1 h-[84px] rounded-[14px] border-2 font-bold transition flex flex-col items-center justify-center ${E?
+TAP TO COMPLETE
+,{className:`w-6 h-[2px] ${v[i]?
+,{className:`relative w-full h-full rounded-[22px] border-[3px] flex flex-col items-center justify-center ${l===
+,{onClick:()=>o(i),className:`h-8 rounded-[8px] text-[12px] font-bold border ${l===i?
+ conservative to aggressive
+Smile Out
+HMRC Ready
+,{className:`h-[76px] rounded-[12px] ${i.color} grid place-items-center font-bold text-[20px] border-2 border-black/10`,children:i.p}),s(
+,opacity:0.9,animation:`float ${1.5+f%3*0.4}s ease-in-out infinite`}},f))}),s(
+Mon Journey resumed • Tue unlocked
+Tilt detected • 10min cooldown
+Revenge pattern blocked • Guardian held £35
+Legacy split Fri 11pm • Smile Out £42
+40/30/20/10 auto-routed • HMRC CSV ready
+,{className:`mt-1 w-2 h-2 rounded-full ${i.color} shrink-0`}),m(
+,Math.round(k/7*100),
+,style:{width:`${k/7*100}%`}})}),s(
+),className:`px-4 py-2 rounded-[8px] text-[12px] font-bold ${t===
+Monthly £49/£99/£299
+Hybrid £49+10% cap £348
+Straight SaaS. Predictable. No performance cut.
+£49 base + 10% gains above 2x. Capped £299 max £348. Whales love it. Fri 11pm calc.
+,{className:`rounded-[16px] p-5 border ${i.name===
+,{className:`mt-1 text-[11px] font-bold leading-[1.4] ${i.name===
+text-black/70
+Assessment + Simulator + Market scan
+EliteFlow intel + 1 live £7 cap trade
+ExecutionOS gate + Tilt check
+Guardian review + P&L + Discipline log
+Legacy 40/30/20/10 split 11pm + Recoup
+Alchemy $49 + Moralis $49 + Ankr $99 + QuickNode $49
+30sec cron • 100 wallets • 10 elites per trader • Whale watcher
+Bot2 Discipline Coach
+Real-time edge • In-app
+Tilt FOMO revenge • 5 triggers • Cooldowns 10min/30min/24h • UPRM memory
+Bot3 Guardian Execution
+Gatekeeper • Live
+5 greens required • £7/day cap • 8/15/25 tap-out • Auto stop-loss
+,{className:`rounded-[12px] bg-[#0A1931] border-l-4 ${i.color} p-4`,children:[s(
+Hybrid Performance
+Simulator £5 fake
+Journey Mon-Fri chain
+Discipline Coach basic
+Free GO meter
+Start Starter
+/mo + gains
++ Guardian 8/15/25 tap-out
++ Execution £7/day live
++ UPRM memory
++ Recoup
++ Intelligence
+Start Pro
+Whale Tribe
++ Legacy 40/30/20/10 automation
++ HMRC CSV
++ 1-1 Coach
++ CommonWealth
+Join Whale Tribe
+,{className:`rounded-[20px] p-6 ${i.accent} ${i.accent.includes(
+} relative`,children:[s(
+text-black/80
+,{className:`mt-6 w-full h-11 rounded-[10px] font-bold text-[13px] ${i.accent.includes(
+JourneyOS Mon-Fri
+Eyes Boat 10 elites
+Guardian 8/15/25
+Execution £7/day
+Legacy 40/30/20/10
+HMRC CSV + Vault
+1-1 Coach
+No software license opt-in not fund manager.
+What if I lose?
+Base £49 only. No performance fee.
+Can I use own API keys?
+Yes personal keys recommended clean separation.
+Guardian saved me 3 times this month. 8% tap-out is my smile guard.
+Trader B • Discipline Coach
+Mon-Fri chain changed everything. No more revenge Tuesday.
+Trader C • Eyes Boat
+10 elites list is cheat code. Arkham intel before Twitter.
+ Founder story Visaguideos Os Lead Engineer built TradeFlow for himself first. Lost to tilt, FOMO, revenge. Built Guardian 8/15/25 to protect £35 live. Built Mon-Fri must-complete chain to force discipline.
+ £5 fake for reps, £35 live capped £7/day so you cannot blow up, £10 safety Guardian holds. Forces discipline over leverage.
+ Trading is not signals. It is flow. If Mon incomplete Tue locked red shield. No skip. No cheat. Flow as one.
+ Conservative 8% for beginners, balanced 15%, aggressive 25%. Crash detection auto stop-loss. Tap-out before tilt.
+ Fri 11pm split automates what traders never do: 40% reinvest, 30% smile out, 20% HMRC ready, 10% vault 90 days locked. Discipline is automated profit.
+ Private beta to public SaaS. Personal laptop tool to public OS.
+In Smile Out philosophy
+THE HEART must-complete
+Hard cap execution
+Legacy automation
+Mon→Tue→Wed→Thu→Fri must-complete chain. If you skip, you are locked. THE HEART.
+£50 In. Smile Out. Not lambo. Not moon. Smile out every Fri 11pm. 30% slice.
+Discipline over FOMO
+Tilt is enemy. FOMO is trap. Revenge is death. Cooldowns 10min/30min/24h.
+£7/day hard cap
+Hard cap counter execution console Binance Bybit. Cap hit? Auto stop. No revenge.
+Guardian protects £35 live
+8% conservative 15% balanced 25% aggressive shield animation protects live capital.
+UPRM remembers journey not session
+Welcome back Coach. Memory timeline. Welcome back journey not session.
+12 Engines manifesto
+Onboarding Assessment Finance Connect Journey Simulator Commonwealth Intelligence Execution Discipline Guardian Legacy UPRM Recoup
+£50 In Smile Out
+Zero knowledge needed. Gated Monday-Friday Journey. Must-Complete Chain. Guardian 8/15/25.
+Fri 11pm split. 40% reinvest 30% smile 20% HMRC 10% vault 90 days locked.
+Personal API keys secure storage Electron secure. TradeFlow OS never holds funds. You hold keys. Local secure storage. Software not custodian.
+Performance Fee Optional Opt-In
+Trader toggles Share 10% of smile out to fund TradeFlow development consent. Smart contract or Stripe invoice after Fri Legacy split trader approves. FCA safe because software license + performance bonus opt-in not fund manager.
+HMRC 40/30/20/10
+HMRC CSV export personal responsibility. 40/30/20/10 split trader responsibility. HMRC ready slice 20% does not constitute tax advice. Personal responsibility.
+Guardian 8/15/25 Tap-Out
+Crash detection auto stop-loss. Guardian protects £35 live. Tap-out levels 8% conservative 15% balanced 25% aggressive. Does not guarantee no loss.
+Bull / Bear / Chop • Volatility percentile • GO/NO-GO
+68% Threshold Logic
+If GO green you can start Mon journey • If NO-GO red wait • Auto block
+Intelligence Layer
+Arkham + DeFiLlama whale flow • Eyes Boat 10 elites correlation
+Unlock Full OS
+Start £50 Journey unlocks full AssessmentOS • 12 Engines • 3 Bots
+,{onClick:()=>alert(`TradeFlow OS Build Script: npx tradeflow-os-init --pages 36 --backend 65 --bots 3 --os 10 --marketing 8
+
+This will scaffold /os/* + /bots/* + /backend/* • Project acth!`),className:
+,{onClick:()=>alert(`Copied: curl -s https://tradeflowos.com/install.sh | bash
+# Builds 36 OS files locally`),className:
+);if(!h)return;try{var u=new URL(h,document.baseURI);if((u.protocol===
+noopener noreferrer
+);if(a){m(a);}},true);})();</script>
+  <script type=
+ data-clippy-inline-media-manifest=
