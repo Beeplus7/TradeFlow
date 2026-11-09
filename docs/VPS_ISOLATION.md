@@ -51,7 +51,7 @@ Inventoried: Oct 2026
 
 | Resource | TradFlow value | Why |
 |---|---|---|
-| **Public domain** | `f.reelstorm.uk` only | Free — **not** in nginx yet. Never bind `reelstorm.uk` / `app` / `api`. |
+| **Public domain** | `tradflow.online` (+ `www`) | Dedicated domain on this VPS. Never bind `reelstorm.uk` / `app` / `api`. |
 | **Code path** | `/var/www/tradeflow` | New folder; not under reelstorm |
 | **Logs** | `/var/log/tradeflow/` | Isolated |
 | **PM2 apps** | `tradeflow-web` · `tradeflow-api` · `tradeflow-worker` | Unique names |
@@ -60,7 +60,7 @@ Inventoried: Oct 2026
 | **Worker** | no public port | Queue consumer only |
 | **Redis** | DB `8` + key prefix `tradeflow:` | Avoids db0 / db17 |
 | **Nginx site** | `/etc/nginx/sites-available/tradeflow` → `sites-enabled/tradeflow` | Own file; never edit `reelstorm` |
-| **TLS** | Certbot for `f.reelstorm.uk` only | Own cert or expand carefully |
+| **TLS** | Certbot for `tradflow.online` (+ `www`) | Own cert; never expand onto other vhosts |
 | **Env file on VPS** | `/var/www/tradeflow/.env.production` | Not shared with ReelStorm |
 
 ### Upstream map (nginx)
@@ -69,7 +69,7 @@ Inventoried: Oct 2026
 upstream tradeflow_web { server 127.0.0.1:3030; }
 upstream tradeflow_api { server 127.0.0.1:4100; }
 
-server_name f.reelstorm.uk;   # ONLY this name
+server_name tradflow.online www.tradflow.online;   # ONLY these names
 ```
 
 ---
@@ -90,7 +90,7 @@ server_name f.reelstorm.uk;   # ONLY this name
 
 ## DNS prerequisite
 
-Point **A record** `f.reelstorm.uk` → `87.106.103.43` before certbot.
+Point **A record** `tradflow.online` (and optional `www`) → `87.106.103.43` before certbot.
 
 Confirm it is **not** already CNAME’d to another app.
 
@@ -100,7 +100,7 @@ Confirm it is **not** already CNAME’d to another app.
 
 1. `mkdir -p /var/www/tradeflow /var/log/tradeflow`
 2. Install nginx site from `deploy/nginx/tradeflow.conf`
-3. `certbot --nginx -d f.reelstorm.uk`
+3. `certbot --nginx -d tradflow.online`
 4. PM2 start with `deploy/ecosystem.config.cjs` (ports 3030 / 4100)
 5. `nginx -t && systemctl reload nginx`
-6. Smoke-test: `curl -I https://f.reelstorm.uk` — other domains still respond unchanged
+6. Smoke-test: `curl -I https://tradflow.online` — other domains still respond unchanged

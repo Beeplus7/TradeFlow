@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# TradFlow → VPS isolated deploy (f.reelstorm.uk)
+# TradFlow → VPS isolated deploy (tradflow.online)
 # Usage (from repo root, with .env loaded):
 #   bash deploy/deploy.sh
 set -euo pipefail
@@ -79,5 +79,5 @@ echo
 echo 'Local probes OK'
 REMOTE
 
-echo "==> Done. Point DNS A f.reelstorm.uk → $VPS_HOST then:"
-echo "    ssh ${VPS_USER}@${VPS_HOST} 'certbot --nginx -d f.reelstorm.uk --non-interactive --agree-tos -m ops@tradflow.online --redirect || true'"
+echo "==> Done. Point DNS A tradflow.online → $VPS_HOST then:"
+echo "    ssh ${VPS_USER}@${VPS_HOST} 'certbot --nginx -d tradflow.online --non-interactive --agree-tos -m ops@tradflow.online --redirect || true'"

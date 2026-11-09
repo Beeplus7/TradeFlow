@@ -1,6 +1,6 @@
 # Google Auth — Localhost checklist
 
-Use this so Google OAuth works on **local Expo/web** and **production** (`f.reelstorm.uk`).
+Use this so Google OAuth works on **local Expo/web** and **production** (`tradflow.online`).
 
 ## 1. Google Cloud → OAuth client (Web application · TradeFlow)
 
@@ -13,7 +13,7 @@ http://localhost
 http://localhost:8081
 http://localhost:19006
 http://127.0.0.1
-https://f.reelstorm.uk
+https://tradflow.online
 ```
 
 ### Authorised redirect URIs
@@ -43,8 +43,8 @@ Then click **Create** and copy:
 
 | Field | Value |
 |---|---|
-| Site URL | `http://localhost:8081` (dev) or `https://f.reelstorm.uk` (prod) |
-| Redirect URLs | `http://localhost:8081/**` · `http://localhost:19006/**` · `tradflow://**` · `https://f.reelstorm.uk/**` |
+| Site URL | `http://localhost:8081` (dev) or `https://tradflow.online` (prod) |
+| Redirect URLs | `http://localhost:8081/**` · `http://localhost:19006/**` · `tradflow://**` · `https://tradflow.online/**` |
 
 ## 4. Restart Expo after saving `.env`
 

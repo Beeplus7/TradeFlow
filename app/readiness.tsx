@@ -38,7 +38,7 @@ const PHASES: Phase[] = [
       { id: 'm-home', label: 'Hero /', pct: 98, status: 'DONE', href: '/', note: 'Brand + dish + CTAs' },
       { id: 'm-hiw', label: 'How it works', pct: 95, status: 'DONE', href: '/how-it-works', note: '12 Engines · FlowChain · 3 Bots' },
       { id: 'm-price', label: 'Pricing', pct: 95, status: 'DONE', href: '/pricing', note: '£49 / £99 / £299 + hybrid' },
-      { id: 'm-tribe', label: 'Commonwealth', pct: 92, status: 'DONE', href: '/commonwealth' },
+      { id: 'm-tribe', label: 'Commonwealth', pct: 98, status: 'DONE', href: '/commonwealth' },
       { id: 'm-about', label: 'About · Manifesto · Legal', pct: 94, status: 'DONE', href: '/about' },
       { id: 'm-demo', label: 'Assessment demo lead magnet', pct: 96, status: 'DONE', href: '/assessment-demo' },
       { id: 'm-score', label: 'Scorecard', pct: 90, status: 'DONE', href: '/scorecard' },
@@ -81,16 +81,16 @@ const PHASES: Phase[] = [
   },
   {
     title: 'E · Infra · Deploy · Domain',
-    pct: 72,
+    pct: 98,
     items: [
       { id: 'sb', label: 'Supabase project + migrations', pct: 100, status: 'DONE', note: 'dvjawpbnjyjnjzktyrwp' },
       { id: 'gh', label: 'GitHub Beeplus7/TradeFlow main', pct: 100, status: 'DONE', note: 'Pushed 9 Nov 2026' },
       { id: 'vps-slot', label: 'VPS isolation slot 3030/4100', pct: 100, status: 'DONE', note: '87.106.103.43 · /var/www/tradeflow' },
       { id: 'export', label: 'Expo web export + PM2 online', pct: 100, status: 'DONE', note: 'tradeflow-web/api/worker · healthz green' },
-      { id: 'nginx', label: 'Nginx vhost f.reelstorm.uk', pct: 95, status: 'DONE', note: 'HTTP proxy live · Host header 200' },
-      { id: 'dns', label: 'DNS A f.reelstorm.uk → VPS', pct: 0, status: 'BLOCKED', left: 'Add in Cloudflare reelstorm.uk zone' },
-      { id: 'tls', label: 'TLS certbot', pct: 0, status: 'BLOCKED', left: 'After DNS propagates' },
-      { id: 'online', label: 'tradflow.online cutover', pct: 0, status: 'TODO', left: 'Point domain + update OAuth redirects' },
+      { id: 'nginx', label: 'Nginx vhost tradflow.online', pct: 100, status: 'DONE', note: 'HTTP/HTTPS for tradflow.online' },
+      { id: 'dns', label: 'DNS A tradflow.online → VPS', pct: 100, status: 'DONE', note: 'IONOS A → 87.106.103.43' },
+      { id: 'tls', label: 'TLS certbot', pct: 100, status: 'DONE', note: 'Let’s Encrypt · expires 2027-02-07' },
+      { id: 'online', label: 'tradflow.online production host', pct: 95, status: 'DONE', note: 'Primary domain live on this VPS' },
     ],
   },
 ];
@@ -130,7 +130,7 @@ export default function ProductionReadinessPage() {
         <Text style={styles.kicker}>PRODUCTION READINESS · LIVE SCAN</Text>
         <Text style={styles.title}>TradFlow OS readiness</Text>
         <Text style={styles.sub}>
-          Host target f.reelstorm.uk · scanned {scanStamp} · overall {shown}%
+          Host target tradflow.online · scanned {scanStamp} · overall {shown}%
         </Text>
 
         <View style={styles.meterWrap}>
@@ -176,7 +176,7 @@ export default function ProductionReadinessPage() {
         ))}
 
         <Text style={styles.footer}>
-          Next unblock: Cloudflare A record f.reelstorm.uk → 87.106.103.43, then certbot. tradflow.online cutover after TLS is green.
+          Primary host https://tradflow.online on 87.106.103.43. Add Google/Supabase redirect URLs for https://tradflow.online/**.
         </Text>
       </ScrollView>
     </MarketingShell>

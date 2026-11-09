@@ -75,7 +75,7 @@ Mon→Fri **must-complete** FlowChain. Skip a day → next day **LOCKED RED**.
 3. Decide monorepo layout vs Expo-only (recommend monorepo per blueprints)
 4. Create GitHub remote; push foundation
 5. Wire Supabase project + Google OAuth provider
-6. Confirm VPS isolation (see [`VPS_ISOLATION.md`](./VPS_ISOLATION.md)): domain `f.reelstorm.uk` only · ports `3030`/`4100` · path `/var/www/tradeflow` · PM2 `tradeflow-*` · Redis DB `8` — never touch ReelStorm / Litt Luxury / other vhosts
+6. Confirm VPS isolation (see [`VPS_ISOLATION.md`](./VPS_ISOLATION.md)): domain `tradflow.online` only · ports `3030`/`4100` · path `/var/www/tradeflow` · PM2 `tradeflow-*` · Redis DB `8` — never touch ReelStorm / Litt Luxury / other vhosts
 
 **Exit:** Auth works on web; env readiness green; remote exists; brand doc accepted; VPS slot reserved without clashes.
 

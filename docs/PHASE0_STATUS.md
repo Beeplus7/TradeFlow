@@ -5,9 +5,9 @@ Updated after Google OAuth client + local full scaffold (Oct 2026).
 | Integration | Status | Notes |
 |---|---|---|
 | **Supabase** | Ready | Linked · schema migrated · Google provider **enabled** via `config push` |
-| **Google Auth** | Ready | Client ID wired · secret in Supabase · localhost + `f.reelstorm.uk` redirects |
+| **Google Auth** | Ready | Client ID wired · secret in Supabase · localhost + `tradflow.online` redirects |
 | **GitHub** | Ready | `Beeplus7/TradeFlow` |
-| **VPS** | Isolated / waiting | Slot reserved (`VPS_ISOLATION.md`). DNS `f.reelstorm.uk` → `87.106.103.43`. Deploy when VPS is back. |
+| **VPS** | Isolated / waiting | Slot reserved (`VPS_ISOLATION.md`). DNS `tradflow.online` → `87.106.103.43`. Deploy when VPS is back. |
 
 ## Local build progress
 
@@ -108,8 +108,8 @@ Use `npm run deploy:vps` (needs `sshpass` + `VPS_INITIAL_PASSWORD`, or a filled 
 
 1. `mkdir -p /var/www/tradeflow /var/log/tradeflow` — scripted
 2. Install `deploy/nginx/tradeflow.conf` (ports 3030/4100) — scripted
-3. **DNS blocker:** Cloudflare A `f.reelstorm.uk` → `87.106.103.43` (not present yet)
-4. Certbot for `f.reelstorm.uk` after DNS propagates
+3. **DNS blocker:** Cloudflare A `tradflow.online` → `87.106.103.43` (not present yet)
+4. Certbot for `tradflow.online` after DNS propagates
 5. PM2 via `deploy/ecosystem.config.cjs` — `tradeflow-web` / `tradeflow-api` / `tradeflow-worker`
 6. Production readiness UI: `/readiness`
 

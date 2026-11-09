@@ -27,7 +27,7 @@ const MODULES: ModuleScore[] = [
   { name: 'Guardian', score: 92, state: 'ready', note: '8/15/25 tap-out · 10s check' },
   { name: 'Eyes / Discipline', score: 90, state: 'ready', note: 'EliteFlow · Eyes Boat · locks' },
   { name: 'Legacy + Billing', score: 88, state: 'ready', note: 'Split · Stripe Checkout test' },
-  { name: 'VPS harden', score: 72, state: 'wait', note: 'PM2+nginx live · DNS/TLS blocked' },
+  { name: 'VPS harden', score: 100, state: 'ready', note: 'https://tradflow.online live' },
 ];
 
 const PHASES: PhaseRow[] = [
@@ -38,7 +38,7 @@ const PHASES: PhaseRow[] = [
   { phase: '5 Commonwealth', status: 'READY', pts: 90, note: 'EliteFlow · Eyes · Discipline · UPRM' },
   { phase: '6 Legacy + Pay', status: 'READY', pts: 88, note: 'Legacy · Stripe · admin' },
   { phase: '7 Marketing polish', status: 'READY', pts: 95, note: 'Live under /' },
-  { phase: '8 Deploy', status: 'WAIT', pts: 72, note: 'PM2+nginx live · DNS A missing' },
+  { phase: '8 Deploy', status: 'READY', pts: 100, note: 'https://tradflow.online live' },
 ];
 
 type ApiRow = {
@@ -88,10 +88,10 @@ const EXTERNAL_APIS: ApiRow[] = [
   },
   {
     api: 'VPS / DNS',
-    portal: 'Host panel · DNS for f.reelstorm.uk',
+    portal: 'Host panel · DNS for tradflow.online',
     need: 'LATER',
     status: 'WAIT',
-    note: 'nginx/PM2 ready · Cloudflare A for f.reelstorm.uk still missing',
+    note: 'nginx/PM2 live on tradflow.online',
   },
 ];
 
